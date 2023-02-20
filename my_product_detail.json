@@ -146,9 +146,9 @@
     "kdPickupType": null,
     "plannedPointDeliveryDate": null,
     "deliveryInfoDTO": null,
-    "expressDelivery": false,
     "returnEglible": false,
     "archivedOrder": false,
     "kaspiDelivery": false,
-    "preOrder": false
+    "preOrder": false,
+    "expressDelivery": false
 }

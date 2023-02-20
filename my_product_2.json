@@ -1,6 +1,359 @@
 {
-    "total": 34,
+    "total": 39,
     "orders": [
+        {
+            "orderCode": "244135768",
+            "entries": [
+                {
+                    "name": "Nature's Plus Animal Parade MagKidz №90",
+                    "quantity": 1,
+                    "basePrice": 7799.0,
+                    "totalPrice": 7799.0,
+                    "images": [
+                        {
+                            "qualifier": "nature's-plus-animal-parade-magkidz-no90-101644840-1",
+                            "formatToUrlMap": {
+                                "previewLarge": "https://cdn-kaspi.kz/medias/sys_master/images/images/h8f/h5e/34151166607390/nature-s-plus-animal-parade-magkidz-90-101644840-1.jpg",
+                                "gallerySmall": "https://cdn-kaspi.kz/medias/sys_master/images/images/hd8/hf3/34151167098910/nature-s-plus-animal-parade-magkidz-90-101644840-1.jpg",
+                                "previewSmall": "https://cdn-kaspi.kz/medias/sys_master/images/images/h82/hdd/34151165755422/nature-s-plus-animal-parade-magkidz-90-101644840-1.jpg",
+                                "galleryLarge": "https://cdn-kaspi.kz/medias/sys_master/images/images/h8f/h13/34151168049182/nature-s-plus-animal-parade-magkidz-90-101644840-1.jpg",
+                                "previewMedium": "https://cdn-kaspi.kz/medias/sys_master/images/images/h3e/h56/34151166115870/nature-s-plus-animal-parade-magkidz-90-101644840-1.jpg",
+                                "ORIGINAL": "https://cdn-kaspi.kz/medias/sys_master/images/images/h94/h38/30333083779102/nature-s-plus-animal-parade-magkidz-90-101644840-1.jpg",
+                                "galleryMedium": "https://cdn-kaspi.kz/medias/sys_master/images/images/h7f/h57/34151167459358/nature-s-plus-animal-parade-magkidz-90-101644840-1.jpg"
+                            }
+                        },
+                        {
+                            "qualifier": "nature's-plus-animal-parade-magkidz-no90-101644840-2",
+                            "formatToUrlMap": {
+                                "previewLarge": "https://cdn-kaspi.kz/medias/sys_master/images/images/h1a/he7/34151173357598/nature-s-plus-animal-parade-magkidz-90-101644840-2.jpg",
+                                "gallerySmall": "https://cdn-kaspi.kz/medias/sys_master/images/images/hd7/had/34151174799390/nature-s-plus-animal-parade-magkidz-90-101644840-2.jpg",
+                                "previewSmall": "https://cdn-kaspi.kz/medias/sys_master/images/images/h52/h06/34151170342942/nature-s-plus-animal-parade-magkidz-90-101644840-2.jpg",
+                                "galleryLarge": "https://cdn-kaspi.kz/medias/sys_master/images/images/hed/h9a/34151178567710/nature-s-plus-animal-parade-magkidz-90-101644840-2.jpg",
+                                "previewMedium": "https://cdn-kaspi.kz/medias/sys_master/images/images/hbb/ha9/34151171686430/nature-s-plus-animal-parade-magkidz-90-101644840-2.jpg",
+                                "ORIGINAL": "https://cdn-kaspi.kz/medias/sys_master/images/images/h2c/hfb/30333084139550/nature-s-plus-animal-parade-magkidz-90-101644840-2.jpg",
+                                "galleryMedium": "https://cdn-kaspi.kz/medias/sys_master/images/images/he8/h8c/34151176732702/nature-s-plus-animal-parade-magkidz-90-101644840-2.jpg"
+                            }
+                        }
+                    ]
+                }
+            ],
+            "totalPrice": 7799.0,
+            "customer": {
+                "firstname": "Жазгул М."
+            },
+            "orderStatus": "CANCELLED",
+            "delivery": {
+                "deliveryMode": "DELIVERY_LOCAL",
+                "address": {
+                    "formattedAddress": "Алматы, проспект Гагарина, 277/7, 201"
+                },
+                "plannedDeliveryDate": 1676893820893,
+                "actualDeliveryDate": 1676893820893,
+                "deliveredToCity": true,
+                "kaspiDelivery": false
+            },
+            "payment": {
+                "paymentMode": "GOLD",
+                "needToSignPapers": false,
+                "approvedByBankDate": 1676882716109
+            },
+            "pickupPoint": "г. Алматы,  улица Жандосова,  98",
+            "orderStates": [
+                {
+                    "creationDate": 1676893820898,
+                    "state": "CANCELLED",
+                    "daysBeforeNow": 0
+                }
+            ],
+            "createDate": 1676882716109,
+            "modifiedDate": 1676893877009,
+            "isCargoAssembly": false,
+            "preOrder": false
+        },
+        {
+            "orderCode": "244104047",
+            "entries": [
+                {
+                    "name": "California Gold Nutrition пробиотик LactoBif Probiotics 60 капсул",
+                    "quantity": 1,
+                    "basePrice": 11126.0,
+                    "totalPrice": 11126.0,
+                    "images": [
+                        {
+                            "qualifier": "california-gold-nutrition-probiotik-lactobif-probiotics-60-kapsul-100904545-1",
+                            "formatToUrlMap": {
+                                "previewLarge": "https://cdn-kaspi.kz/medias/sys_master/images/images/h07/h14/33110273851422/california-gold-nutrition-lactobif-probiotiki-30-mlrd-koe-60-kapsul-100904545-1-Container.jpg",
+                                "gallerySmall": "https://cdn-kaspi.kz/medias/sys_master/images/images/h96/h47/33110274736158/california-gold-nutrition-lactobif-probiotiki-30-mlrd-koe-60-kapsul-100904545-1-Container.jpg",
+                                "previewSmall": "https://cdn-kaspi.kz/medias/sys_master/images/images/h29/h11/33110272704542/california-gold-nutrition-lactobif-probiotiki-30-mlrd-koe-60-kapsul-100904545-1-Container.jpg",
+                                "galleryLarge": "https://cdn-kaspi.kz/medias/sys_master/images/images/heb/hc3/33110276046878/california-gold-nutrition-lactobif-probiotiki-30-mlrd-koe-60-kapsul-100904545-1-Container.jpg",
+                                "previewMedium": "https://cdn-kaspi.kz/medias/sys_master/images/images/h2e/h13/33110273425438/california-gold-nutrition-lactobif-probiotiki-30-mlrd-koe-60-kapsul-100904545-1-Container.jpg",
+                                "ORIGINAL": "https://cdn-kaspi.kz/medias/sys_master/images/images/he7/hd6/17508309991454/california-gold-nutrition-lactobif-probiotiki-30-mlrd-koe-60-kapsul-100904545-1-Container.jpg",
+                                "galleryMedium": "https://cdn-kaspi.kz/medias/sys_master/images/images/hee/h20/33110275457054/california-gold-nutrition-lactobif-probiotiki-30-mlrd-koe-60-kapsul-100904545-1-Container.jpg"
+                            }
+                        },
+                        {
+                            "qualifier": "california-gold-nutrition-probiotik-lactobif-probiotics-60-kapsul-100904545-2",
+                            "formatToUrlMap": {
+                                "previewLarge": "https://cdn-kaspi.kz/medias/sys_master/images/images/hc7/h8d/33110283255838/california-gold-nutrition-lactobif-probiotiki-30-mlrd-koe-60-kapsul-100904545-2-Container.jpg",
+                                "gallerySmall": "https://cdn-kaspi.kz/medias/sys_master/images/images/h57/h62/33110285025310/california-gold-nutrition-lactobif-probiotiki-30-mlrd-koe-60-kapsul-100904545-2-Container.jpg",
+                                "previewSmall": "https://cdn-kaspi.kz/medias/sys_master/images/images/hb6/h42/33110278602782/california-gold-nutrition-lactobif-probiotiki-30-mlrd-koe-60-kapsul-100904545-2-Container.jpg",
+                                "galleryLarge": "https://cdn-kaspi.kz/medias/sys_master/images/images/hb8/hb7/33110288990238/california-gold-nutrition-lactobif-probiotiki-30-mlrd-koe-60-kapsul-100904545-2-Container.jpg",
+                                "previewMedium": "https://cdn-kaspi.kz/medias/sys_master/images/images/h8d/hd9/33110280994846/california-gold-nutrition-lactobif-probiotiki-30-mlrd-koe-60-kapsul-100904545-2-Container.jpg",
+                                "ORIGINAL": "https://cdn-kaspi.kz/medias/sys_master/images/images/hb1/h41/17508310712350/california-gold-nutrition-lactobif-probiotiki-30-mlrd-koe-60-kapsul-100904545-2-Container.jpg",
+                                "galleryMedium": "https://cdn-kaspi.kz/medias/sys_master/images/images/hb3/h4e/33110286991390/california-gold-nutrition-lactobif-probiotiki-30-mlrd-koe-60-kapsul-100904545-2-Container.jpg"
+                            }
+                        }
+                    ]
+                }
+            ],
+            "totalPrice": 11126.0,
+            "customer": {
+                "firstname": "Анастасия Б."
+            },
+            "orderStatus": "COMPLETED",
+            "delivery": {
+                "deliveryMode": "DELIVERY_LOCAL",
+                "address": {
+                    "formattedAddress": "Алматы, улица Ауэзова, 34, 34"
+                },
+                "plannedDeliveryDate": 1676891370599,
+                "actualDeliveryDate": 1676891370599,
+                "deliveredToCity": true,
+                "kaspiDelivery": false
+            },
+            "payment": {
+                "paymentMode": "GOLD",
+                "needToSignPapers": false,
+                "approvedByBankDate": 1676871737996
+            },
+            "pickupPoint": "г. Алматы,  улица Жандосова,  98",
+            "orderStates": [],
+            "createDate": 1676871737996,
+            "modifiedDate": 1676891437898,
+            "isCargoAssembly": false,
+            "preOrder": false
+        },
+        {
+            "orderCode": "244090863",
+            "entries": [
+                {
+                    "name": "NOW минерал Zinc 50 мг 250 таблеток",
+                    "quantity": 1,
+                    "basePrice": 6888.0,
+                    "totalPrice": 6888.0,
+                    "images": [
+                        {
+                            "qualifier": "now-mineral-zinc-50-mg-250-tabletok-100505286-1",
+                            "formatToUrlMap": {
+                                "previewLarge": "https://cdn-kaspi.kz/medias/sys_master/images/images/hee/h30/48829544857630/now-zinc-250-tabletok-100505286-1-Container.jpg",
+                                "gallerySmall": "https://cdn-kaspi.kz/medias/sys_master/images/images/h25/h65/48829544890398/now-zinc-250-tabletok-100505286-1-Container.jpg",
+                                "previewSmall": "https://cdn-kaspi.kz/medias/sys_master/images/images/he8/hf8/48829544923166/now-zinc-250-tabletok-100505286-1-Container.jpg",
+                                "galleryLarge": "https://cdn-kaspi.kz/medias/sys_master/images/images/h29/h96/48829545021470/now-zinc-250-tabletok-100505286-1-Container.jpg",
+                                "previewMedium": "https://cdn-kaspi.kz/medias/sys_master/images/images/hc9/h60/48829544988702/now-zinc-250-tabletok-100505286-1-Container.jpg",
+                                "ORIGINAL": "https://cdn-kaspi.kz/medias/sys_master/images/images/h09/haa/48829544955934/now-zinc-250-tabletok-100505286-1-Container.png",
+                                "galleryMedium": "https://cdn-kaspi.kz/medias/sys_master/images/images/h53/h61/48829545054238/now-zinc-250-tabletok-100505286-1-Container.jpg"
+                            }
+                        },
+                        {
+                            "qualifier": "now-mineral-zinc-50-mg-250-tabletok-100505286-2",
+                            "formatToUrlMap": {
+                                "previewLarge": "https://cdn-kaspi.kz/medias/sys_master/images/images/he3/hed/48829545119774/now-mineral-zinc-50-mg-250-tabletok-100505286-2.jpg",
+                                "gallerySmall": "https://cdn-kaspi.kz/medias/sys_master/images/images/hb4/h32/48829545185310/now-mineral-zinc-50-mg-250-tabletok-100505286-2.jpg",
+                                "previewSmall": "https://cdn-kaspi.kz/medias/sys_master/images/images/hc5/hae/48829545250846/now-mineral-zinc-50-mg-250-tabletok-100505286-2.jpg",
+                                "galleryLarge": "https://cdn-kaspi.kz/medias/sys_master/images/images/h4e/h9e/48829545447454/now-mineral-zinc-50-mg-250-tabletok-100505286-2.jpg",
+                                "previewMedium": "https://cdn-kaspi.kz/medias/sys_master/images/images/h83/hbf/48829545381918/now-mineral-zinc-50-mg-250-tabletok-100505286-2.jpg",
+                                "ORIGINAL": "https://cdn-kaspi.kz/medias/sys_master/images/images/hfa/hcf/48829545316382/now-mineral-zinc-50-mg-250-tabletok-100505286-2.png",
+                                "galleryMedium": "https://cdn-kaspi.kz/medias/sys_master/images/images/hed/h1f/48829545512990/now-mineral-zinc-50-mg-250-tabletok-100505286-2.jpg"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "NOW Adam Superior Men's Multi капсулы 90 шт",
+                    "quantity": 1,
+                    "basePrice": 14993.0,
+                    "totalPrice": 14993.0,
+                    "images": [
+                        {
+                            "qualifier": "now-vitamin-dlya-muzhchin-adam-men's-multi-90-kapsul-29502959-1",
+                            "formatToUrlMap": {
+                                "previewLarge": "https://cdn-kaspi.kz/medias/sys_master/images/images/hdd/hdc/32276272939038/now-vitamin-dlya-muzhchin-adam-men-s-multi-90-kapsul-29502959-1.jpg",
+                                "gallerySmall": "https://cdn-kaspi.kz/medias/sys_master/images/images/h84/h2f/32276273233950/now-vitamin-dlya-muzhchin-adam-men-s-multi-90-kapsul-29502959-1.jpg",
+                                "previewSmall": "https://cdn-kaspi.kz/medias/sys_master/images/images/hbb/h99/32276272316446/now-vitamin-dlya-muzhchin-adam-men-s-multi-90-kapsul-29502959-1.jpg",
+                                "galleryLarge": "https://cdn-kaspi.kz/medias/sys_master/images/images/hfb/ha5/32276273496094/now-vitamin-dlya-muzhchin-adam-men-s-multi-90-kapsul-29502959-1.jpg",
+                                "previewMedium": "https://cdn-kaspi.kz/medias/sys_master/images/images/h8d/hd4/32276272447518/now-vitamin-dlya-muzhchin-adam-men-s-multi-90-kapsul-29502959-1.jpg",
+                                "ORIGINAL": "https://cdn-kaspi.kz/medias/sys_master/images/images/h06/h80/10846967103518/now-vitamin-dlya-muzhchin-adam-men-s-multi-90-kapsul-29502959-1.jpg",
+                                "galleryMedium": "https://cdn-kaspi.kz/medias/sys_master/images/images/hf6/h73/32276273430558/now-vitamin-dlya-muzhchin-adam-men-s-multi-90-kapsul-29502959-1.jpg"
+                            }
+                        },
+                        {
+                            "qualifier": "now-vitamin-dlya-muzhchin-adam-men's-multi-90-kapsul-29502959-2",
+                            "formatToUrlMap": {
+                                "previewLarge": "https://cdn-kaspi.kz/medias/sys_master/images/images/h28/h5e/49885863215134/now-vitamin-dlya-muzhchin-adam-men-s-multi-90-kapsul-29502959-2.jpg",
+                                "gallerySmall": "https://cdn-kaspi.kz/medias/sys_master/images/images/h4f/h89/49885863280670/now-vitamin-dlya-muzhchin-adam-men-s-multi-90-kapsul-29502959-2.jpg",
+                                "previewSmall": "https://cdn-kaspi.kz/medias/sys_master/images/images/he0/hef/49885863346206/now-vitamin-dlya-muzhchin-adam-men-s-multi-90-kapsul-29502959-2.jpg",
+                                "galleryLarge": "https://cdn-kaspi.kz/medias/sys_master/images/images/h07/h00/49885863542814/now-vitamin-dlya-muzhchin-adam-men-s-multi-90-kapsul-29502959-2.jpg",
+                                "previewMedium": "https://cdn-kaspi.kz/medias/sys_master/images/images/h13/hc6/49885863477278/now-vitamin-dlya-muzhchin-adam-men-s-multi-90-kapsul-29502959-2.jpg",
+                                "ORIGINAL": "https://cdn-kaspi.kz/medias/sys_master/images/images/hbf/h91/49885863411742/now-vitamin-dlya-muzhchin-adam-men-s-multi-90-kapsul-29502959-2.jpg",
+                                "galleryMedium": "https://cdn-kaspi.kz/medias/sys_master/images/images/h2d/h21/49885863608350/now-vitamin-dlya-muzhchin-adam-men-s-multi-90-kapsul-29502959-2.jpg"
+                            }
+                        }
+                    ]
+                }
+            ],
+            "totalPrice": 21881.0,
+            "customer": {
+                "firstname": "Әліби Т."
+            },
+            "orderStatus": "COMPLETED",
+            "delivery": {
+                "deliveryMode": "DELIVERY_LOCAL",
+                "address": {
+                    "formattedAddress": "Алматы, улица Тимирязева, 36Д"
+                },
+                "plannedDeliveryDate": 1676890320723,
+                "actualDeliveryDate": 1676890320723,
+                "deliveredToCity": true,
+                "kaspiDelivery": false
+            },
+            "payment": {
+                "paymentMode": "PAY_WITH_CREDIT",
+                "needToSignPapers": false,
+                "approvedByBankDate": 1676868594868
+            },
+            "pickupPoint": "г. Алматы,  улица Жандосова,  98",
+            "orderStates": [],
+            "createDate": 1676868594868,
+            "modifiedDate": 1676890379008,
+            "isCargoAssembly": false,
+            "preOrder": false
+        },
+        {
+            "orderCode": "244080416",
+            "entries": [
+                {
+                    "name": "Nature's Plus минерально-витаминный комплекс Hema-Plex с ягодным вкусом 60 капсул",
+                    "quantity": 1,
+                    "basePrice": 6947.0,
+                    "totalPrice": 6947.0,
+                    "images": [
+                        {
+                            "qualifier": "nature's-plus-mineral'no-vitaminnyi-kompleks-hema-plex-s-yagodnym-vkusom-60-kapsul-100829264-1",
+                            "formatToUrlMap": {
+                                "previewLarge": "https://cdn-kaspi.kz/medias/sys_master/images/images/hea/hd5/33232770957342/nature-s-plus-hema-plex-60-zevatelnyh-kapsul-s-agodnym-vkusom-100829264-1-Container.jpg",
+                                "gallerySmall": "https://cdn-kaspi.kz/medias/sys_master/images/images/h76/h83/33232771776542/nature-s-plus-hema-plex-60-zevatelnyh-kapsul-s-agodnym-vkusom-100829264-1-Container.jpg",
+                                "previewSmall": "https://cdn-kaspi.kz/medias/sys_master/images/images/h61/hea/33232768827422/nature-s-plus-hema-plex-60-zevatelnyh-kapsul-s-agodnym-vkusom-100829264-1-Container.jpg",
+                                "galleryLarge": "https://cdn-kaspi.kz/medias/sys_master/images/images/h0c/h9f/33232774168606/nature-s-plus-hema-plex-60-zevatelnyh-kapsul-s-agodnym-vkusom-100829264-1-Container.jpg",
+                                "previewMedium": "https://cdn-kaspi.kz/medias/sys_master/images/images/hc9/hf2/33232769777694/nature-s-plus-hema-plex-60-zevatelnyh-kapsul-s-agodnym-vkusom-100829264-1-Container.jpg",
+                                "ORIGINAL": "https://cdn-kaspi.kz/medias/sys_master/images/images/h64/h09/16983803854878/nature-s-plus-hema-plex-60-zevatelnyh-kapsul-s-agodnym-vkusom-100829264-1-Container.jpg",
+                                "galleryMedium": "https://cdn-kaspi.kz/medias/sys_master/images/images/h32/hef/33232772530206/nature-s-plus-hema-plex-60-zevatelnyh-kapsul-s-agodnym-vkusom-100829264-1-Container.jpg"
+                            }
+                        },
+                        {
+                            "qualifier": "nature's-plus-mineral'no-vitaminnyi-kompleks-hema-plex-s-yagodnym-vkusom-60-kapsul-100829264-2",
+                            "formatToUrlMap": {
+                                "previewLarge": "https://cdn-kaspi.kz/medias/sys_master/images/images/h42/h53/33232775282718/nature-s-plus-hema-plex-60-zevatelnyh-kapsul-s-agodnym-vkusom-100829264-2-Container.jpg",
+                                "gallerySmall": "https://cdn-kaspi.kz/medias/sys_master/images/images/h70/h7b/33232775544862/nature-s-plus-hema-plex-60-zevatelnyh-kapsul-s-agodnym-vkusom-100829264-2-Container.jpg",
+                                "previewSmall": "https://cdn-kaspi.kz/medias/sys_master/images/images/hea/h2e/33232774561822/nature-s-plus-hema-plex-60-zevatelnyh-kapsul-s-agodnym-vkusom-100829264-2-Container.jpg",
+                                "galleryLarge": "https://cdn-kaspi.kz/medias/sys_master/images/images/h0e/hd5/33232776331294/nature-s-plus-hema-plex-60-zevatelnyh-kapsul-s-agodnym-vkusom-100829264-2-Container.jpg",
+                                "previewMedium": "https://cdn-kaspi.kz/medias/sys_master/images/images/h1d/h6b/33232774922270/nature-s-plus-hema-plex-60-zevatelnyh-kapsul-s-agodnym-vkusom-100829264-2-Container.jpg",
+                                "ORIGINAL": "https://cdn-kaspi.kz/medias/sys_master/images/images/h43/h1d/16983804575774/nature-s-plus-hema-plex-60-zevatelnyh-kapsul-s-agodnym-vkusom-100829264-2-Container.jpg",
+                                "galleryMedium": "https://cdn-kaspi.kz/medias/sys_master/images/images/h9e/h41/33232775839774/nature-s-plus-hema-plex-60-zevatelnyh-kapsul-s-agodnym-vkusom-100829264-2-Container.jpg"
+                            }
+                        }
+                    ]
+                }
+            ],
+            "totalPrice": 6947.0,
+            "customer": {
+                "firstname": "Юлия Г."
+            },
+            "orderStatus": "COMPLETED",
+            "delivery": {
+                "deliveryMode": "DELIVERY_LOCAL",
+                "address": {
+                    "formattedAddress": "Алматы, улица Римского-Корсакова, 3, 63"
+                },
+                "plannedDeliveryDate": 1676889520429,
+                "actualDeliveryDate": 1676889520429,
+                "deliveredToCity": true,
+                "kaspiDelivery": false
+            },
+            "payment": {
+                "paymentMode": "GOLD",
+                "needToSignPapers": false,
+                "approvedByBankDate": 1676862265894
+            },
+            "pickupPoint": "г. Алматы,  улица Жандосова,  98",
+            "orderStates": [],
+            "createDate": 1676862265894,
+            "modifiedDate": 1676889585650,
+            "isCargoAssembly": false,
+            "preOrder": false
+        },
+        {
+            "orderCode": "244012968",
+            "entries": [
+                {
+                    "name": "Nature's Plus Hema-Plex Iron комплекс с железом капсулы 60 шт",
+                    "quantity": 1,
+                    "basePrice": 6989.0,
+                    "totalPrice": 6989.0,
+                    "images": [
+                        {
+                            "qualifier": "nature's-plus-mul'tivitaminy-hema-plex-iron-with-essential-nutrients-for-60-kapsul-101262413-1",
+                            "formatToUrlMap": {
+                                "previewLarge": "https://cdn-kaspi.kz/medias/sys_master/images/images/h39/h2f/62502045384734/nature-s-plus-mul-tivitaminy-hema-plex-iron-with-essential-nutrients-for-60-kapsul-101262413-1.jpg",
+                                "gallerySmall": "https://cdn-kaspi.kz/medias/sys_master/images/images/h2c/hd1/62502045417502/nature-s-plus-mul-tivitaminy-hema-plex-iron-with-essential-nutrients-for-60-kapsul-101262413-1.jpg",
+                                "previewSmall": "https://cdn-kaspi.kz/medias/sys_master/images/images/hed/hfc/62502045450270/nature-s-plus-mul-tivitaminy-hema-plex-iron-with-essential-nutrients-for-60-kapsul-101262413-1.jpg",
+                                "galleryLarge": "https://cdn-kaspi.kz/medias/sys_master/images/images/h20/h87/62502045548574/nature-s-plus-mul-tivitaminy-hema-plex-iron-with-essential-nutrients-for-60-kapsul-101262413-1.jpg",
+                                "previewMedium": "https://cdn-kaspi.kz/medias/sys_master/images/images/hb8/hb5/62502045515806/nature-s-plus-mul-tivitaminy-hema-plex-iron-with-essential-nutrients-for-60-kapsul-101262413-1.jpg",
+                                "ORIGINAL": "https://cdn-kaspi.kz/medias/sys_master/images/images/h70/h05/62502045483038/nature-s-plus-mul-tivitaminy-hema-plex-iron-with-essential-nutrients-for-60-kapsul-101262413-1.png",
+                                "galleryMedium": "https://cdn-kaspi.kz/medias/sys_master/images/images/h5b/h71/62502045581342/nature-s-plus-mul-tivitaminy-hema-plex-iron-with-essential-nutrients-for-60-kapsul-101262413-1.jpg"
+                            }
+                        },
+                        {
+                            "qualifier": "nature's-plus-mul'tivitaminy-hema-plex-iron-with-essential-nutrients-for-60-kapsul-101262413-2",
+                            "formatToUrlMap": {
+                                "previewLarge": "https://cdn-kaspi.kz/medias/sys_master/images/images/hb2/hec/62502045614110/nature-s-plus-mul-tivitaminy-hema-plex-iron-with-essential-nutrients-for-60-kapsul-101262413-2.jpg",
+                                "gallerySmall": "https://cdn-kaspi.kz/medias/sys_master/images/images/hc4/hff/62502045646878/nature-s-plus-mul-tivitaminy-hema-plex-iron-with-essential-nutrients-for-60-kapsul-101262413-2.jpg",
+                                "previewSmall": "https://cdn-kaspi.kz/medias/sys_master/images/images/h97/h0a/62502045679646/nature-s-plus-mul-tivitaminy-hema-plex-iron-with-essential-nutrients-for-60-kapsul-101262413-2.jpg",
+                                "galleryLarge": "https://cdn-kaspi.kz/medias/sys_master/images/images/h34/h6c/62502045777950/nature-s-plus-mul-tivitaminy-hema-plex-iron-with-essential-nutrients-for-60-kapsul-101262413-2.jpg",
+                                "previewMedium": "https://cdn-kaspi.kz/medias/sys_master/images/images/h41/hc9/62502045745182/nature-s-plus-mul-tivitaminy-hema-plex-iron-with-essential-nutrients-for-60-kapsul-101262413-2.jpg",
+                                "ORIGINAL": "https://cdn-kaspi.kz/medias/sys_master/images/images/h96/h73/62502045712414/nature-s-plus-mul-tivitaminy-hema-plex-iron-with-essential-nutrients-for-60-kapsul-101262413-2.png",
+                                "galleryMedium": "https://cdn-kaspi.kz/medias/sys_master/images/images/h85/h05/62502045810718/nature-s-plus-mul-tivitaminy-hema-plex-iron-with-essential-nutrients-for-60-kapsul-101262413-2.jpg"
+                            }
+                        }
+                    ]
+                }
+            ],
+            "totalPrice": 6989.0,
+            "customer": {
+                "firstname": "Зауре Н."
+            },
+            "orderStatus": "COMPLETED",
+            "delivery": {
+                "deliveryMode": "DELIVERY_LOCAL",
+                "address": {
+                    "formattedAddress": "Алматы, проспект Достык, 89Б, Кв 12"
+                },
+                "plannedDeliveryDate": 1676888107623,
+                "actualDeliveryDate": 1676888107623,
+                "deliveredToCity": true,
+                "kaspiDelivery": false
+            },
+            "payment": {
+                "paymentMode": "GOLD",
+                "needToSignPapers": false,
+                "approvedByBankDate": 1676822485975
+            },
+            "pickupPoint": "г. Алматы,  улица Жандосова,  98",
+            "orderStates": [],
+            "createDate": 1676822485975,
+            "modifiedDate": 1676888178791,
+            "isCargoAssembly": false,
+            "preOrder": false
+        },
         {
             "orderCode": "243971126",
             "entries": [

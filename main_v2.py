@@ -71,14 +71,14 @@ async def aioschedule_interval(interval: int, chat_id: int):
             data = int(i*interval_data)
             if data==0:
                 data='00'
-            aioschedule.every().day.at(f"{data}:48").do(send_message, chat_id)
+            aioschedule.every().day.at(f"{data}:35").do(send_message, chat_id)
     elif interval==2:
         aioschedule.every().day.at(f"7:35").do(send_message, chat_id)
-        aioschedule.every().day.at(f"15:35").do(send_message, chat_id)
+        aioschedule.every().day.at(f"17:35").do(send_message, chat_id)
     elif interval==3:
         aioschedule.every().day.at(f"7:35").do(send_message, chat_id)
         aioschedule.every().day.at(f"11:35").do(send_message, chat_id)
-        aioschedule.every().day.at(f"15:35").do(send_message, chat_id)
+        aioschedule.every().day.at(f"17:35").do(send_message, chat_id)
     while run_scheduler:
         await aioschedule.run_pending()
         await asyncio.sleep(1)
@@ -111,7 +111,7 @@ async def every_hour(message: types.Message):
         await bot.send_message(message.from_user.id, text=text)
 
 
-@dp.message_handler(Text(equals='2 раза в день (8:00, 16:00)'), state=None)
+@dp.message_handler(Text(equals='2 раза в день (8:00, 18:00)'), state=None)
 async def two_day(message: types.Message):
     global run_scheduler
     if run_scheduler==True:
@@ -120,10 +120,10 @@ async def two_day(message: types.Message):
         run_scheduler = True
         asyncio.ensure_future(aioschedule_interval(2, message.from_user.id))
         text = f"Send {2} message every day"
-        await bot.send_message(message.from_user.id, text=text+"( 8:00, 16:00 )")
+        await bot.send_message(message.from_user.id, text=text+"( 8:00, 18:00 )")
 
 
-@dp.message_handler(Text(equals='3 раза в день (8:00, 12:00, 16:00)'), state=None)
+@dp.message_handler(Text(equals='3 раза в день (8:00, 12:00, 18:00)'), state=None)
 async def three_day(message: types.Message):
     global run_scheduler
     if run_scheduler==True:
@@ -132,7 +132,7 @@ async def three_day(message: types.Message):
         run_scheduler = True
         asyncio.ensure_future(aioschedule_interval(3, message.from_user.id))
         text = f"Send {3} message every day"
-        await bot.send_message(message.from_user.id, text=text+" (8:00, 12:00, 16:00) ")
+        await bot.send_message(message.from_user.id, text=text+" (8:00, 12:00, 18:00) ")
 
 
 @dp.message_handler(Text(equals='stop'), state=None)
@@ -143,7 +143,7 @@ async def three_day(message: types.Message):
     await bot.send_message(message.from_user.id, text=text)
 
 
-@dp.message_handler(Text(equals='excel'), state=None)
+@dp.message_handler(Text(equals='БД клиентов'), state=None)
 async def three_day(message: types.Message):
     await bot.send_message(message.from_user.id, text="Подождите немного")
     await try_api()
