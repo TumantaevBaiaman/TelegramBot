@@ -1,0 +1,69 @@
+[
+    {
+        "tab": "PICKUP",
+        "total": 1,
+        "orders": [
+            {
+                "orderCode": "243469235",
+                "entries": [
+                    {
+                        "name": "Oslomega рыбий жир Kids Omega-3 Fish Oil 60 капсул",
+                        "quantity": 1,
+                        "basePrice": 6973.0,
+                        "totalPrice": 6973.0,
+                        "images": [
+                            {
+                                "qualifier": "oslomega-rybii-zhir-kids-omega-3-fish-oil-60-kapsul-100904565-1",
+                                "formatToUrlMap": {
+                                    "previewLarge": "https://cdn-kaspi.kz/medias/sys_master/images/images/h46/hef/33272969658398/oslomega-rybij-zir-s-omega-3-dla-detej-klubnicnyj-vkus-60-rybno-zelatinovyh-kapsul-100904565-1-Container.jpg",
+                                    "gallerySmall": "https://cdn-kaspi.kz/medias/sys_master/images/images/h82/h87/33272970706974/oslomega-rybij-zir-s-omega-3-dla-detej-klubnicnyj-vkus-60-rybno-zelatinovyh-kapsul-100904565-1-Container.jpg",
+                                    "previewSmall": "https://cdn-kaspi.kz/medias/sys_master/images/images/hdf/h09/33272966938654/oslomega-rybij-zir-s-omega-3-dla-detej-klubnicnyj-vkus-60-rybno-zelatinovyh-kapsul-100904565-1-Container.jpg",
+                                    "galleryLarge": "https://cdn-kaspi.kz/medias/sys_master/images/images/hb1/h47/33272973787166/oslomega-rybij-zir-s-omega-3-dla-detej-klubnicnyj-vkus-60-rybno-zelatinovyh-kapsul-100904565-1-Container.jpg",
+                                    "previewMedium": "https://cdn-kaspi.kz/medias/sys_master/images/images/hd8/h3c/33272968249374/oslomega-rybij-zir-s-omega-3-dla-detej-klubnicnyj-vkus-60-rybno-zelatinovyh-kapsul-100904565-1-Container.jpg",
+                                    "ORIGINAL": "https://cdn-kaspi.kz/medias/sys_master/images/images/h14/h53/17508467834910/oslomega-rybij-zir-s-omega-3-dla-detej-klubnicnyj-vkus-60-rybno-zelatinovyh-kapsul-100904565-1-Container.jpg",
+                                    "galleryMedium": "https://cdn-kaspi.kz/medias/sys_master/images/images/h34/h55/33272972279838/oslomega-rybij-zir-s-omega-3-dla-detej-klubnicnyj-vkus-60-rybno-zelatinovyh-kapsul-100904565-1-Container.jpg"
+                                }
+                            },
+                            {
+                                "qualifier": "oslomega-rybii-zhir-kids-omega-3-fish-oil-60-kapsul-100904565-2",
+                                "formatToUrlMap": {
+                                    "previewLarge": "https://cdn-kaspi.kz/medias/sys_master/images/images/hd3/heb/33272976244766/oslomega-rybij-zir-s-omega-3-dla-detej-klubnicnyj-vkus-60-rybno-zelatinovyh-kapsul-100904565-2-Container.jpg",
+                                    "gallerySmall": "https://cdn-kaspi.kz/medias/sys_master/images/images/h3d/h9c/33272976572446/oslomega-rybij-zir-s-omega-3-dla-detej-klubnicnyj-vkus-60-rybno-zelatinovyh-kapsul-100904565-2-Container.jpg",
+                                    "previewSmall": "https://cdn-kaspi.kz/medias/sys_master/images/images/hd6/hfd/33272974901278/oslomega-rybij-zir-s-omega-3-dla-detej-klubnicnyj-vkus-60-rybno-zelatinovyh-kapsul-100904565-2-Container.jpg",
+                                    "galleryLarge": "https://cdn-kaspi.kz/medias/sys_master/images/images/hd0/h74/33272978112542/oslomega-rybij-zir-s-omega-3-dla-detej-klubnicnyj-vkus-60-rybno-zelatinovyh-kapsul-100904565-2-Container.jpg",
+                                    "previewMedium": "https://cdn-kaspi.kz/medias/sys_master/images/images/hd4/hef/33272975523870/oslomega-rybij-zir-s-omega-3-dla-detej-klubnicnyj-vkus-60-rybno-zelatinovyh-kapsul-100904565-2-Container.jpg",
+                                    "ORIGINAL": "https://cdn-kaspi.kz/medias/sys_master/images/images/h6b/h77/17508468555806/oslomega-rybij-zir-s-omega-3-dla-detej-klubnicnyj-vkus-60-rybno-zelatinovyh-kapsul-100904565-2-Container.jpg",
+                                    "galleryMedium": "https://cdn-kaspi.kz/medias/sys_master/images/images/hc0/h09/33272977522718/oslomega-rybij-zir-s-omega-3-dla-detej-klubnicnyj-vkus-60-rybno-zelatinovyh-kapsul-100904565-2-Container.jpg"
+                                }
+                            }
+                        ]
+                    }
+                ],
+                "totalPrice": 6973.0,
+                "customer": {
+                    "firstname": "Айжан А."
+                },
+                "orderStatus": "ACCEPTED_BY_MERCHANT",
+                "delivery": {
+                    "deliveryMode": "DELIVERY_PICKUP",
+                    "address": {
+                        "formattedAddress": ""
+                    },
+                    "deliveredToCity": true,
+                    "kaspiDelivery": false
+                },
+                "payment": {
+                    "paymentMode": "PAY_WITH_CREDIT",
+                    "needToSignPapers": false,
+                    "approvedByBankDate": 1676603693143
+                },
+                "pickupPoint": "г. Алматы,  улица Жандосова,  98",
+                "orderStates": [],
+                "createDate": 1676603693143,
+                "modifiedDate": 1676871995426,
+                "isCargoAssembly": false,
+                "preOrder": false
+            }
+        ]
+    }
+]
