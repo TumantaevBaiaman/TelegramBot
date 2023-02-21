@@ -53,6 +53,16 @@ def make_json_file():
         json.dump(request.json(), my_json, ensure_ascii=False, indent=4)
     return request.json()
 
+async def send_message_testbot(chat_id):
+    data = make_json_file()
+    now = datetime.now().strftime("%m/%d/%Y %H:%M:%S")
+    await bot.send_message(chat_id=chat_id, text=f"Current time: {now}\nПодождите 5 мин, проводится операция")
+    file = await get_report_file(data['offers'])
+    with open('ExcelFormatTemplate.xlsx', 'wb') as f:
+        f.write(file)
+    await bot.send_document(chat_id=chat_id, document=open('ExcelFormatTemplate.xlsx', 'rb'))
+
+
 async def send_message(chat_id):
     data = make_json_file()
     now = datetime.now().strftime("%m/%d/%Y %H:%M:%S")
@@ -71,14 +81,14 @@ async def aioschedule_interval(interval: int, chat_id: int):
             data = int(i*interval_data)
             if data==0:
                 data='00'
-            aioschedule.every().day.at(f"{data}:35").do(send_message, chat_id)
+            aioschedule.every().day.at(f"{data}:45").do(send_message, chat_id)
     elif interval==2:
-        aioschedule.every().day.at(f"7:35").do(send_message, chat_id)
-        aioschedule.every().day.at(f"17:35").do(send_message, chat_id)
+        aioschedule.every().day.at(f"7:45").do(send_message, chat_id)
+        aioschedule.every().day.at(f"17:45").do(send_message, chat_id)
     elif interval==3:
-        aioschedule.every().day.at(f"7:35").do(send_message, chat_id)
-        aioschedule.every().day.at(f"11:35").do(send_message, chat_id)
-        aioschedule.every().day.at(f"17:35").do(send_message, chat_id)
+        aioschedule.every().day.at(f"7:45").do(send_message, chat_id)
+        aioschedule.every().day.at(f"11:45").do(send_message, chat_id)
+        aioschedule.every().day.at(f"17:45").do(send_message, chat_id)
     while run_scheduler:
         await aioschedule.run_pending()
         await asyncio.sleep(1)
@@ -141,6 +151,10 @@ async def three_day(message: types.Message):
     run_scheduler = False
     text = f"Send message stop"
     await bot.send_message(message.from_user.id, text=text)
+
+@dp.message_handler(commands='testbot')
+async def test(message: types.Message):
+    await send_message_testbot(message.from_user.id)
 
 
 @dp.message_handler(Text(equals='БД клиентов'), state=None)
