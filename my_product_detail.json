@@ -2164,8 +2164,8 @@
     "plannedPointDeliveryDate": null,
     "deliveryInfoDTO": null,
     "expressDelivery": false,
-    "archivedOrder": true,
-    "returnEglible": false,
     "kaspiDelivery": false,
-    "preOrder": false
+    "preOrder": false,
+    "archivedOrder": true,
+    "returnEglible": false
 }

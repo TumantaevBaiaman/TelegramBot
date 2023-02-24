@@ -28,7 +28,7 @@ async def add_deatil(data):
 async def get_data_info2():
     data = []
     with connection.cursor() as cursor:
-        cursor.execute("SELECT id_order FROM info_user;")
+        cursor.execute("SELECT phone FROM info_user;")
         for i in cursor.fetchall():
             data.append(int(i[0]))
     return data

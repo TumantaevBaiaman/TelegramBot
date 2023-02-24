@@ -45,10 +45,11 @@ async def add_db(id_data):
 async def readfile(lst):
     try:
         for i in lst:
-            if int(i['orderCode']) not in await commands.get_data_info2():
-                await add_db(i['orderCode'])
-                with open("my_product_detail.json", "r", encoding='utf-8') as data2:
-                    data2 = json.load(data2)
+            # if int(i['orderCode']) not in await commands.get_data_info2():
+            await add_db(i['orderCode'])
+            with open("my_product_detail.json", "r", encoding='utf-8') as data2:
+                data2 = json.load(data2)
+                if int(i['purchaserPhoneNumber']) not in await commands.get_data_info2():
                     db = {}
                     db['id'] = int(data2['orderId'])
                     db['name'] = data2['purchaserLastName'] + ' ' + data2['purchaserFirstName']
@@ -61,10 +62,10 @@ async def readfile(lst):
                         db['address'] = data2['deliveryAddress']['formattedAddress']
                     except:
                         db['address'] = "null"
-                await commands.add_deatil(db)
-                print("add success")
-            else:
-                print("уже есть")
+                    await commands.add_deatil(db)
+                    print("add success")
+                else:
+                    print("уже есть")
     except:
         pass
 
