@@ -15,7 +15,8 @@ def time():
 
 def start():
     now = datetime.now()
-    dt = datetime(now.year, now.month, now.day)
+    print(now.month, now.day)
+    dt = datetime(2022, 1, 1)
 
     return int(delorean.Delorean(dt, timezone='UTC').epoch * 1000)
 
@@ -35,7 +36,7 @@ async def try_api():
 
     delivery_url = 'https://kaspi.kz/mc/api/orderTabs/active?count=50&selectedTabs=DELIVERY&startIndex=0&returnedToWarehouse=false'
     pickup_url = 'https://kaspi.kz/mc/api/orderTabs/active?count=50&selectedTabs=PICKUP&startIndex=0&returnedToWarehouse=false'
-    archive_url = f'https://kaspi.kz/mc/api/orderTabs/archive?start=0&count=50&fromDate={start()}&toDate={time()}&statuses=CANCELLED&statuses=COMPLETED&statuses=RETURNED&statuses=RETURN_REQUESTED&statuses=CREDIT_TERMINATION_PROCESS'
+    archive_url = f'https://kaspi.kz/mc/api/orderTabs/archive?start=0&count=150000&fromDate={start()}&toDate={time()}&statuses=CANCELLED&statuses=COMPLETED&statuses=RETURNED&statuses=RETURN_REQUESTED&statuses=CREDIT_TERMINATION_PROCESS'
 
     request = s.get(
         delivery_url,

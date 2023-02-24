@@ -1,142 +1,356 @@
 [
     {
         "tab": "DELIVERY",
-        "total": 8,
+        "total": 7,
         "orders": [
             {
-                "orderCode": "244186265",
+                "orderCode": "244847261",
                 "entries": [
                     {
-                        "name": "NOW D-3 5000 IU капсулы 120 шт",
+                        "name": "NOW Vitamin D-3 2000 IU капсулы 120 шт",
                         "quantity": 1,
-                        "basePrice": 4500.0,
-                        "totalPrice": 4500.0,
+                        "basePrice": 3349.0,
+                        "totalPrice": 3349.0,
                         "images": [
                             {
-                                "qualifier": "now-bad-d-3-5000-iu-120-kapsul-100505269-1",
+                                "qualifier": "now-vitamin-d-3-2000-me-120-kapsul-100313947-1",
                                 "formatToUrlMap": {
-                                    "previewLarge": "https://cdn-kaspi.kz/medias/sys_master/images/images/h7e/hca/33167545434142/now-bad-d-3-5000-iu-120-kapsul-100505269-1.jpg",
-                                    "gallerySmall": "https://cdn-kaspi.kz/medias/sys_master/images/images/had/h19/33167546122270/now-bad-d-3-5000-iu-120-kapsul-100505269-1.jpg",
-                                    "previewSmall": "https://cdn-kaspi.kz/medias/sys_master/images/images/hc2/h67/33167543861278/now-bad-d-3-5000-iu-120-kapsul-100505269-1.jpg",
-                                    "galleryLarge": "https://cdn-kaspi.kz/medias/sys_master/images/images/h28/h6c/33167548284958/now-bad-d-3-5000-iu-120-kapsul-100505269-1.jpg",
-                                    "previewMedium": "https://cdn-kaspi.kz/medias/sys_master/images/images/h34/h0f/33167544549406/now-bad-d-3-5000-iu-120-kapsul-100505269-1.jpg",
-                                    "ORIGINAL": "https://cdn-kaspi.kz/medias/sys_master/images/images/h14/h02/30502925664286/now-bad-d-3-5000-iu-120-kapsul-100505269-1.jpg",
-                                    "galleryMedium": "https://cdn-kaspi.kz/medias/sys_master/images/images/h7b/h44/33167547138078/now-bad-d-3-5000-iu-120-kapsul-100505269-1.jpg"
+                                    "previewLarge": "https://cdn-kaspi.kz/medias/sys_master/images/images/h4a/h15/52028313894942/now-vitamin-d-3-2000-me-120-kapsul-100313947-1.jpg",
+                                    "gallerySmall": "https://cdn-kaspi.kz/medias/sys_master/images/images/ha8/h8c/52028313927710/now-vitamin-d-3-2000-me-120-kapsul-100313947-1.jpg",
+                                    "previewSmall": "https://cdn-kaspi.kz/medias/sys_master/images/images/hdf/hc0/52028313960478/now-vitamin-d-3-2000-me-120-kapsul-100313947-1.jpg",
+                                    "galleryLarge": "https://cdn-kaspi.kz/medias/sys_master/images/images/h8f/h2e/52028314058782/now-vitamin-d-3-2000-me-120-kapsul-100313947-1.jpg",
+                                    "previewMedium": "https://cdn-kaspi.kz/medias/sys_master/images/images/hf1/h43/52028314026014/now-vitamin-d-3-2000-me-120-kapsul-100313947-1.jpg",
+                                    "ORIGINAL": "https://cdn-kaspi.kz/medias/sys_master/images/images/hf4/h49/52028313993246/now-vitamin-d-3-2000-me-120-kapsul-100313947-1.jpg",
+                                    "galleryMedium": "https://cdn-kaspi.kz/medias/sys_master/images/images/hcb/h18/52028314091550/now-vitamin-d-3-2000-me-120-kapsul-100313947-1.jpg"
                                 }
                             },
                             {
-                                "qualifier": "now-bad-d-3-5000-iu-120-kapsul-100505269-2",
+                                "qualifier": "now-vitamin-d-3-2000-me-120-kapsul-100313947-2",
                                 "formatToUrlMap": {
-                                    "previewLarge": "https://cdn-kaspi.kz/medias/sys_master/images/images/hdd/h97/33167549366302/now-bad-d-3-5000-iu-120-kapsul-100505269-2.jpg",
-                                    "gallerySmall": "https://cdn-kaspi.kz/medias/sys_master/images/images/hed/hc6/33167549595678/now-bad-d-3-5000-iu-120-kapsul-100505269-2.jpg",
-                                    "previewSmall": "https://cdn-kaspi.kz/medias/sys_master/images/images/h24/h40/33167548710942/now-bad-d-3-5000-iu-120-kapsul-100505269-2.jpg",
-                                    "galleryLarge": "https://cdn-kaspi.kz/medias/sys_master/images/images/h95/h99/33167550218270/now-bad-d-3-5000-iu-120-kapsul-100505269-2.jpg",
-                                    "previewMedium": "https://cdn-kaspi.kz/medias/sys_master/images/images/h63/h42/33167549104158/now-bad-d-3-5000-iu-120-kapsul-100505269-2.jpg",
-                                    "ORIGINAL": "https://cdn-kaspi.kz/medias/sys_master/images/images/h00/hea/30502926024734/now-bad-d-3-5000-iu-120-kapsul-100505269-2.jpg",
-                                    "galleryMedium": "https://cdn-kaspi.kz/medias/sys_master/images/images/hf0/hf6/33167549792286/now-bad-d-3-5000-iu-120-kapsul-100505269-2.jpg"
+                                    "previewLarge": "https://cdn-kaspi.kz/medias/sys_master/images/images/h0d/hbd/52028314124318/now-vitamin-d-3-2000-me-120-kapsul-100313947-2.jpg",
+                                    "gallerySmall": "https://cdn-kaspi.kz/medias/sys_master/images/images/h1a/h06/52028314157086/now-vitamin-d-3-2000-me-120-kapsul-100313947-2.jpg",
+                                    "previewSmall": "https://cdn-kaspi.kz/medias/sys_master/images/images/h27/h63/52028314189854/now-vitamin-d-3-2000-me-120-kapsul-100313947-2.jpg",
+                                    "galleryLarge": "https://cdn-kaspi.kz/medias/sys_master/images/images/hd1/h97/52028314288158/now-vitamin-d-3-2000-me-120-kapsul-100313947-2.jpg",
+                                    "previewMedium": "https://cdn-kaspi.kz/medias/sys_master/images/images/hb1/h70/52028314255390/now-vitamin-d-3-2000-me-120-kapsul-100313947-2.jpg",
+                                    "ORIGINAL": "https://cdn-kaspi.kz/medias/sys_master/images/images/h26/hcc/52028314222622/now-vitamin-d-3-2000-me-120-kapsul-100313947-2.jpg",
+                                    "galleryMedium": "https://cdn-kaspi.kz/medias/sys_master/images/images/h0a/h53/52028314320926/now-vitamin-d-3-2000-me-120-kapsul-100313947-2.jpg"
+                                }
+                            },
+                            {
+                                "qualifier": "now-vitamin-d-3-2000-me-120-kapsul-100313947-3",
+                                "formatToUrlMap": {
+                                    "previewLarge": "https://cdn-kaspi.kz/medias/sys_master/images/images/h8b/h54/49907562250270/now-vitamin-d-3-2000-me-120-kapsul-100313947-3.jpg",
+                                    "gallerySmall": "https://cdn-kaspi.kz/medias/sys_master/images/images/h56/h0d/49907562315806/now-vitamin-d-3-2000-me-120-kapsul-100313947-3.jpg",
+                                    "previewSmall": "https://cdn-kaspi.kz/medias/sys_master/images/images/h42/he6/49907562381342/now-vitamin-d-3-2000-me-120-kapsul-100313947-3.jpg",
+                                    "galleryLarge": "https://cdn-kaspi.kz/medias/sys_master/images/images/h6a/heb/49907562577950/now-vitamin-d-3-2000-me-120-kapsul-100313947-3.jpg",
+                                    "previewMedium": "https://cdn-kaspi.kz/medias/sys_master/images/images/hcb/h34/49907562512414/now-vitamin-d-3-2000-me-120-kapsul-100313947-3.jpg",
+                                    "ORIGINAL": "https://cdn-kaspi.kz/medias/sys_master/images/images/h62/h57/49907562446878/now-vitamin-d-3-2000-me-120-kapsul-100313947-3.jpg",
+                                    "galleryMedium": "https://cdn-kaspi.kz/medias/sys_master/images/images/h40/h15/49907562643486/now-vitamin-d-3-2000-me-120-kapsul-100313947-3.jpg"
                                 }
                             }
                         ]
                     }
                 ],
-                "totalPrice": 4500.0,
+                "totalPrice": 3349.0,
                 "customer": {
-                    "firstname": "Анастасия Е."
+                    "firstname": "Екатерина А."
                 },
                 "orderStatus": "ACCEPTED_BY_MERCHANT",
                 "delivery": {
                     "deliveryMode": "DELIVERY_LOCAL",
                     "address": {
-                        "formattedAddress": "Алматы, улица Сатпаева, 89, Кв.10, код домофона 710В"
+                        "formattedAddress": "Алматы, улица Мынбаева, 117"
                     },
-                    "plannedDeliveryDate": 1676916000000,
-                    "actualDeliveryDate": 1676916000000,
+                    "plannedDeliveryDate": 1677261600000,
+                    "actualDeliveryDate": 1677261600000,
                     "deliveredToCity": true,
                     "kaspiDelivery": false
                 },
                 "payment": {
                     "paymentMode": "GOLD",
                     "needToSignPapers": false,
-                    "approvedByBankDate": 1676900609238
+                    "approvedByBankDate": 1677236878136
                 },
                 "pickupPoint": "г. Алматы,  улица Жандосова,  98",
                 "orderStates": [],
-                "createDate": 1676900609238,
-                "modifiedDate": 1676905307781,
+                "createDate": 1677236878136,
+                "modifiedDate": 1677236969198,
                 "isCargoAssembly": false,
                 "preOrder": false
             },
             {
-                "orderCode": "244189793",
+                "orderCode": "244836790",
                 "entries": [
                     {
-                        "name": "Nature's Plus Hema-Plex Iron комплекс с железом капсулы 60 шт",
+                        "name": "Life-flo, Liquid Iodine Plus капли 59 мл",
                         "quantity": 1,
-                        "basePrice": 7279.0,
-                        "totalPrice": 7279.0,
+                        "basePrice": 6179.0,
+                        "totalPrice": 6179.0,
                         "images": [
                             {
-                                "qualifier": "nature's-plus-mul'tivitaminy-hema-plex-iron-with-essential-nutrients-for-60-kapsul-101262413-1",
+                                "qualifier": "life-flo-mineral-life-flo-liquid-iodine-plus-59-ml-105258317-1",
                                 "formatToUrlMap": {
-                                    "previewLarge": "https://cdn-kaspi.kz/medias/sys_master/images/images/h39/h2f/62502045384734/nature-s-plus-mul-tivitaminy-hema-plex-iron-with-essential-nutrients-for-60-kapsul-101262413-1.jpg",
-                                    "gallerySmall": "https://cdn-kaspi.kz/medias/sys_master/images/images/h2c/hd1/62502045417502/nature-s-plus-mul-tivitaminy-hema-plex-iron-with-essential-nutrients-for-60-kapsul-101262413-1.jpg",
-                                    "previewSmall": "https://cdn-kaspi.kz/medias/sys_master/images/images/hed/hfc/62502045450270/nature-s-plus-mul-tivitaminy-hema-plex-iron-with-essential-nutrients-for-60-kapsul-101262413-1.jpg",
-                                    "galleryLarge": "https://cdn-kaspi.kz/medias/sys_master/images/images/h20/h87/62502045548574/nature-s-plus-mul-tivitaminy-hema-plex-iron-with-essential-nutrients-for-60-kapsul-101262413-1.jpg",
-                                    "previewMedium": "https://cdn-kaspi.kz/medias/sys_master/images/images/hb8/hb5/62502045515806/nature-s-plus-mul-tivitaminy-hema-plex-iron-with-essential-nutrients-for-60-kapsul-101262413-1.jpg",
-                                    "ORIGINAL": "https://cdn-kaspi.kz/medias/sys_master/images/images/h70/h05/62502045483038/nature-s-plus-mul-tivitaminy-hema-plex-iron-with-essential-nutrients-for-60-kapsul-101262413-1.png",
-                                    "galleryMedium": "https://cdn-kaspi.kz/medias/sys_master/images/images/h5b/h71/62502045581342/nature-s-plus-mul-tivitaminy-hema-plex-iron-with-essential-nutrients-for-60-kapsul-101262413-1.jpg"
+                                    "previewLarge": "https://cdn-kaspi.kz/medias/sys_master/images/images/h48/h1f/51463253065758/life-flo-zidkij-jod-plus-naturalnyj-vkus-apelsina-2-zid-uncii-59-ml-105258317-1.jpg",
+                                    "gallerySmall": "https://cdn-kaspi.kz/medias/sys_master/images/images/h90/hb4/51463253131294/life-flo-zidkij-jod-plus-naturalnyj-vkus-apelsina-2-zid-uncii-59-ml-105258317-1.jpg",
+                                    "previewSmall": "https://cdn-kaspi.kz/medias/sys_master/images/images/h4f/hb3/51463253196830/life-flo-zidkij-jod-plus-naturalnyj-vkus-apelsina-2-zid-uncii-59-ml-105258317-1.jpg",
+                                    "galleryLarge": "https://cdn-kaspi.kz/medias/sys_master/images/images/hde/h6e/51463253393438/life-flo-zidkij-jod-plus-naturalnyj-vkus-apelsina-2-zid-uncii-59-ml-105258317-1.jpg",
+                                    "previewMedium": "https://cdn-kaspi.kz/medias/sys_master/images/images/hbe/h67/51463253327902/life-flo-zidkij-jod-plus-naturalnyj-vkus-apelsina-2-zid-uncii-59-ml-105258317-1.jpg",
+                                    "ORIGINAL": "https://cdn-kaspi.kz/medias/sys_master/images/images/hd9/h22/51463253262366/life-flo-zidkij-jod-plus-naturalnyj-vkus-apelsina-2-zid-uncii-59-ml-105258317-1.jpg",
+                                    "galleryMedium": "https://cdn-kaspi.kz/medias/sys_master/images/images/hb2/h1d/51463253458974/life-flo-zidkij-jod-plus-naturalnyj-vkus-apelsina-2-zid-uncii-59-ml-105258317-1.jpg"
                                 }
                             },
                             {
-                                "qualifier": "nature's-plus-mul'tivitaminy-hema-plex-iron-with-essential-nutrients-for-60-kapsul-101262413-2",
+                                "qualifier": "life-flo-mineral-life-flo-liquid-iodine-plus-59-ml-105258317-2",
                                 "formatToUrlMap": {
-                                    "previewLarge": "https://cdn-kaspi.kz/medias/sys_master/images/images/hb2/hec/62502045614110/nature-s-plus-mul-tivitaminy-hema-plex-iron-with-essential-nutrients-for-60-kapsul-101262413-2.jpg",
-                                    "gallerySmall": "https://cdn-kaspi.kz/medias/sys_master/images/images/hc4/hff/62502045646878/nature-s-plus-mul-tivitaminy-hema-plex-iron-with-essential-nutrients-for-60-kapsul-101262413-2.jpg",
-                                    "previewSmall": "https://cdn-kaspi.kz/medias/sys_master/images/images/h97/h0a/62502045679646/nature-s-plus-mul-tivitaminy-hema-plex-iron-with-essential-nutrients-for-60-kapsul-101262413-2.jpg",
-                                    "galleryLarge": "https://cdn-kaspi.kz/medias/sys_master/images/images/h34/h6c/62502045777950/nature-s-plus-mul-tivitaminy-hema-plex-iron-with-essential-nutrients-for-60-kapsul-101262413-2.jpg",
-                                    "previewMedium": "https://cdn-kaspi.kz/medias/sys_master/images/images/h41/hc9/62502045745182/nature-s-plus-mul-tivitaminy-hema-plex-iron-with-essential-nutrients-for-60-kapsul-101262413-2.jpg",
-                                    "ORIGINAL": "https://cdn-kaspi.kz/medias/sys_master/images/images/h96/h73/62502045712414/nature-s-plus-mul-tivitaminy-hema-plex-iron-with-essential-nutrients-for-60-kapsul-101262413-2.png",
-                                    "galleryMedium": "https://cdn-kaspi.kz/medias/sys_master/images/images/h85/h05/62502045810718/nature-s-plus-mul-tivitaminy-hema-plex-iron-with-essential-nutrients-for-60-kapsul-101262413-2.jpg"
+                                    "previewLarge": "https://cdn-kaspi.kz/medias/sys_master/images/images/he0/ha9/51463253524510/life-flo-zidkij-jod-plus-naturalnyj-vkus-apelsina-2-zid-uncii-59-ml-105258317-2.jpg",
+                                    "gallerySmall": "https://cdn-kaspi.kz/medias/sys_master/images/images/hbc/h2c/51463253590046/life-flo-zidkij-jod-plus-naturalnyj-vkus-apelsina-2-zid-uncii-59-ml-105258317-2.jpg",
+                                    "previewSmall": "https://cdn-kaspi.kz/medias/sys_master/images/images/hd4/h5f/51463253655582/life-flo-zidkij-jod-plus-naturalnyj-vkus-apelsina-2-zid-uncii-59-ml-105258317-2.jpg",
+                                    "galleryLarge": "https://cdn-kaspi.kz/medias/sys_master/images/images/hf5/ha1/51463253852190/life-flo-zidkij-jod-plus-naturalnyj-vkus-apelsina-2-zid-uncii-59-ml-105258317-2.jpg",
+                                    "previewMedium": "https://cdn-kaspi.kz/medias/sys_master/images/images/he3/h31/51463253786654/life-flo-zidkij-jod-plus-naturalnyj-vkus-apelsina-2-zid-uncii-59-ml-105258317-2.jpg",
+                                    "ORIGINAL": "https://cdn-kaspi.kz/medias/sys_master/images/images/h51/hee/51463253721118/life-flo-zidkij-jod-plus-naturalnyj-vkus-apelsina-2-zid-uncii-59-ml-105258317-2.jpg",
+                                    "galleryMedium": "https://cdn-kaspi.kz/medias/sys_master/images/images/h2a/he9/51463253917726/life-flo-zidkij-jod-plus-naturalnyj-vkus-apelsina-2-zid-uncii-59-ml-105258317-2.jpg"
+                                }
+                            },
+                            {
+                                "qualifier": "life-flo-mineral-life-flo-liquid-iodine-plus-59-ml-105258317-3",
+                                "formatToUrlMap": {
+                                    "previewLarge": "https://cdn-kaspi.kz/medias/sys_master/images/images/h3e/h10/51463253983262/life-flo-zidkij-jod-plus-naturalnyj-vkus-apelsina-2-zid-uncii-59-ml-105258317-3.jpg",
+                                    "gallerySmall": "https://cdn-kaspi.kz/medias/sys_master/images/images/h12/h8b/51463254048798/life-flo-zidkij-jod-plus-naturalnyj-vkus-apelsina-2-zid-uncii-59-ml-105258317-3.jpg",
+                                    "previewSmall": "https://cdn-kaspi.kz/medias/sys_master/images/images/hc0/he8/51463254114334/life-flo-zidkij-jod-plus-naturalnyj-vkus-apelsina-2-zid-uncii-59-ml-105258317-3.jpg",
+                                    "galleryLarge": "https://cdn-kaspi.kz/medias/sys_master/images/images/h27/h07/51463254310942/life-flo-zidkij-jod-plus-naturalnyj-vkus-apelsina-2-zid-uncii-59-ml-105258317-3.jpg",
+                                    "previewMedium": "https://cdn-kaspi.kz/medias/sys_master/images/images/h88/h85/51463254245406/life-flo-zidkij-jod-plus-naturalnyj-vkus-apelsina-2-zid-uncii-59-ml-105258317-3.jpg",
+                                    "ORIGINAL": "https://cdn-kaspi.kz/medias/sys_master/images/images/hf5/h08/51463254179870/life-flo-zidkij-jod-plus-naturalnyj-vkus-apelsina-2-zid-uncii-59-ml-105258317-3.jpg",
+                                    "galleryMedium": "https://cdn-kaspi.kz/medias/sys_master/images/images/h7c/h3b/51463254376478/life-flo-zidkij-jod-plus-naturalnyj-vkus-apelsina-2-zid-uncii-59-ml-105258317-3.jpg"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "name": "California Gold Nutrition рыбий жир Omega 3 Premium Fish Oil 180 mg EPA/120 mg DHA 100 капсул",
+                        "quantity": 1,
+                        "basePrice": 4199.0,
+                        "totalPrice": 4199.0,
+                        "images": [
+                            {
+                                "qualifier": "california-gold-nutrition-rybii-zhir-omega-3-premium-fish-oil-180-mg-epa-120-mg-dha-100-kapsul-104715331-1",
+                                "formatToUrlMap": {
+                                    "previewLarge": "https://cdn-kaspi.kz/medias/sys_master/images/images/h36/ha8/50470955941918/california-gold-nutrition-rybij-zir-omega-3-premium-fish-oil-180-mg-epa-120-mg-dha-100-kapsul-104715331-1.jpg",
+                                    "gallerySmall": "https://cdn-kaspi.kz/medias/sys_master/images/images/ha1/h94/50470955974686/california-gold-nutrition-rybij-zir-omega-3-premium-fish-oil-180-mg-epa-120-mg-dha-100-kapsul-104715331-1.jpg",
+                                    "previewSmall": "https://cdn-kaspi.kz/medias/sys_master/images/images/h78/hdd/50470956007454/california-gold-nutrition-rybij-zir-omega-3-premium-fish-oil-180-mg-epa-120-mg-dha-100-kapsul-104715331-1.jpg",
+                                    "galleryLarge": "https://cdn-kaspi.kz/medias/sys_master/images/images/h5d/h64/50470956105758/california-gold-nutrition-rybij-zir-omega-3-premium-fish-oil-180-mg-epa-120-mg-dha-100-kapsul-104715331-1.jpg",
+                                    "previewMedium": "https://cdn-kaspi.kz/medias/sys_master/images/images/h60/hf7/50470956072990/california-gold-nutrition-rybij-zir-omega-3-premium-fish-oil-180-mg-epa-120-mg-dha-100-kapsul-104715331-1.jpg",
+                                    "ORIGINAL": "https://cdn-kaspi.kz/medias/sys_master/images/images/h3d/hf3/50470956040222/california-gold-nutrition-rybij-zir-omega-3-premium-fish-oil-180-mg-epa-120-mg-dha-100-kapsul-104715331-1.png",
+                                    "galleryMedium": "https://cdn-kaspi.kz/medias/sys_master/images/images/hcf/h90/50470956138526/california-gold-nutrition-rybij-zir-omega-3-premium-fish-oil-180-mg-epa-120-mg-dha-100-kapsul-104715331-1.jpg"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "name": "California Gold Nutrition Vitamin D3 baby раствор 10 мл",
+                        "quantity": 1,
+                        "basePrice": 3300.0,
+                        "totalPrice": 3300.0,
+                        "images": [
+                            {
+                                "qualifier": "california-gold-nutrition-baby-do-12-mes-vitamin-vitamin-d3-400-me-10-ml-100568648-1",
+                                "formatToUrlMap": {
+                                    "previewLarge": "https://cdn-kaspi.kz/medias/sys_master/images/images/h78/h0f/32970902208542/california-gold-nutrition-vitamin-d3-400-me-10-ml-100568648-1-Container.jpg",
+                                    "gallerySmall": "https://cdn-kaspi.kz/medias/sys_master/images/images/h29/h8a/32970902667294/california-gold-nutrition-vitamin-d3-400-me-10-ml-100568648-1-Container.jpg",
+                                    "previewSmall": "https://cdn-kaspi.kz/medias/sys_master/images/images/hda/hff/32970901585950/california-gold-nutrition-vitamin-d3-400-me-10-ml-100568648-1-Container.jpg",
+                                    "galleryLarge": "https://cdn-kaspi.kz/medias/sys_master/images/images/hd6/he2/32970903322654/california-gold-nutrition-vitamin-d3-400-me-10-ml-100568648-1-Container.jpg",
+                                    "previewMedium": "https://cdn-kaspi.kz/medias/sys_master/images/images/h9c/h44/32970901880862/california-gold-nutrition-vitamin-d3-400-me-10-ml-100568648-1-Container.jpg",
+                                    "ORIGINAL": "https://cdn-kaspi.kz/medias/sys_master/images/images/h24/h7b/14976696614942/california-gold-nutrition-vitamin-d3-400-me-10-ml-100568648-1-Container.png",
+                                    "galleryMedium": "https://cdn-kaspi.kz/medias/sys_master/images/images/h15/ha5/32970902896670/california-gold-nutrition-vitamin-d3-400-me-10-ml-100568648-1-Container.jpg"
+                                }
+                            },
+                            {
+                                "qualifier": "california-gold-nutrition-baby-do-12-mes-vitamin-vitamin-d3-400-me-10-ml-100568648-2",
+                                "formatToUrlMap": {
+                                    "previewLarge": "https://cdn-kaspi.kz/medias/sys_master/images/images/h75/hf4/49912451399710/california-gold-nutrition-vitamin-vitamin-d3-400-me-10-ml-100568648-2.jpg",
+                                    "gallerySmall": "https://cdn-kaspi.kz/medias/sys_master/images/images/h4b/h1e/49912451465246/california-gold-nutrition-vitamin-vitamin-d3-400-me-10-ml-100568648-2.jpg",
+                                    "previewSmall": "https://cdn-kaspi.kz/medias/sys_master/images/images/hac/h9c/49912451530782/california-gold-nutrition-vitamin-vitamin-d3-400-me-10-ml-100568648-2.jpg",
+                                    "galleryLarge": "https://cdn-kaspi.kz/medias/sys_master/images/images/h66/hb0/49912451727390/california-gold-nutrition-vitamin-vitamin-d3-400-me-10-ml-100568648-2.jpg",
+                                    "previewMedium": "https://cdn-kaspi.kz/medias/sys_master/images/images/h9b/hd1/49912451661854/california-gold-nutrition-vitamin-vitamin-d3-400-me-10-ml-100568648-2.jpg",
+                                    "ORIGINAL": "https://cdn-kaspi.kz/medias/sys_master/images/images/h03/hb0/49912451596318/california-gold-nutrition-vitamin-vitamin-d3-400-me-10-ml-100568648-2.jpg",
+                                    "galleryMedium": "https://cdn-kaspi.kz/medias/sys_master/images/images/he3/h3f/49912451792926/california-gold-nutrition-vitamin-vitamin-d3-400-me-10-ml-100568648-2.jpg"
+                                }
+                            },
+                            {
+                                "qualifier": "california-gold-nutrition-baby-do-12-mes-vitamin-vitamin-d3-400-me-10-ml-100568648-3",
+                                "formatToUrlMap": {
+                                    "previewLarge": "https://cdn-kaspi.kz/medias/sys_master/images/images/hae/h1e/49912451858462/california-gold-nutrition-vitamin-vitamin-d3-400-me-10-ml-100568648-3.jpg",
+                                    "gallerySmall": "https://cdn-kaspi.kz/medias/sys_master/images/images/h62/h5d/49912451923998/california-gold-nutrition-vitamin-vitamin-d3-400-me-10-ml-100568648-3.jpg",
+                                    "previewSmall": "https://cdn-kaspi.kz/medias/sys_master/images/images/h08/h73/49912451989534/california-gold-nutrition-vitamin-vitamin-d3-400-me-10-ml-100568648-3.jpg",
+                                    "galleryLarge": "https://cdn-kaspi.kz/medias/sys_master/images/images/hf3/h44/49912452186142/california-gold-nutrition-vitamin-vitamin-d3-400-me-10-ml-100568648-3.jpg",
+                                    "previewMedium": "https://cdn-kaspi.kz/medias/sys_master/images/images/hf8/h76/49912452120606/california-gold-nutrition-vitamin-vitamin-d3-400-me-10-ml-100568648-3.jpg",
+                                    "ORIGINAL": "https://cdn-kaspi.kz/medias/sys_master/images/images/hc3/h4c/49912452055070/california-gold-nutrition-vitamin-vitamin-d3-400-me-10-ml-100568648-3.jpg",
+                                    "galleryMedium": "https://cdn-kaspi.kz/medias/sys_master/images/images/h04/hc1/49912452251678/california-gold-nutrition-vitamin-vitamin-d3-400-me-10-ml-100568648-3.jpg"
                                 }
                             }
                         ]
                     }
                 ],
-                "totalPrice": 7279.0,
+                "totalPrice": 13678.0,
                 "customer": {
-                    "firstname": "Гулнур Е."
+                    "firstname": "Замира К."
                 },
                 "orderStatus": "ACCEPTED_BY_MERCHANT",
                 "delivery": {
                     "deliveryMode": "DELIVERY_LOCAL",
                     "address": {
-                        "formattedAddress": "Алматы, улица Сатпаева, 90/16, 32, 6-этаж"
+                        "formattedAddress": "Алматы, 3-й микрорайон, 4, 19"
                     },
-                    "plannedDeliveryDate": 1676916000000,
-                    "actualDeliveryDate": 1676916000000,
+                    "plannedDeliveryDate": 1677261600000,
+                    "actualDeliveryDate": 1677261600000,
+                    "deliveredToCity": true,
+                    "kaspiDelivery": false
+                },
+                "payment": {
+                    "paymentMode": "PAY_WITH_CREDIT",
+                    "needToSignPapers": false,
+                    "approvedByBankDate": 1677233517753
+                },
+                "pickupPoint": "г. Алматы,  улица Навои,  7",
+                "orderStates": [],
+                "createDate": 1677233517753,
+                "modifiedDate": 1677233729501,
+                "isCargoAssembly": false,
+                "preOrder": false
+            },
+            {
+                "orderCode": "244831995",
+                "entries": [
+                    {
+                        "name": "Jarrow Formulas витамин Methyl Folate 400 mg 60 капсул",
+                        "quantity": 1,
+                        "basePrice": 5199.0,
+                        "totalPrice": 5199.0,
+                        "images": [
+                            {
+                                "qualifier": "jarrow-formulas-vitamin-methyl-folate-400-mg-60-kapsul-100904553-1",
+                                "formatToUrlMap": {
+                                    "previewLarge": "https://cdn-kaspi.kz/medias/sys_master/images/images/h38/h86/33153603895326/jarrow-formulas-metilfolat-400-mkg-60-kapsul-100904553-1-Container.jpg",
+                                    "gallerySmall": "https://cdn-kaspi.kz/medias/sys_master/images/images/h3c/hfd/33153605763102/jarrow-formulas-metilfolat-400-mkg-60-kapsul-100904553-1-Container.jpg",
+                                    "previewSmall": "https://cdn-kaspi.kz/medias/sys_master/images/images/h0b/h7a/33153599766558/jarrow-formulas-metilfolat-400-mkg-60-kapsul-100904553-1-Container.jpg",
+                                    "galleryLarge": "https://cdn-kaspi.kz/medias/sys_master/images/images/h42/hb1/33153609728030/jarrow-formulas-metilfolat-400-mkg-60-kapsul-100904553-1-Container.jpg",
+                                    "previewMedium": "https://cdn-kaspi.kz/medias/sys_master/images/images/h7c/hf5/33153602158622/jarrow-formulas-metilfolat-400-mkg-60-kapsul-100904553-1-Container.jpg",
+                                    "ORIGINAL": "https://cdn-kaspi.kz/medias/sys_master/images/images/h71/h86/17508386373662/jarrow-formulas-metilfolat-400-mkg-60-kapsul-100904553-1-Container.jpg",
+                                    "galleryMedium": "https://cdn-kaspi.kz/medias/sys_master/images/images/h46/hd4/33153607499806/jarrow-formulas-metilfolat-400-mkg-60-kapsul-100904553-1-Container.jpg"
+                                }
+                            },
+                            {
+                                "qualifier": "jarrow-formulas-vitamin-methyl-folate-400-mg-60-kapsul-100904553-2",
+                                "formatToUrlMap": {
+                                    "previewLarge": "https://cdn-kaspi.kz/medias/sys_master/images/images/h89/hc5/50018363703326/jarrow-formulas-vitamin-methyl-folate-400-mg-60-kapsul-100904553-2.jpg",
+                                    "gallerySmall": "https://cdn-kaspi.kz/medias/sys_master/images/images/h40/h1a/50018363768862/jarrow-formulas-vitamin-methyl-folate-400-mg-60-kapsul-100904553-2.jpg",
+                                    "previewSmall": "https://cdn-kaspi.kz/medias/sys_master/images/images/h6a/hf0/50018363834398/jarrow-formulas-vitamin-methyl-folate-400-mg-60-kapsul-100904553-2.jpg",
+                                    "galleryLarge": "https://cdn-kaspi.kz/medias/sys_master/images/images/hd3/hd6/50018364031006/jarrow-formulas-vitamin-methyl-folate-400-mg-60-kapsul-100904553-2.jpg",
+                                    "previewMedium": "https://cdn-kaspi.kz/medias/sys_master/images/images/h62/h5c/50018363965470/jarrow-formulas-vitamin-methyl-folate-400-mg-60-kapsul-100904553-2.jpg",
+                                    "ORIGINAL": "https://cdn-kaspi.kz/medias/sys_master/images/images/h76/h77/50018363899934/jarrow-formulas-vitamin-methyl-folate-400-mg-60-kapsul-100904553-2.png",
+                                    "galleryMedium": "https://cdn-kaspi.kz/medias/sys_master/images/images/h61/h49/50018364096542/jarrow-formulas-vitamin-methyl-folate-400-mg-60-kapsul-100904553-2.jpg"
+                                }
+                            }
+                        ]
+                    }
+                ],
+                "totalPrice": 5199.0,
+                "customer": {
+                    "firstname": "Динар Д."
+                },
+                "orderStatus": "ACCEPTED_BY_MERCHANT",
+                "delivery": {
+                    "deliveryMode": "DELIVERY_LOCAL",
+                    "address": {
+                        "formattedAddress": "Алматы, улица Утепова, 13"
+                    },
+                    "plannedDeliveryDate": 1677261600000,
+                    "actualDeliveryDate": 1677261600000,
+                    "deliveredToCity": true,
+                    "kaspiDelivery": false
+                },
+                "payment": {
+                    "paymentMode": "RED",
+                    "needToSignPapers": false,
+                    "approvedByBankDate": 1677232404512
+                },
+                "pickupPoint": "г. Алматы,  улица Жандосова,  98",
+                "orderStates": [],
+                "createDate": 1677232404512,
+                "modifiedDate": 1677233449285,
+                "isCargoAssembly": false,
+                "preOrder": false
+            },
+            {
+                "orderCode": "244831631",
+                "entries": [
+                    {
+                        "name": "NutriBiotic Sodium Ascorbate порошок 227 мл",
+                        "quantity": 1,
+                        "basePrice": 7203.0,
+                        "totalPrice": 7203.0,
+                        "images": [
+                            {
+                                "qualifier": "nutribiotic-vitamin-sodium-ascorbate-227-g-100568577-1",
+                                "formatToUrlMap": {
+                                    "previewLarge": "https://cdn-kaspi.kz/medias/sys_master/images/images/h54/hf0/32931508322334/nutribiotic-sodium-ascorbate-227-g-100568577-1-Container.jpg",
+                                    "gallerySmall": "https://cdn-kaspi.kz/medias/sys_master/images/images/h1b/h88/32931509108766/nutribiotic-sodium-ascorbate-227-g-100568577-1-Container.jpg",
+                                    "previewSmall": "https://cdn-kaspi.kz/medias/sys_master/images/images/h71/hcb/32931506159646/nutribiotic-sodium-ascorbate-227-g-100568577-1-Container.jpg",
+                                    "galleryLarge": "https://cdn-kaspi.kz/medias/sys_master/images/images/ha3/h01/32931511107614/nutribiotic-sodium-ascorbate-227-g-100568577-1-Container.jpg",
+                                    "previewMedium": "https://cdn-kaspi.kz/medias/sys_master/images/images/hf9/h01/32931507208222/nutribiotic-sodium-ascorbate-227-g-100568577-1-Container.jpg",
+                                    "ORIGINAL": "https://cdn-kaspi.kz/medias/sys_master/images/images/he1/h5f/14975853461534/nutribiotic-sodium-ascorbate-227-g-100568577-1-Container.png",
+                                    "galleryMedium": "https://cdn-kaspi.kz/medias/sys_master/images/images/h56/hb5/32931510091806/nutribiotic-sodium-ascorbate-227-g-100568577-1-Container.jpg"
+                                }
+                            },
+                            {
+                                "qualifier": "nutribiotic-vitamin-sodium-ascorbate-227-g-100568577-2",
+                                "formatToUrlMap": {
+                                    "previewLarge": "https://cdn-kaspi.kz/medias/sys_master/images/images/hc4/he4/49912432328734/nutribiotic-vitamin-sodium-ascorbate-227-g-100568577-2.jpg",
+                                    "gallerySmall": "https://cdn-kaspi.kz/medias/sys_master/images/images/hd7/h0b/49912432394270/nutribiotic-vitamin-sodium-ascorbate-227-g-100568577-2.jpg",
+                                    "previewSmall": "https://cdn-kaspi.kz/medias/sys_master/images/images/h0c/h53/49912432459806/nutribiotic-vitamin-sodium-ascorbate-227-g-100568577-2.jpg",
+                                    "galleryLarge": "https://cdn-kaspi.kz/medias/sys_master/images/images/h2e/h95/49912432656414/nutribiotic-vitamin-sodium-ascorbate-227-g-100568577-2.jpg",
+                                    "previewMedium": "https://cdn-kaspi.kz/medias/sys_master/images/images/h0f/hfe/49912432590878/nutribiotic-vitamin-sodium-ascorbate-227-g-100568577-2.jpg",
+                                    "ORIGINAL": "https://cdn-kaspi.kz/medias/sys_master/images/images/h19/hd9/49912432525342/nutribiotic-vitamin-sodium-ascorbate-227-g-100568577-2.jpg",
+                                    "galleryMedium": "https://cdn-kaspi.kz/medias/sys_master/images/images/hcd/h16/49912432721950/nutribiotic-vitamin-sodium-ascorbate-227-g-100568577-2.jpg"
+                                }
+                            }
+                        ]
+                    }
+                ],
+                "totalPrice": 7203.0,
+                "customer": {
+                    "firstname": "Камиля И."
+                },
+                "orderStatus": "ACCEPTED_BY_MERCHANT",
+                "delivery": {
+                    "deliveryMode": "DELIVERY_LOCAL",
+                    "address": {
+                        "formattedAddress": "Алматы, Ауэзовский район, Ташкентская улица, 33"
+                    },
+                    "plannedDeliveryDate": 1677261600000,
+                    "actualDeliveryDate": 1677261600000,
                     "deliveredToCity": true,
                     "kaspiDelivery": false
                 },
                 "payment": {
                     "paymentMode": "GOLD",
                     "needToSignPapers": false,
-                    "approvedByBankDate": 1676902828826
+                    "approvedByBankDate": 1677231893176
                 },
                 "pickupPoint": "г. Алматы,  улица Жандосова,  98",
                 "orderStates": [],
-                "createDate": 1676902828826,
-                "modifiedDate": 1676905308261,
+                "createDate": 1677231893176,
+                "modifiedDate": 1677233449511,
                 "isCargoAssembly": false,
                 "preOrder": false
             },
             {
-                "orderCode": "244195838",
+                "orderCode": "244833058",
                 "entries": [
                     {
                         "name": "California Gold Nutrition Hydrolyzed Collagen Vitamin C 250 таблеток",
                         "quantity": 1,
-                        "basePrice": 12231.0,
-                        "totalPrice": 12231.0,
+                        "basePrice": 12202.0,
+                        "totalPrice": 12202.0,
                         "images": [
                             {
                                 "qualifier": "california-gold-nutrition-hydrolyzed-collagen-vitamin-c-250-tabletok-100438453-1",
@@ -165,453 +379,156 @@
                         ]
                     }
                 ],
-                "totalPrice": 12231.0,
+                "totalPrice": 12202.0,
                 "customer": {
-                    "firstname": "Аружан С."
+                    "firstname": "Беназир О."
                 },
                 "orderStatus": "ACCEPTED_BY_MERCHANT",
                 "delivery": {
                     "deliveryMode": "DELIVERY_LOCAL",
                     "address": {
-                        "formattedAddress": "Алматы, микрорайон Аксай-2, 73, Аксай 2, дом 73 , 4 подъезд, 87 кв"
+                        "formattedAddress": "Алматы, проспект Гагарина, 244, 90"
                     },
-                    "plannedDeliveryDate": 1676916000000,
-                    "actualDeliveryDate": 1676916000000,
-                    "deliveredToCity": true,
-                    "kaspiDelivery": false
-                },
-                "payment": {
-                    "paymentMode": "RED",
-                    "needToSignPapers": false,
-                    "approvedByBankDate": 1676904971873
-                },
-                "pickupPoint": "г. Алматы,  улица Жандосова,  98",
-                "orderStates": [],
-                "createDate": 1676904971873,
-                "modifiedDate": 1676905307627,
-                "isCargoAssembly": false,
-                "preOrder": false
-            },
-            {
-                "orderCode": "244163845",
-                "entries": [
-                    {
-                        "name": "Boiron БАД Boiron Camilia для облегчения прорезывания зубов №30",
-                        "quantity": 1,
-                        "basePrice": 9554.0,
-                        "totalPrice": 9554.0,
-                        "images": [
-                            {
-                                "qualifier": "boiron-bad-boiron-camilia-dlya-oblegcheniya-prorezyvaniya-zubov-no30-104457962-1",
-                                "formatToUrlMap": {
-                                    "previewLarge": "https://cdn-kaspi.kz/medias/sys_master/images/images/h28/hf9/50015551389726/boiron-camilia-dla-oblegcenia-prorezyvania-zubov-104457962-1.jpg",
-                                    "gallerySmall": "https://cdn-kaspi.kz/medias/sys_master/images/images/h4f/h25/50015551455262/boiron-camilia-dla-oblegcenia-prorezyvania-zubov-104457962-1.jpg",
-                                    "previewSmall": "https://cdn-kaspi.kz/medias/sys_master/images/images/h60/ha1/50015551520798/boiron-camilia-dla-oblegcenia-prorezyvania-zubov-104457962-1.jpg",
-                                    "galleryLarge": "https://cdn-kaspi.kz/medias/sys_master/images/images/h07/h64/50015551717406/boiron-camilia-dla-oblegcenia-prorezyvania-zubov-104457962-1.jpg",
-                                    "previewMedium": "https://cdn-kaspi.kz/medias/sys_master/images/images/h98/hca/50015551651870/boiron-camilia-dla-oblegcenia-prorezyvania-zubov-104457962-1.jpg",
-                                    "ORIGINAL": "https://cdn-kaspi.kz/medias/sys_master/images/images/h06/hb7/50015551586334/boiron-camilia-dla-oblegcenia-prorezyvania-zubov-104457962-1.jpg",
-                                    "galleryMedium": "https://cdn-kaspi.kz/medias/sys_master/images/images/he0/h38/50015551782942/boiron-camilia-dla-oblegcenia-prorezyvania-zubov-104457962-1.jpg"
-                                }
-                            },
-                            {
-                                "qualifier": "boiron-bad-boiron-camilia-dlya-oblegcheniya-prorezyvaniya-zubov-no30-104457962-2",
-                                "formatToUrlMap": {
-                                    "previewLarge": "https://cdn-kaspi.kz/medias/sys_master/images/images/hfb/h19/50015551848478/boiron-camilia-dla-oblegcenia-prorezyvania-zubov-104457962-2.jpg",
-                                    "gallerySmall": "https://cdn-kaspi.kz/medias/sys_master/images/images/h29/ha6/50015551914014/boiron-camilia-dla-oblegcenia-prorezyvania-zubov-104457962-2.jpg",
-                                    "previewSmall": "https://cdn-kaspi.kz/medias/sys_master/images/images/h0b/h7a/50015551979550/boiron-camilia-dla-oblegcenia-prorezyvania-zubov-104457962-2.jpg",
-                                    "galleryLarge": "https://cdn-kaspi.kz/medias/sys_master/images/images/ha6/h49/50015552176158/boiron-camilia-dla-oblegcenia-prorezyvania-zubov-104457962-2.jpg",
-                                    "previewMedium": "https://cdn-kaspi.kz/medias/sys_master/images/images/hfb/h7d/50015552110622/boiron-camilia-dla-oblegcenia-prorezyvania-zubov-104457962-2.jpg",
-                                    "ORIGINAL": "https://cdn-kaspi.kz/medias/sys_master/images/images/h10/h48/50015552045086/boiron-camilia-dla-oblegcenia-prorezyvania-zubov-104457962-2.jpg",
-                                    "galleryMedium": "https://cdn-kaspi.kz/medias/sys_master/images/images/h07/hc8/50015552241694/boiron-camilia-dla-oblegcenia-prorezyvania-zubov-104457962-2.jpg"
-                                }
-                            },
-                            {
-                                "qualifier": "boiron-bad-boiron-camilia-dlya-oblegcheniya-prorezyvaniya-zubov-no30-104457962-3",
-                                "formatToUrlMap": {
-                                    "previewLarge": "https://cdn-kaspi.kz/medias/sys_master/images/images/h17/hcf/50015552307230/boiron-camilia-dla-oblegcenia-prorezyvania-zubov-104457962-3.jpg",
-                                    "gallerySmall": "https://cdn-kaspi.kz/medias/sys_master/images/images/h40/ha6/50015552372766/boiron-camilia-dla-oblegcenia-prorezyvania-zubov-104457962-3.jpg",
-                                    "previewSmall": "https://cdn-kaspi.kz/medias/sys_master/images/images/h5f/h3d/50015552438302/boiron-camilia-dla-oblegcenia-prorezyvania-zubov-104457962-3.jpg",
-                                    "galleryLarge": "https://cdn-kaspi.kz/medias/sys_master/images/images/hb8/hd2/50015552634910/boiron-camilia-dla-oblegcenia-prorezyvania-zubov-104457962-3.jpg",
-                                    "previewMedium": "https://cdn-kaspi.kz/medias/sys_master/images/images/hac/h0c/50015552569374/boiron-camilia-dla-oblegcenia-prorezyvania-zubov-104457962-3.jpg",
-                                    "ORIGINAL": "https://cdn-kaspi.kz/medias/sys_master/images/images/hb1/h3e/50015552503838/boiron-camilia-dla-oblegcenia-prorezyvania-zubov-104457962-3.jpg",
-                                    "galleryMedium": "https://cdn-kaspi.kz/medias/sys_master/images/images/h70/h03/50015552700446/boiron-camilia-dla-oblegcenia-prorezyvania-zubov-104457962-3.jpg"
-                                }
-                            }
-                        ]
-                    }
-                ],
-                "totalPrice": 9554.0,
-                "customer": {
-                    "firstname": "Оксана К."
-                },
-                "orderStatus": "ACCEPTED_BY_MERCHANT",
-                "delivery": {
-                    "deliveryMode": "DELIVERY_LOCAL",
-                    "address": {
-                        "formattedAddress": "Алматы, Наурызбайский район, улица Арман, 96, В 2ГИС адрес «Арман 5, дом 100». В Яндекс Арман 96"
-                    },
-                    "plannedDeliveryDate": 1676916000000,
-                    "actualDeliveryDate": 1676916000000,
+                    "plannedDeliveryDate": 1677261600000,
+                    "actualDeliveryDate": 1677261600000,
                     "deliveredToCity": true,
                     "kaspiDelivery": false
                 },
                 "payment": {
                     "paymentMode": "GOLD",
                     "needToSignPapers": false,
-                    "approvedByBankDate": 1676892396062
+                    "approvedByBankDate": 1677231352428
                 },
                 "pickupPoint": "г. Алматы,  улица Жандосова,  98",
                 "orderStates": [],
-                "createDate": 1676892396062,
-                "modifiedDate": 1676892606917,
+                "createDate": 1677231352428,
+                "modifiedDate": 1677233449200,
                 "isCargoAssembly": false,
                 "preOrder": false
             },
             {
-                "orderCode": "244157262",
+                "orderCode": "244817576",
                 "entries": [
                     {
-                        "name": "California Gold Nutrition витамин Vitamin D-3 125 mcg (5000 IU) 90 капсул",
-                        "quantity": 3,
-                        "basePrice": 3500.0,
-                        "totalPrice": 10500.0,
-                        "images": [
-                            {
-                                "qualifier": "california-gold-nutrition-vitamin-vitamin-d-3-125-mcg-(5000-iu)-90-kapsul-100505318-1",
-                                "formatToUrlMap": {
-                                    "previewLarge": "https://cdn-kaspi.kz/medias/sys_master/images/images/hd0/h14/33165897924638/california-gold-nutrition-vitamin-d-3-5000-iu-90-kapsul-100505318-1-Container.jpg",
-                                    "gallerySmall": "https://cdn-kaspi.kz/medias/sys_master/images/images/h12/h22/33165898481694/california-gold-nutrition-vitamin-d-3-5000-iu-90-kapsul-100505318-1-Container.jpg",
-                                    "previewSmall": "https://cdn-kaspi.kz/medias/sys_master/images/images/h26/hd8/33165897039902/california-gold-nutrition-vitamin-d-3-5000-iu-90-kapsul-100505318-1-Container.jpg",
-                                    "galleryLarge": "https://cdn-kaspi.kz/medias/sys_master/images/images/h9c/h40/33165899464734/california-gold-nutrition-vitamin-d-3-5000-iu-90-kapsul-100505318-1-Container.jpg",
-                                    "previewMedium": "https://cdn-kaspi.kz/medias/sys_master/images/images/h3d/h67/33165897400350/california-gold-nutrition-vitamin-d-3-5000-iu-90-kapsul-100505318-1-Container.jpg",
-                                    "ORIGINAL": "https://cdn-kaspi.kz/medias/sys_master/images/images/hc3/haa/30535938965534/california-gold-nutrition-vitamin-d-3-5000-iu-90-kapsul-100505318-1-Container.jpg",
-                                    "galleryMedium": "https://cdn-kaspi.kz/medias/sys_master/images/images/hc3/h2c/33165898874910/california-gold-nutrition-vitamin-d-3-5000-iu-90-kapsul-100505318-1-Container.jpg"
-                                }
-                            },
-                            {
-                                "qualifier": "california-gold-nutrition-vitamin-vitamin-d-3-125-mcg-(5000-iu)-90-kapsul-100505318-2",
-                                "formatToUrlMap": {
-                                    "previewLarge": "https://cdn-kaspi.kz/medias/sys_master/images/images/h53/h7d/49908117012510/california-gold-nutrition-vitamin-vitamin-d-3-125-mcg-5000-iu-90-kapsul-100505318-2.jpg",
-                                    "gallerySmall": "https://cdn-kaspi.kz/medias/sys_master/images/images/hff/h48/49908117078046/california-gold-nutrition-vitamin-vitamin-d-3-125-mcg-5000-iu-90-kapsul-100505318-2.jpg",
-                                    "previewSmall": "https://cdn-kaspi.kz/medias/sys_master/images/images/h5f/hc7/49908117143582/california-gold-nutrition-vitamin-vitamin-d-3-125-mcg-5000-iu-90-kapsul-100505318-2.jpg",
-                                    "galleryLarge": "https://cdn-kaspi.kz/medias/sys_master/images/images/h3e/h85/49908117340190/california-gold-nutrition-vitamin-vitamin-d-3-125-mcg-5000-iu-90-kapsul-100505318-2.jpg",
-                                    "previewMedium": "https://cdn-kaspi.kz/medias/sys_master/images/images/he8/ha6/49908117274654/california-gold-nutrition-vitamin-vitamin-d-3-125-mcg-5000-iu-90-kapsul-100505318-2.jpg",
-                                    "ORIGINAL": "https://cdn-kaspi.kz/medias/sys_master/images/images/h0f/hd2/49908117209118/california-gold-nutrition-vitamin-vitamin-d-3-125-mcg-5000-iu-90-kapsul-100505318-2.jpg",
-                                    "galleryMedium": "https://cdn-kaspi.kz/medias/sys_master/images/images/h09/h3e/49908117405726/california-gold-nutrition-vitamin-vitamin-d-3-125-mcg-5000-iu-90-kapsul-100505318-2.jpg"
-                                }
-                            },
-                            {
-                                "qualifier": "california-gold-nutrition-vitamin-vitamin-d-3-125-mcg-(5000-iu)-90-kapsul-100505318-3",
-                                "formatToUrlMap": {
-                                    "previewLarge": "https://cdn-kaspi.kz/medias/sys_master/images/images/h0a/he9/49908117471262/california-gold-nutrition-vitamin-vitamin-d-3-125-mcg-5000-iu-90-kapsul-100505318-3.jpg",
-                                    "gallerySmall": "https://cdn-kaspi.kz/medias/sys_master/images/images/h15/h88/49908117536798/california-gold-nutrition-vitamin-vitamin-d-3-125-mcg-5000-iu-90-kapsul-100505318-3.jpg",
-                                    "previewSmall": "https://cdn-kaspi.kz/medias/sys_master/images/images/h18/h04/49908117602334/california-gold-nutrition-vitamin-vitamin-d-3-125-mcg-5000-iu-90-kapsul-100505318-3.jpg",
-                                    "galleryLarge": "https://cdn-kaspi.kz/medias/sys_master/images/images/h2b/h52/49908117798942/california-gold-nutrition-vitamin-vitamin-d-3-125-mcg-5000-iu-90-kapsul-100505318-3.jpg",
-                                    "previewMedium": "https://cdn-kaspi.kz/medias/sys_master/images/images/h9f/h8d/49908117733406/california-gold-nutrition-vitamin-vitamin-d-3-125-mcg-5000-iu-90-kapsul-100505318-3.jpg",
-                                    "ORIGINAL": "https://cdn-kaspi.kz/medias/sys_master/images/images/he3/he3/49908117667870/california-gold-nutrition-vitamin-vitamin-d-3-125-mcg-5000-iu-90-kapsul-100505318-3.jpg",
-                                    "galleryMedium": "https://cdn-kaspi.kz/medias/sys_master/images/images/hab/hd7/49908117864478/california-gold-nutrition-vitamin-vitamin-d-3-125-mcg-5000-iu-90-kapsul-100505318-3.jpg"
-                                }
-                            }
-                        ]
-                    },
-                    {
-                        "name": "California Gold Nutrition Витамин D3 50 мкг 2000 МЕ 90 капсул",
+                        "name": "Jarrow Formulas витамин Methyl Folate 400 mg 60 капсул",
                         "quantity": 1,
-                        "basePrice": 2700.0,
-                        "totalPrice": 2700.0,
+                        "basePrice": 5199.0,
+                        "totalPrice": 5199.0,
                         "images": [
                             {
-                                "qualifier": "california-gold-nutrition-vitamin-d3-50-mkg-2000-me-90-kapsul-102521989-1",
+                                "qualifier": "jarrow-formulas-vitamin-methyl-folate-400-mg-60-kapsul-100904553-1",
                                 "formatToUrlMap": {
-                                    "previewLarge": "https://cdn-kaspi.kz/medias/sys_master/images/images/heb/hb2/46407417298974/california-gold-nutrition-vitamin-d3-50-mkg-2000-me-90-kapsul-102521989-1.jpg",
-                                    "gallerySmall": "https://cdn-kaspi.kz/medias/sys_master/images/images/he6/hc0/46407417364510/california-gold-nutrition-vitamin-d3-50-mkg-2000-me-90-kapsul-102521989-1.jpg",
-                                    "previewSmall": "https://cdn-kaspi.kz/medias/sys_master/images/images/h42/h15/46407417430046/california-gold-nutrition-vitamin-d3-50-mkg-2000-me-90-kapsul-102521989-1.jpg",
-                                    "galleryLarge": "https://cdn-kaspi.kz/medias/sys_master/images/images/h1b/h10/46407417626654/california-gold-nutrition-vitamin-d3-50-mkg-2000-me-90-kapsul-102521989-1.jpg",
-                                    "previewMedium": "https://cdn-kaspi.kz/medias/sys_master/images/images/h74/h7c/46407417561118/california-gold-nutrition-vitamin-d3-50-mkg-2000-me-90-kapsul-102521989-1.jpg",
-                                    "ORIGINAL": "https://cdn-kaspi.kz/medias/sys_master/images/images/h0d/hf5/46407417495582/california-gold-nutrition-vitamin-d3-50-mkg-2000-me-90-kapsul-102521989-1.jpg",
-                                    "galleryMedium": "https://cdn-kaspi.kz/medias/sys_master/images/images/hd0/hc8/46407417692190/california-gold-nutrition-vitamin-d3-50-mkg-2000-me-90-kapsul-102521989-1.jpg"
+                                    "previewLarge": "https://cdn-kaspi.kz/medias/sys_master/images/images/h38/h86/33153603895326/jarrow-formulas-metilfolat-400-mkg-60-kapsul-100904553-1-Container.jpg",
+                                    "gallerySmall": "https://cdn-kaspi.kz/medias/sys_master/images/images/h3c/hfd/33153605763102/jarrow-formulas-metilfolat-400-mkg-60-kapsul-100904553-1-Container.jpg",
+                                    "previewSmall": "https://cdn-kaspi.kz/medias/sys_master/images/images/h0b/h7a/33153599766558/jarrow-formulas-metilfolat-400-mkg-60-kapsul-100904553-1-Container.jpg",
+                                    "galleryLarge": "https://cdn-kaspi.kz/medias/sys_master/images/images/h42/hb1/33153609728030/jarrow-formulas-metilfolat-400-mkg-60-kapsul-100904553-1-Container.jpg",
+                                    "previewMedium": "https://cdn-kaspi.kz/medias/sys_master/images/images/h7c/hf5/33153602158622/jarrow-formulas-metilfolat-400-mkg-60-kapsul-100904553-1-Container.jpg",
+                                    "ORIGINAL": "https://cdn-kaspi.kz/medias/sys_master/images/images/h71/h86/17508386373662/jarrow-formulas-metilfolat-400-mkg-60-kapsul-100904553-1-Container.jpg",
+                                    "galleryMedium": "https://cdn-kaspi.kz/medias/sys_master/images/images/h46/hd4/33153607499806/jarrow-formulas-metilfolat-400-mkg-60-kapsul-100904553-1-Container.jpg"
                                 }
                             },
                             {
-                                "qualifier": "california-gold-nutrition-vitamin-d3-50-mkg-2000-me-90-kapsul-102521989-2",
+                                "qualifier": "jarrow-formulas-vitamin-methyl-folate-400-mg-60-kapsul-100904553-2",
                                 "formatToUrlMap": {
-                                    "previewLarge": "https://cdn-kaspi.kz/medias/sys_master/images/images/h9b/h81/46407417757726/california-gold-nutrition-vitamin-d3-50-mkg-2000-me-90-kapsul-102521989-2.jpg",
-                                    "gallerySmall": "https://cdn-kaspi.kz/medias/sys_master/images/images/h3d/h52/46407417823262/california-gold-nutrition-vitamin-d3-50-mkg-2000-me-90-kapsul-102521989-2.jpg",
-                                    "previewSmall": "https://cdn-kaspi.kz/medias/sys_master/images/images/ha7/hcb/46407417888798/california-gold-nutrition-vitamin-d3-50-mkg-2000-me-90-kapsul-102521989-2.jpg",
-                                    "galleryLarge": "https://cdn-kaspi.kz/medias/sys_master/images/images/h3e/he5/46407418085406/california-gold-nutrition-vitamin-d3-50-mkg-2000-me-90-kapsul-102521989-2.jpg",
-                                    "previewMedium": "https://cdn-kaspi.kz/medias/sys_master/images/images/h09/h39/46407418019870/california-gold-nutrition-vitamin-d3-50-mkg-2000-me-90-kapsul-102521989-2.jpg",
-                                    "ORIGINAL": "https://cdn-kaspi.kz/medias/sys_master/images/images/h79/h3f/46407417954334/california-gold-nutrition-vitamin-d3-50-mkg-2000-me-90-kapsul-102521989-2.jpg",
-                                    "galleryMedium": "https://cdn-kaspi.kz/medias/sys_master/images/images/h61/h9c/46407418150942/california-gold-nutrition-vitamin-d3-50-mkg-2000-me-90-kapsul-102521989-2.jpg"
-                                }
-                            }
-                        ]
-                    },
-                    {
-                        "name": "California Gold Nutrition витамин Gold C Vitamin C 1000 мг 60 капсул",
-                        "quantity": 1,
-                        "basePrice": 2500.0,
-                        "totalPrice": 2500.0,
-                        "images": [
-                            {
-                                "qualifier": "california-gold-nutrition-vitamin-gold-c-vitamin-c-1000-mg-60-kapsul-100569146-1",
-                                "formatToUrlMap": {
-                                    "previewLarge": "https://cdn-kaspi.kz/medias/sys_master/images/images/h45/h1e/31899026620446/california-gold-nutrition-vitamin-gold-c-vitamin-c-1000-mg-60-kapsul-100569146-1.jpg",
-                                    "gallerySmall": "https://cdn-kaspi.kz/medias/sys_master/images/images/h19/h9a/31899027472414/california-gold-nutrition-vitamin-gold-c-vitamin-c-1000-mg-60-kapsul-100569146-1.jpg",
-                                    "previewSmall": "https://cdn-kaspi.kz/medias/sys_master/images/images/h9c/h4c/31899025178654/california-gold-nutrition-vitamin-gold-c-vitamin-c-1000-mg-60-kapsul-100569146-1.jpg",
-                                    "galleryLarge": "https://cdn-kaspi.kz/medias/sys_master/images/images/hc6/h39/31899028881438/california-gold-nutrition-vitamin-gold-c-vitamin-c-1000-mg-60-kapsul-100569146-1.jpg",
-                                    "previewMedium": "https://cdn-kaspi.kz/medias/sys_master/images/images/he6/hc5/31899025932318/california-gold-nutrition-vitamin-gold-c-vitamin-c-1000-mg-60-kapsul-100569146-1.jpg",
-                                    "ORIGINAL": "https://cdn-kaspi.kz/medias/sys_master/images/images/h44/hda/14980364763166/california-gold-nutrition-vitamin-gold-c-vitamin-c-1000-mg-60-kapsul-100569146-1.png",
-                                    "galleryMedium": "https://cdn-kaspi.kz/medias/sys_master/images/images/h08/he2/31899027898398/california-gold-nutrition-vitamin-gold-c-vitamin-c-1000-mg-60-kapsul-100569146-1.jpg"
-                                }
-                            },
-                            {
-                                "qualifier": "california-gold-nutrition-vitamin-gold-c-vitamin-c-1000-mg-60-kapsul-100569146-2",
-                                "formatToUrlMap": {
-                                    "previewLarge": "https://cdn-kaspi.kz/medias/sys_master/images/images/h48/hd4/31899030323230/california-gold-nutrition-vitamin-gold-c-vitamin-c-1000-mg-60-kapsul-100569146-2.jpg",
-                                    "gallerySmall": "https://cdn-kaspi.kz/medias/sys_master/images/images/h4a/hd9/31899030847518/california-gold-nutrition-vitamin-gold-c-vitamin-c-1000-mg-60-kapsul-100569146-2.jpg",
-                                    "previewSmall": "https://cdn-kaspi.kz/medias/sys_master/images/images/h36/hb9/31899029504030/california-gold-nutrition-vitamin-gold-c-vitamin-c-1000-mg-60-kapsul-100569146-2.jpg",
-                                    "galleryLarge": "https://cdn-kaspi.kz/medias/sys_master/images/images/h45/h4e/31899032027166/california-gold-nutrition-vitamin-gold-c-vitamin-c-1000-mg-60-kapsul-100569146-2.jpg",
-                                    "previewMedium": "https://cdn-kaspi.kz/medias/sys_master/images/images/hb2/h26/31899029897246/california-gold-nutrition-vitamin-gold-c-vitamin-c-1000-mg-60-kapsul-100569146-2.jpg",
-                                    "ORIGINAL": "https://cdn-kaspi.kz/medias/sys_master/images/images/hb7/hae/14980594991134/california-gold-nutrition-vitamin-gold-c-vitamin-c-1000-mg-60-kapsul-100569146-2.png",
-                                    "galleryMedium": "https://cdn-kaspi.kz/medias/sys_master/images/images/ha5/hbb/31899031437342/california-gold-nutrition-vitamin-gold-c-vitamin-c-1000-mg-60-kapsul-100569146-2.jpg"
-                                }
-                            }
-                        ]
-                    },
-                    {
-                        "name": "California Gold Nutrition минерально-витаминный комплекс Immune 4 60 капсул",
-                        "quantity": 1,
-                        "basePrice": 3609.0,
-                        "totalPrice": 3609.0,
-                        "images": [
-                            {
-                                "qualifier": "california-gold-nutrition-mineral'no-vitaminnyi-kompleks-immune-4-60-kapsul-100905550-1",
-                                "formatToUrlMap": {
-                                    "previewLarge": "https://cdn-kaspi.kz/medias/sys_master/images/images/h9a/h65/32994778578974/california-gold-nutrition-immune-4-60-kapsul-100905550-1-Container.jpg",
-                                    "gallerySmall": "https://cdn-kaspi.kz/medias/sys_master/images/images/h55/h54/32994779267102/california-gold-nutrition-immune-4-60-kapsul-100905550-1-Container.jpg",
-                                    "previewSmall": "https://cdn-kaspi.kz/medias/sys_master/images/images/hd3/h29/32994777366558/california-gold-nutrition-immune-4-60-kapsul-100905550-1-Container.jpg",
-                                    "galleryLarge": "https://cdn-kaspi.kz/medias/sys_master/images/images/h6a/h1d/32994780807198/california-gold-nutrition-immune-4-60-kapsul-100905550-1-Container.jpg",
-                                    "previewMedium": "https://cdn-kaspi.kz/medias/sys_master/images/images/h8a/hb5/32994777989150/california-gold-nutrition-immune-4-60-kapsul-100905550-1-Container.jpg",
-                                    "ORIGINAL": "https://cdn-kaspi.kz/medias/sys_master/images/images/heb/h50/17516715737118/california-gold-nutrition-immune-4-60-kapsul-100905550-1-Container.jpg",
-                                    "galleryMedium": "https://cdn-kaspi.kz/medias/sys_master/images/images/he8/hbb/32994780053534/california-gold-nutrition-immune-4-60-kapsul-100905550-1-Container.jpg"
-                                }
-                            },
-                            {
-                                "qualifier": "california-gold-nutrition-mineral'no-vitaminnyi-kompleks-immune-4-60-kapsul-100905550-2",
-                                "formatToUrlMap": {
-                                    "previewLarge": "https://cdn-kaspi.kz/medias/sys_master/images/images/h7f/hb1/32994782511134/california-gold-nutrition-immune-4-60-kapsul-100905550-2-Container.jpg",
-                                    "gallerySmall": "https://cdn-kaspi.kz/medias/sys_master/images/images/ha5/h69/32994783100958/california-gold-nutrition-immune-4-60-kapsul-100905550-2-Container.jpg",
-                                    "previewSmall": "https://cdn-kaspi.kz/medias/sys_master/images/images/hf5/h9a/32994781659166/california-gold-nutrition-immune-4-60-kapsul-100905550-2-Container.jpg",
-                                    "galleryLarge": "https://cdn-kaspi.kz/medias/sys_master/images/images/h59/hfe/32994784149534/california-gold-nutrition-immune-4-60-kapsul-100905550-2-Container.jpg",
-                                    "previewMedium": "https://cdn-kaspi.kz/medias/sys_master/images/images/h07/h83/32994782052382/california-gold-nutrition-immune-4-60-kapsul-100905550-2-Container.jpg",
-                                    "ORIGINAL": "https://cdn-kaspi.kz/medias/sys_master/images/images/h75/h78/17516717244446/california-gold-nutrition-immune-4-60-kapsul-100905550-2-Container.jpg",
-                                    "galleryMedium": "https://cdn-kaspi.kz/medias/sys_master/images/images/h30/hc5/32994783592478/california-gold-nutrition-immune-4-60-kapsul-100905550-2-Container.jpg"
+                                    "previewLarge": "https://cdn-kaspi.kz/medias/sys_master/images/images/h89/hc5/50018363703326/jarrow-formulas-vitamin-methyl-folate-400-mg-60-kapsul-100904553-2.jpg",
+                                    "gallerySmall": "https://cdn-kaspi.kz/medias/sys_master/images/images/h40/h1a/50018363768862/jarrow-formulas-vitamin-methyl-folate-400-mg-60-kapsul-100904553-2.jpg",
+                                    "previewSmall": "https://cdn-kaspi.kz/medias/sys_master/images/images/h6a/hf0/50018363834398/jarrow-formulas-vitamin-methyl-folate-400-mg-60-kapsul-100904553-2.jpg",
+                                    "galleryLarge": "https://cdn-kaspi.kz/medias/sys_master/images/images/hd3/hd6/50018364031006/jarrow-formulas-vitamin-methyl-folate-400-mg-60-kapsul-100904553-2.jpg",
+                                    "previewMedium": "https://cdn-kaspi.kz/medias/sys_master/images/images/h62/h5c/50018363965470/jarrow-formulas-vitamin-methyl-folate-400-mg-60-kapsul-100904553-2.jpg",
+                                    "ORIGINAL": "https://cdn-kaspi.kz/medias/sys_master/images/images/h76/h77/50018363899934/jarrow-formulas-vitamin-methyl-folate-400-mg-60-kapsul-100904553-2.png",
+                                    "galleryMedium": "https://cdn-kaspi.kz/medias/sys_master/images/images/h61/h49/50018364096542/jarrow-formulas-vitamin-methyl-folate-400-mg-60-kapsul-100904553-2.jpg"
                                 }
                             }
                         ]
                     }
                 ],
-                "totalPrice": 19309.0,
+                "totalPrice": 5199.0,
                 "customer": {
-                    "firstname": "Асель С."
+                    "firstname": "Мухабат З."
                 },
                 "orderStatus": "ACCEPTED_BY_MERCHANT",
                 "delivery": {
                     "deliveryMode": "DELIVERY_LOCAL",
                     "address": {
-                        "formattedAddress": "Алматы, улица Жангир Хан, 4, Школа"
+                        "formattedAddress": "Алматы, улица Сарсенбаева, 76"
                     },
-                    "plannedDeliveryDate": 1676916000000,
-                    "actualDeliveryDate": 1676916000000,
+                    "plannedDeliveryDate": 1677261600000,
+                    "actualDeliveryDate": 1677261600000,
                     "deliveredToCity": true,
                     "kaspiDelivery": false
                 },
                 "payment": {
                     "paymentMode": "GOLD",
                     "needToSignPapers": false,
-                    "approvedByBankDate": 1676889870487
+                    "approvedByBankDate": 1677227011038
                 },
                 "pickupPoint": "г. Алматы,  улица Жандосова,  98",
                 "orderStates": [],
-                "createDate": 1676889870487,
-                "modifiedDate": 1676890099744,
+                "createDate": 1677227011038,
+                "modifiedDate": 1677227911152,
                 "isCargoAssembly": false,
                 "preOrder": false
             },
             {
-                "orderCode": "244137320",
+                "orderCode": "244738548",
                 "entries": [
                     {
-                        "name": "Baby Gas Relief капли 30 мл",
+                        "name": "Jarrow Formulas витамин Methyl Folate 400 mg 60 капсул",
                         "quantity": 1,
-                        "basePrice": 8586.0,
-                        "totalPrice": 8586.0,
+                        "basePrice": 5199.0,
+                        "totalPrice": 5199.0,
                         "images": [
                             {
-                                "qualifier": "mommy's-bliss-probiotik-baby-gas-relief-30-ml-104621787-1",
+                                "qualifier": "jarrow-formulas-vitamin-methyl-folate-400-mg-60-kapsul-100904553-1",
                                 "formatToUrlMap": {
-                                    "previewLarge": "https://cdn-kaspi.kz/medias/sys_master/images/images/hf4/h81/50313018114078/iherb-mommys-bliss-baby-gas-relief-30-ml-104621787-1.jpg",
-                                    "gallerySmall": "https://cdn-kaspi.kz/medias/sys_master/images/images/h02/hdf/50313018146846/iherb-mommys-bliss-baby-gas-relief-30-ml-104621787-1.jpg",
-                                    "previewSmall": "https://cdn-kaspi.kz/medias/sys_master/images/images/h2a/h16/50313018179614/iherb-mommys-bliss-baby-gas-relief-30-ml-104621787-1.jpg",
-                                    "galleryLarge": "https://cdn-kaspi.kz/medias/sys_master/images/images/h45/h8f/50313018277918/iherb-mommys-bliss-baby-gas-relief-30-ml-104621787-1.jpg",
-                                    "previewMedium": "https://cdn-kaspi.kz/medias/sys_master/images/images/h03/hea/50313018245150/iherb-mommys-bliss-baby-gas-relief-30-ml-104621787-1.jpg",
-                                    "ORIGINAL": "https://cdn-kaspi.kz/medias/sys_master/images/images/h29/h0b/50313018212382/iherb-mommys-bliss-baby-gas-relief-30-ml-104621787-1.png",
-                                    "galleryMedium": "https://cdn-kaspi.kz/medias/sys_master/images/images/hf2/h6d/50313018310686/iherb-mommys-bliss-baby-gas-relief-30-ml-104621787-1.jpg"
-                                }
-                            }
-                        ]
-                    }
-                ],
-                "totalPrice": 8586.0,
-                "customer": {
-                    "firstname": "Диана А."
-                },
-                "orderStatus": "ACCEPTED_BY_MERCHANT",
-                "delivery": {
-                    "deliveryMode": "DELIVERY_LOCAL",
-                    "address": {
-                        "formattedAddress": "Алматы, микрорайон Аксай-3, 17, 25"
-                    },
-                    "plannedDeliveryDate": 1676916000000,
-                    "actualDeliveryDate": 1676916000000,
-                    "deliveredToCity": true,
-                    "kaspiDelivery": false
-                },
-                "payment": {
-                    "paymentMode": "RED",
-                    "needToSignPapers": false,
-                    "approvedByBankDate": 1676883329340
-                },
-                "pickupPoint": "г. Алматы,  улица Жандосова,  98",
-                "orderStates": [],
-                "createDate": 1676883329340,
-                "modifiedDate": 1676883800667,
-                "isCargoAssembly": false,
-                "preOrder": false
-            },
-            {
-                "orderCode": "244127761",
-                "entries": [
-                    {
-                        "name": "Nature's Plus Hema-Plex Iron комплекс с железом капсулы 60 шт",
-                        "quantity": 1,
-                        "basePrice": 6989.0,
-                        "totalPrice": 6989.0,
-                        "images": [
-                            {
-                                "qualifier": "nature's-plus-mul'tivitaminy-hema-plex-iron-with-essential-nutrients-for-60-kapsul-101262413-1",
-                                "formatToUrlMap": {
-                                    "previewLarge": "https://cdn-kaspi.kz/medias/sys_master/images/images/h39/h2f/62502045384734/nature-s-plus-mul-tivitaminy-hema-plex-iron-with-essential-nutrients-for-60-kapsul-101262413-1.jpg",
-                                    "gallerySmall": "https://cdn-kaspi.kz/medias/sys_master/images/images/h2c/hd1/62502045417502/nature-s-plus-mul-tivitaminy-hema-plex-iron-with-essential-nutrients-for-60-kapsul-101262413-1.jpg",
-                                    "previewSmall": "https://cdn-kaspi.kz/medias/sys_master/images/images/hed/hfc/62502045450270/nature-s-plus-mul-tivitaminy-hema-plex-iron-with-essential-nutrients-for-60-kapsul-101262413-1.jpg",
-                                    "galleryLarge": "https://cdn-kaspi.kz/medias/sys_master/images/images/h20/h87/62502045548574/nature-s-plus-mul-tivitaminy-hema-plex-iron-with-essential-nutrients-for-60-kapsul-101262413-1.jpg",
-                                    "previewMedium": "https://cdn-kaspi.kz/medias/sys_master/images/images/hb8/hb5/62502045515806/nature-s-plus-mul-tivitaminy-hema-plex-iron-with-essential-nutrients-for-60-kapsul-101262413-1.jpg",
-                                    "ORIGINAL": "https://cdn-kaspi.kz/medias/sys_master/images/images/h70/h05/62502045483038/nature-s-plus-mul-tivitaminy-hema-plex-iron-with-essential-nutrients-for-60-kapsul-101262413-1.png",
-                                    "galleryMedium": "https://cdn-kaspi.kz/medias/sys_master/images/images/h5b/h71/62502045581342/nature-s-plus-mul-tivitaminy-hema-plex-iron-with-essential-nutrients-for-60-kapsul-101262413-1.jpg"
+                                    "previewLarge": "https://cdn-kaspi.kz/medias/sys_master/images/images/h38/h86/33153603895326/jarrow-formulas-metilfolat-400-mkg-60-kapsul-100904553-1-Container.jpg",
+                                    "gallerySmall": "https://cdn-kaspi.kz/medias/sys_master/images/images/h3c/hfd/33153605763102/jarrow-formulas-metilfolat-400-mkg-60-kapsul-100904553-1-Container.jpg",
+                                    "previewSmall": "https://cdn-kaspi.kz/medias/sys_master/images/images/h0b/h7a/33153599766558/jarrow-formulas-metilfolat-400-mkg-60-kapsul-100904553-1-Container.jpg",
+                                    "galleryLarge": "https://cdn-kaspi.kz/medias/sys_master/images/images/h42/hb1/33153609728030/jarrow-formulas-metilfolat-400-mkg-60-kapsul-100904553-1-Container.jpg",
+                                    "previewMedium": "https://cdn-kaspi.kz/medias/sys_master/images/images/h7c/hf5/33153602158622/jarrow-formulas-metilfolat-400-mkg-60-kapsul-100904553-1-Container.jpg",
+                                    "ORIGINAL": "https://cdn-kaspi.kz/medias/sys_master/images/images/h71/h86/17508386373662/jarrow-formulas-metilfolat-400-mkg-60-kapsul-100904553-1-Container.jpg",
+                                    "galleryMedium": "https://cdn-kaspi.kz/medias/sys_master/images/images/h46/hd4/33153607499806/jarrow-formulas-metilfolat-400-mkg-60-kapsul-100904553-1-Container.jpg"
                                 }
                             },
                             {
-                                "qualifier": "nature's-plus-mul'tivitaminy-hema-plex-iron-with-essential-nutrients-for-60-kapsul-101262413-2",
+                                "qualifier": "jarrow-formulas-vitamin-methyl-folate-400-mg-60-kapsul-100904553-2",
                                 "formatToUrlMap": {
-                                    "previewLarge": "https://cdn-kaspi.kz/medias/sys_master/images/images/hb2/hec/62502045614110/nature-s-plus-mul-tivitaminy-hema-plex-iron-with-essential-nutrients-for-60-kapsul-101262413-2.jpg",
-                                    "gallerySmall": "https://cdn-kaspi.kz/medias/sys_master/images/images/hc4/hff/62502045646878/nature-s-plus-mul-tivitaminy-hema-plex-iron-with-essential-nutrients-for-60-kapsul-101262413-2.jpg",
-                                    "previewSmall": "https://cdn-kaspi.kz/medias/sys_master/images/images/h97/h0a/62502045679646/nature-s-plus-mul-tivitaminy-hema-plex-iron-with-essential-nutrients-for-60-kapsul-101262413-2.jpg",
-                                    "galleryLarge": "https://cdn-kaspi.kz/medias/sys_master/images/images/h34/h6c/62502045777950/nature-s-plus-mul-tivitaminy-hema-plex-iron-with-essential-nutrients-for-60-kapsul-101262413-2.jpg",
-                                    "previewMedium": "https://cdn-kaspi.kz/medias/sys_master/images/images/h41/hc9/62502045745182/nature-s-plus-mul-tivitaminy-hema-plex-iron-with-essential-nutrients-for-60-kapsul-101262413-2.jpg",
-                                    "ORIGINAL": "https://cdn-kaspi.kz/medias/sys_master/images/images/h96/h73/62502045712414/nature-s-plus-mul-tivitaminy-hema-plex-iron-with-essential-nutrients-for-60-kapsul-101262413-2.png",
-                                    "galleryMedium": "https://cdn-kaspi.kz/medias/sys_master/images/images/h85/h05/62502045810718/nature-s-plus-mul-tivitaminy-hema-plex-iron-with-essential-nutrients-for-60-kapsul-101262413-2.jpg"
+                                    "previewLarge": "https://cdn-kaspi.kz/medias/sys_master/images/images/h89/hc5/50018363703326/jarrow-formulas-vitamin-methyl-folate-400-mg-60-kapsul-100904553-2.jpg",
+                                    "gallerySmall": "https://cdn-kaspi.kz/medias/sys_master/images/images/h40/h1a/50018363768862/jarrow-formulas-vitamin-methyl-folate-400-mg-60-kapsul-100904553-2.jpg",
+                                    "previewSmall": "https://cdn-kaspi.kz/medias/sys_master/images/images/h6a/hf0/50018363834398/jarrow-formulas-vitamin-methyl-folate-400-mg-60-kapsul-100904553-2.jpg",
+                                    "galleryLarge": "https://cdn-kaspi.kz/medias/sys_master/images/images/hd3/hd6/50018364031006/jarrow-formulas-vitamin-methyl-folate-400-mg-60-kapsul-100904553-2.jpg",
+                                    "previewMedium": "https://cdn-kaspi.kz/medias/sys_master/images/images/h62/h5c/50018363965470/jarrow-formulas-vitamin-methyl-folate-400-mg-60-kapsul-100904553-2.jpg",
+                                    "ORIGINAL": "https://cdn-kaspi.kz/medias/sys_master/images/images/h76/h77/50018363899934/jarrow-formulas-vitamin-methyl-folate-400-mg-60-kapsul-100904553-2.png",
+                                    "galleryMedium": "https://cdn-kaspi.kz/medias/sys_master/images/images/h61/h49/50018364096542/jarrow-formulas-vitamin-methyl-folate-400-mg-60-kapsul-100904553-2.jpg"
                                 }
                             }
                         ]
                     }
                 ],
-                "totalPrice": 6989.0,
+                "totalPrice": 5199.0,
                 "customer": {
-                    "firstname": "Ксеня Б."
+                    "firstname": "Құмар А."
                 },
                 "orderStatus": "ACCEPTED_BY_MERCHANT",
                 "delivery": {
                     "deliveryMode": "DELIVERY_LOCAL",
                     "address": {
-                        "formattedAddress": "Алматы, улица Желтоксан, 111А, 12"
+                        "formattedAddress": "Алматы, улица Жунисова, 4/2, Квартира 41"
                     },
-                    "plannedDeliveryDate": 1676916000000,
-                    "actualDeliveryDate": 1676916000000,
+                    "plannedDeliveryDate": 1677330000000,
+                    "actualDeliveryDate": 1677330000000,
                     "deliveredToCity": true,
                     "kaspiDelivery": false
                 },
                 "payment": {
                     "paymentMode": "GOLD",
                     "needToSignPapers": false,
-                    "approvedByBankDate": 1676880180978
+                    "approvedByBankDate": 1677175566678
                 },
                 "pickupPoint": "г. Алматы,  улица Жандосова,  98",
                 "orderStates": [],
-                "createDate": 1676880180978,
-                "modifiedDate": 1676880942093,
-                "isCargoAssembly": false,
-                "preOrder": false
-            },
-            {
-                "orderCode": "244105315",
-                "entries": [
-                    {
-                        "name": "California Gold Nutrition Baby's DHA сироп 59 мл",
-                        "quantity": 1,
-                        "basePrice": 6688.0,
-                        "totalPrice": 6688.0,
-                        "images": [
-                            {
-                                "qualifier": "california-gold-nutrition-rybii-zhir-dha-1050-mg-omega3s-with-vitamin-d3-59-ml-100904546-1",
-                                "formatToUrlMap": {
-                                    "previewLarge": "https://cdn-kaspi.kz/medias/sys_master/images/images/h5e/h45/33239612948510/california-gold-nutrition-dgk-dla-detej-omega-3-s-vitaminom-d3-1050-mg-59-ml-100904546-1-Container.jpg",
-                                    "gallerySmall": "https://cdn-kaspi.kz/medias/sys_master/images/images/h5d/h34/33239613603870/california-gold-nutrition-dgk-dla-detej-omega-3-s-vitaminom-d3-1050-mg-59-ml-100904546-1-Container.jpg",
-                                    "previewSmall": "https://cdn-kaspi.kz/medias/sys_master/images/images/h72/h5f/33239611768862/california-gold-nutrition-dgk-dla-detej-omega-3-s-vitaminom-d3-1050-mg-59-ml-100904546-1-Container.jpg",
-                                    "galleryLarge": "https://cdn-kaspi.kz/medias/sys_master/images/images/h61/h79/33239614947358/california-gold-nutrition-dgk-dla-detej-omega-3-s-vitaminom-d3-1050-mg-59-ml-100904546-1-Container.jpg",
-                                    "previewMedium": "https://cdn-kaspi.kz/medias/sys_master/images/images/he0/h89/33239612260382/california-gold-nutrition-dgk-dla-detej-omega-3-s-vitaminom-d3-1050-mg-59-ml-100904546-1-Container.jpg",
-                                    "ORIGINAL": "https://cdn-kaspi.kz/medias/sys_master/images/images/h83/hc7/17508315725854/california-gold-nutrition-dgk-dla-detej-omega-3-s-vitaminom-d3-1050-mg-59-ml-100904546-1-Container.jpg",
-                                    "galleryMedium": "https://cdn-kaspi.kz/medias/sys_master/images/images/h7a/h73/33239614488606/california-gold-nutrition-dgk-dla-detej-omega-3-s-vitaminom-d3-1050-mg-59-ml-100904546-1-Container.jpg"
-                                }
-                            },
-                            {
-                                "qualifier": "california-gold-nutrition-rybii-zhir-dha-1050-mg-omega3s-with-vitamin-d3-59-ml-100904546-2",
-                                "formatToUrlMap": {
-                                    "previewLarge": "https://cdn-kaspi.kz/medias/sys_master/images/images/h4c/h14/50017889779742/california-gold-nutrition-dgk-dla-detej-omega-3-s-vitaminom-d3-1050-mg-59-ml-100904546-2-Container.jpg",
-                                    "gallerySmall": "https://cdn-kaspi.kz/medias/sys_master/images/images/h4b/h7d/50017889812510/california-gold-nutrition-dgk-dla-detej-omega-3-s-vitaminom-d3-1050-mg-59-ml-100904546-2-Container.jpg",
-                                    "previewSmall": "https://cdn-kaspi.kz/medias/sys_master/images/images/hdd/hc1/50017889845278/california-gold-nutrition-dgk-dla-detej-omega-3-s-vitaminom-d3-1050-mg-59-ml-100904546-2-Container.jpg",
-                                    "galleryLarge": "https://cdn-kaspi.kz/medias/sys_master/images/images/h2f/h04/50017889910814/california-gold-nutrition-dgk-dla-detej-omega-3-s-vitaminom-d3-1050-mg-59-ml-100904546-2-Container.jpg",
-                                    "previewMedium": "https://cdn-kaspi.kz/medias/sys_master/images/images/hf6/h48/50017889878046/california-gold-nutrition-dgk-dla-detej-omega-3-s-vitaminom-d3-1050-mg-59-ml-100904546-2-Container.jpg",
-                                    "ORIGINAL": "https://cdn-kaspi.kz/medias/sys_master/images/images/hdb/ha0/17508316446750/california-gold-nutrition-dgk-dla-detej-omega-3-s-vitaminom-d3-1050-mg-59-ml-100904546-2-Container.jpg",
-                                    "galleryMedium": "https://cdn-kaspi.kz/medias/sys_master/images/images/h57/hc7/50017889943582/california-gold-nutrition-dgk-dla-detej-omega-3-s-vitaminom-d3-1050-mg-59-ml-100904546-2-Container.jpg"
-                                }
-                            }
-                        ]
-                    }
-                ],
-                "totalPrice": 6688.0,
-                "customer": {
-                    "firstname": "Мөлдір Ш."
-                },
-                "orderStatus": "ACCEPTED_BY_MERCHANT",
-                "delivery": {
-                    "deliveryMode": "DELIVERY_LOCAL",
-                    "address": {
-                        "formattedAddress": "Алматы, улица Омарова, 45В, 5"
-                    },
-                    "plannedDeliveryDate": 1676916000000,
-                    "actualDeliveryDate": 1676916000000,
-                    "deliveredToCity": true,
-                    "kaspiDelivery": false
-                },
-                "payment": {
-                    "paymentMode": "GOLD",
-                    "needToSignPapers": false,
-                    "approvedByBankDate": 1676873215037
-                },
-                "pickupPoint": "г. Алматы,  улица Жандосова,  98",
-                "orderStates": [],
-                "createDate": 1676873215037,
-                "modifiedDate": 1676874374066,
+                "createDate": 1677175566678,
+                "modifiedDate": 1677226789038,
                 "isCargoAssembly": false,
                 "preOrder": false
             }

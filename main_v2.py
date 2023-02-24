@@ -147,12 +147,20 @@ async def three_day(message: types.Message):
 
 @dp.message_handler(Text(equals='stop'), state=None)
 async def three_day(message: types.Message):
+    aioschedule.clear()
     global run_scheduler
     run_scheduler = False
     text = f"Send message stop"
     await bot.send_message(message.from_user.id, text=text)
 
-@dp.message_handler(commands='testbot')
+
+@dp.message_handler(commands='tasks')
+async def test(message: types.Message):
+    tasks = aioschedule.next_run()
+    text = "следующий запланированный задача: "+str(tasks)
+    await bot.send_message(message.from_user.id, text=text)
+
+@dp.message_handler(commands='moment')
 async def test(message: types.Message):
     await send_message_testbot(message.from_user.id)
 

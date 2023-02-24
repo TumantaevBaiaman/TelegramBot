@@ -1,6 +1,27 @@
 import json
 from dataBase import commands
+
+import requests
+import json
+import delorean
+from datetime import datetime
+
 from service import make_request
+
+
+def time():
+    now = datetime.now()
+    dt = datetime(now.year, now.month, now.day, now.hour, now.minute, now.second, now.microsecond)
+
+    return int(delorean.Delorean(dt, timezone='UTC').epoch * 1000)
+
+
+def start():
+    now = datetime.now()
+    print(now.month, now.day)
+    dt = datetime(now.year, 1, 1)
+
+    return int(delorean.Delorean(dt, timezone='UTC').epoch * 1000)
 
 
 async def add_db(id_data):
@@ -21,57 +42,49 @@ async def add_db(id_data):
         json.dump(request_data.json(), my_json, ensure_ascii=False, indent=4)
 
 
+async def readfile(lst):
+    try:
+        for i in lst:
+            if int(i['orderCode']) not in await commands.get_data_info2():
+                await add_db(i['orderCode'])
+                with open("my_product_detail.json", "r", encoding='utf-8') as data2:
+                    data2 = json.load(data2)
+                    db = {}
+                    db['id'] = int(data2['orderId'])
+                    db['name'] = data2['purchaserLastName'] + ' ' + data2['purchaserFirstName']
+                    db['phone'] = data2['purchaserPhoneNumber']
+                    db['product'] = data2['products'][0]['masterProduct']['name']
+                    db['sku'] = data2['products'][0]['sku']
+                    db['status'] = data2['deliveryMode']
+                    db['price'] = data2['localizedSum']
+                    try:
+                        db['address'] = data2['deliveryAddress']['formattedAddress']
+                    except:
+                        db['address'] = "null"
+                await commands.add_deatil(db)
+                print("add success")
+            else:
+                print("уже есть")
+    except:
+        pass
+
+
 async def add_user_base():
     with open("my_product_1.json", "r", encoding='utf-8') as data:
         data_j1 = json.load(data)
         for i in range(len(data_j1)):
             try:
                 info = data_j1[i]['orders']
-                for i in info:
-                    if int(i['orderCode']) not in await commands.get_data_info2():
-                        await add_db(i['orderCode'])
-                        with open("my_product_detail.json", "r", encoding='utf-8') as data2:
-                            data2 = json.load(data2)
-                            db = {}
-                            db['id'] = int(data2['orderId'])
-                            db['name'] = data2['purchaserLastName'] + ' ' + data2['purchaserFirstName']
-                            db['phone'] = data2['purchaserPhoneNumber']
-                            db['product'] = data2['products'][0]['masterProduct']['name']
-                            db['sku'] = data2['products'][0]['sku']
-                            db['status'] = data2['deliveryMode']
-                            db['price'] = data2['localizedSum']
-                            db['address'] = data2['formattedAddress'] if 'formattedAddress' in data2.keys() else "null"
-                        await commands.add_deatil(db)
-                        print("Добавил")
-
-                    else:
-                        print("Уже есть")
-
+                await readfile(info)
             except:
                 pass
+
 
     with open("my_product_2.json", "r", encoding='utf-8') as data:
         data_j1 = json.load(data)
         try:
             info = data_j1['orders']
-            for i in info:
-                if int(i['orderCode']) not in await commands.get_data_info2():
-                    await add_db(i['orderCode'])
-                    with open("my_product_detail.json", "r", encoding='utf-8') as data2:
-                        data2 = json.load(data2)
-                        db = {}
-                        db['id'] = int(data2['orderId'])
-                        db['name'] = data2['purchaserFirstName']
-                        db['phone'] = data2['purchaserPhoneNumber']
-                        db['product'] = data2['products'][0]['masterProduct']['name']
-                        db['sku'] = data2['products'][0]['sku']
-                        db['status'] = data2['deliveryMode']
-                        print(db)
-                    await commands.add_deatil(db)
-                    print("Добавил")
-
-                else:
-                    print("Уже есть")
+            await readfile(info)
         except:
             pass
 
@@ -80,22 +93,6 @@ async def add_user_base():
         for i in range(len(data_j1)):
             try:
                 info = data_j1[i]['orders']
-                for i in info:
-                    if int(i['orderCode']) not in await commands.get_data_info2():
-                        await add_db(i['orderCode'])
-                        with open("my_product_detail.json", "r", encoding='utf-8') as data2:
-                            data2 = json.load(data2)
-                            db = {}
-                            db['id'] = int(data2['orderId'])
-                            db['name'] = data2['purchaserFirstName']
-                            db['phone'] = data2['purchaserPhoneNumber']
-                            db['product'] = data2['products'][0]['masterProduct']['name']
-                            db['sku'] = data2['products'][0]['sku']
-                            db['status'] = data2['deliveryMode']
-                        await commands.add_deatil(db)
-                        print("Добавил")
-
-                    else:
-                        print("Уже есть")
+                await readfile(info)
             except:
                 pass

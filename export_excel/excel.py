@@ -39,7 +39,7 @@ async def export_data():
     worksheet.set_column('E:E', 25)
     worksheet.set_column('F:F', 25)
     worksheet.set_column('G:G', 15)
-    worksheet.set_column('H:H', 25)
+    worksheet.set_column('H:H', 40)
     for index, value in enumerate(columns):
         worksheet.write(0, index, value, head_style)
     for i in data:
