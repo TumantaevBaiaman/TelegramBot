@@ -17,7 +17,7 @@ from export_excel.get_data import try_api
 from report import get_report_file
 from service import make_request
 
-API_TOKEN = '5925973975:AAEC4C1beejuIb7x1WW9_i8TrJ2s_KUyW1s'
+API_TOKEN = '6144023875:AAGC6nGMYiK3qVP0TVWphYfs0rsr27FAIoA'
 
 # Configure logging
 logging.basicConfig(level=logging.INFO)
@@ -32,7 +32,7 @@ scheduled_chats = set()
 run_scheduler = False
 text_start = """
 👋 Добро пожаловать в бот
-📄 Инструкция работы бота:
+  Инструкция работы бота:
 🕔 Если выбрать каждый час, отчёт будет отправляться каждый час
 🕔 Если вырать 2 раза в день, отчет будет отправляться временами 8:00 и 18:00
 🕔 Если вырать 3 раза в день, отчет будет отправляться временами 8:00 и 12:00 и 18:00
