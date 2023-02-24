@@ -49,7 +49,7 @@ async def readfile(lst):
             await add_db(i['orderCode'])
             with open("my_product_detail.json", "r", encoding='utf-8') as data2:
                 data2 = json.load(data2)
-                if int(i['purchaserPhoneNumber']) not in await commands.get_data_info2():
+                if int(data2['purchaserPhoneNumber']) not in await commands.get_data_info2():
                     db = {}
                     db['id'] = int(data2['orderId'])
                     db['name'] = data2['purchaserLastName'] + ' ' + data2['purchaserFirstName']
