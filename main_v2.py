@@ -30,6 +30,16 @@ dp.storage = MemoryStorage()
 
 scheduled_chats = set()
 run_scheduler = False
+text_start = """
+Добро пожаловать в бот
+Инструкция работы бота:
+Если выбрать каждый час, отчёт будет отправляться каждый час
+Если вырать 2 раза в день, отчет будет отправляться временами 8:00 и 18:00
+Если вырать 3 раза в день, отчет будет отправляться временами 8:00 и 12:00 и 18:00
+stop будеть отвечать за остановление задачи. Если выбран какойто интервал работы бота и хотите выбрать другую нужно сначала остановить и потом занова запускать 
+БД клиентов будеть отправлять весь список клиентов
+Также следует заметить, что время работы и отдыха бота зависеть от конкретных интервалов.
+"""
 
 def make_json_file():
     s = make_request()
@@ -168,8 +178,8 @@ async def test(message: types.Message):
 @dp.message_handler(Text(equals='БД клиентов'), state=None)
 async def three_day(message: types.Message):
     await bot.send_message(message.from_user.id, text="Подождите немного")
-    await try_api()
-    await add_user_base()
+    # await try_api()
+    await asyncio.wait_for(add_user_base(), timeout=50000)
     await export_data()
     await bot.send_document(chat_id=message.from_user.id, document=open('info_user.xlsx', 'rb'))
 

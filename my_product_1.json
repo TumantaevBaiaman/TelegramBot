@@ -1,8 +1,323 @@
 [
     {
         "tab": "DELIVERY",
-        "total": 7,
+        "total": 12,
         "orders": [
+            {
+                "orderCode": "244871543",
+                "entries": [
+                    {
+                        "name": "NOW витамин Vitamin D-3 10 000 IU 120 капсул",
+                        "quantity": 1,
+                        "basePrice": 6490.0,
+                        "totalPrice": 6490.0,
+                        "images": [
+                            {
+                                "qualifier": "now-vitamin-vitamin-d-3-10-000-iu-120-kapsul-101581595-1",
+                                "formatToUrlMap": {
+                                    "previewLarge": "https://cdn-kaspi.kz/medias/sys_master/images/images/h80/hb9/50269424648222/now-vitamin-vitamin-d-3-10-000-iu-120-kapsul-101581595-1.jpg",
+                                    "gallerySmall": "https://cdn-kaspi.kz/medias/sys_master/images/images/h2c/h26/50269424680990/now-vitamin-vitamin-d-3-10-000-iu-120-kapsul-101581595-1.jpg",
+                                    "previewSmall": "https://cdn-kaspi.kz/medias/sys_master/images/images/h6e/hca/50269424713758/now-vitamin-vitamin-d-3-10-000-iu-120-kapsul-101581595-1.jpg",
+                                    "galleryLarge": "https://cdn-kaspi.kz/medias/sys_master/images/images/h73/hfc/50269424779294/now-vitamin-vitamin-d-3-10-000-iu-120-kapsul-101581595-1.jpg",
+                                    "previewMedium": "https://cdn-kaspi.kz/medias/sys_master/images/images/h64/h40/50269424746526/now-vitamin-vitamin-d-3-10-000-iu-120-kapsul-101581595-1.jpg",
+                                    "ORIGINAL": "https://cdn-kaspi.kz/medias/sys_master/images/images/haa/h50/43995853127710/now-vitamin-vitamin-d-3-10-000-iu-120-kapsul-101581595-1.jpg",
+                                    "galleryMedium": "https://cdn-kaspi.kz/medias/sys_master/images/images/h74/h93/50269424812062/now-vitamin-vitamin-d-3-10-000-iu-120-kapsul-101581595-1.jpg"
+                                }
+                            },
+                            {
+                                "qualifier": "now-vitamin-vitamin-d-3-10-000-iu-120-kapsul-101581595-2",
+                                "formatToUrlMap": {
+                                    "previewLarge": "https://cdn-kaspi.kz/medias/sys_master/images/images/h67/h36/50269424844830/now-vitamin-vitamin-d-3-10-000-iu-120-kapsul-101581595-2.jpg",
+                                    "gallerySmall": "https://cdn-kaspi.kz/medias/sys_master/images/images/h70/h8a/50269424877598/now-vitamin-vitamin-d-3-10-000-iu-120-kapsul-101581595-2.jpg",
+                                    "previewSmall": "https://cdn-kaspi.kz/medias/sys_master/images/images/h6f/hf3/50269424910366/now-vitamin-vitamin-d-3-10-000-iu-120-kapsul-101581595-2.jpg",
+                                    "galleryLarge": "https://cdn-kaspi.kz/medias/sys_master/images/images/h50/h5b/50269424975902/now-vitamin-vitamin-d-3-10-000-iu-120-kapsul-101581595-2.jpg",
+                                    "previewMedium": "https://cdn-kaspi.kz/medias/sys_master/images/images/hbd/h01/50269424943134/now-vitamin-vitamin-d-3-10-000-iu-120-kapsul-101581595-2.jpg",
+                                    "ORIGINAL": "https://cdn-kaspi.kz/medias/sys_master/images/images/ha2/h99/43995853651998/now-vitamin-vitamin-d-3-10-000-iu-120-kapsul-101581595-2.jpg",
+                                    "galleryMedium": "https://cdn-kaspi.kz/medias/sys_master/images/images/h40/h7a/50269425008670/now-vitamin-vitamin-d-3-10-000-iu-120-kapsul-101581595-2.jpg"
+                                }
+                            }
+                        ]
+                    }
+                ],
+                "totalPrice": 6490.0,
+                "customer": {
+                    "firstname": "Рахат А."
+                },
+                "orderStatus": "ACCEPTED_BY_MERCHANT",
+                "delivery": {
+                    "deliveryMode": "DELIVERY_LOCAL",
+                    "address": {
+                        "formattedAddress": "Алматы, улица Байзакова, 312, 95"
+                    },
+                    "plannedDeliveryDate": 1677261600000,
+                    "actualDeliveryDate": 1677261600000,
+                    "deliveredToCity": true,
+                    "kaspiDelivery": false
+                },
+                "payment": {
+                    "paymentMode": "GOLD",
+                    "needToSignPapers": false,
+                    "approvedByBankDate": 1677246881893
+                },
+                "pickupPoint": "г. Алматы,  улица Жандосова,  98",
+                "orderStates": [],
+                "createDate": 1677246881893,
+                "modifiedDate": 1677249777435,
+                "isCargoAssembly": false,
+                "preOrder": false
+            },
+            {
+                "orderCode": "244871025",
+                "entries": [
+                    {
+                        "name": "NOW витамин Vitamin D-3 10 000 IU 120 капсул",
+                        "quantity": 1,
+                        "basePrice": 6490.0,
+                        "totalPrice": 6490.0,
+                        "images": [
+                            {
+                                "qualifier": "now-vitamin-vitamin-d-3-10-000-iu-120-kapsul-101581595-1",
+                                "formatToUrlMap": {
+                                    "previewLarge": "https://cdn-kaspi.kz/medias/sys_master/images/images/h80/hb9/50269424648222/now-vitamin-vitamin-d-3-10-000-iu-120-kapsul-101581595-1.jpg",
+                                    "gallerySmall": "https://cdn-kaspi.kz/medias/sys_master/images/images/h2c/h26/50269424680990/now-vitamin-vitamin-d-3-10-000-iu-120-kapsul-101581595-1.jpg",
+                                    "previewSmall": "https://cdn-kaspi.kz/medias/sys_master/images/images/h6e/hca/50269424713758/now-vitamin-vitamin-d-3-10-000-iu-120-kapsul-101581595-1.jpg",
+                                    "galleryLarge": "https://cdn-kaspi.kz/medias/sys_master/images/images/h73/hfc/50269424779294/now-vitamin-vitamin-d-3-10-000-iu-120-kapsul-101581595-1.jpg",
+                                    "previewMedium": "https://cdn-kaspi.kz/medias/sys_master/images/images/h64/h40/50269424746526/now-vitamin-vitamin-d-3-10-000-iu-120-kapsul-101581595-1.jpg",
+                                    "ORIGINAL": "https://cdn-kaspi.kz/medias/sys_master/images/images/haa/h50/43995853127710/now-vitamin-vitamin-d-3-10-000-iu-120-kapsul-101581595-1.jpg",
+                                    "galleryMedium": "https://cdn-kaspi.kz/medias/sys_master/images/images/h74/h93/50269424812062/now-vitamin-vitamin-d-3-10-000-iu-120-kapsul-101581595-1.jpg"
+                                }
+                            },
+                            {
+                                "qualifier": "now-vitamin-vitamin-d-3-10-000-iu-120-kapsul-101581595-2",
+                                "formatToUrlMap": {
+                                    "previewLarge": "https://cdn-kaspi.kz/medias/sys_master/images/images/h67/h36/50269424844830/now-vitamin-vitamin-d-3-10-000-iu-120-kapsul-101581595-2.jpg",
+                                    "gallerySmall": "https://cdn-kaspi.kz/medias/sys_master/images/images/h70/h8a/50269424877598/now-vitamin-vitamin-d-3-10-000-iu-120-kapsul-101581595-2.jpg",
+                                    "previewSmall": "https://cdn-kaspi.kz/medias/sys_master/images/images/h6f/hf3/50269424910366/now-vitamin-vitamin-d-3-10-000-iu-120-kapsul-101581595-2.jpg",
+                                    "galleryLarge": "https://cdn-kaspi.kz/medias/sys_master/images/images/h50/h5b/50269424975902/now-vitamin-vitamin-d-3-10-000-iu-120-kapsul-101581595-2.jpg",
+                                    "previewMedium": "https://cdn-kaspi.kz/medias/sys_master/images/images/hbd/h01/50269424943134/now-vitamin-vitamin-d-3-10-000-iu-120-kapsul-101581595-2.jpg",
+                                    "ORIGINAL": "https://cdn-kaspi.kz/medias/sys_master/images/images/ha2/h99/43995853651998/now-vitamin-vitamin-d-3-10-000-iu-120-kapsul-101581595-2.jpg",
+                                    "galleryMedium": "https://cdn-kaspi.kz/medias/sys_master/images/images/h40/h7a/50269425008670/now-vitamin-vitamin-d-3-10-000-iu-120-kapsul-101581595-2.jpg"
+                                }
+                            }
+                        ]
+                    }
+                ],
+                "totalPrice": 6490.0,
+                "customer": {
+                    "firstname": "Mehrobjon S."
+                },
+                "orderStatus": "ACCEPTED_BY_MERCHANT",
+                "delivery": {
+                    "deliveryMode": "DELIVERY_LOCAL",
+                    "address": {
+                        "formattedAddress": "Алматы, улица Розыбакиева, 248, 25"
+                    },
+                    "plannedDeliveryDate": 1677261600000,
+                    "actualDeliveryDate": 1677261600000,
+                    "deliveredToCity": true,
+                    "kaspiDelivery": false
+                },
+                "payment": {
+                    "paymentMode": "GOLD",
+                    "needToSignPapers": false,
+                    "approvedByBankDate": 1677245991339
+                },
+                "pickupPoint": "г. Алматы,  улица Жандосова,  98",
+                "orderStates": [],
+                "createDate": 1677245991339,
+                "modifiedDate": 1677249777595,
+                "isCargoAssembly": false,
+                "preOrder": false
+            },
+            {
+                "orderCode": "244866411",
+                "entries": [
+                    {
+                        "name": "NutriBiotic Sodium Ascorbate порошок 227 мл",
+                        "quantity": 1,
+                        "basePrice": 7201.0,
+                        "totalPrice": 7201.0,
+                        "images": [
+                            {
+                                "qualifier": "nutribiotic-vitamin-sodium-ascorbate-227-g-100568577-1",
+                                "formatToUrlMap": {
+                                    "previewLarge": "https://cdn-kaspi.kz/medias/sys_master/images/images/h54/hf0/32931508322334/nutribiotic-sodium-ascorbate-227-g-100568577-1-Container.jpg",
+                                    "gallerySmall": "https://cdn-kaspi.kz/medias/sys_master/images/images/h1b/h88/32931509108766/nutribiotic-sodium-ascorbate-227-g-100568577-1-Container.jpg",
+                                    "previewSmall": "https://cdn-kaspi.kz/medias/sys_master/images/images/h71/hcb/32931506159646/nutribiotic-sodium-ascorbate-227-g-100568577-1-Container.jpg",
+                                    "galleryLarge": "https://cdn-kaspi.kz/medias/sys_master/images/images/ha3/h01/32931511107614/nutribiotic-sodium-ascorbate-227-g-100568577-1-Container.jpg",
+                                    "previewMedium": "https://cdn-kaspi.kz/medias/sys_master/images/images/hf9/h01/32931507208222/nutribiotic-sodium-ascorbate-227-g-100568577-1-Container.jpg",
+                                    "ORIGINAL": "https://cdn-kaspi.kz/medias/sys_master/images/images/he1/h5f/14975853461534/nutribiotic-sodium-ascorbate-227-g-100568577-1-Container.png",
+                                    "galleryMedium": "https://cdn-kaspi.kz/medias/sys_master/images/images/h56/hb5/32931510091806/nutribiotic-sodium-ascorbate-227-g-100568577-1-Container.jpg"
+                                }
+                            },
+                            {
+                                "qualifier": "nutribiotic-vitamin-sodium-ascorbate-227-g-100568577-2",
+                                "formatToUrlMap": {
+                                    "previewLarge": "https://cdn-kaspi.kz/medias/sys_master/images/images/hc4/he4/49912432328734/nutribiotic-vitamin-sodium-ascorbate-227-g-100568577-2.jpg",
+                                    "gallerySmall": "https://cdn-kaspi.kz/medias/sys_master/images/images/hd7/h0b/49912432394270/nutribiotic-vitamin-sodium-ascorbate-227-g-100568577-2.jpg",
+                                    "previewSmall": "https://cdn-kaspi.kz/medias/sys_master/images/images/h0c/h53/49912432459806/nutribiotic-vitamin-sodium-ascorbate-227-g-100568577-2.jpg",
+                                    "galleryLarge": "https://cdn-kaspi.kz/medias/sys_master/images/images/h2e/h95/49912432656414/nutribiotic-vitamin-sodium-ascorbate-227-g-100568577-2.jpg",
+                                    "previewMedium": "https://cdn-kaspi.kz/medias/sys_master/images/images/h0f/hfe/49912432590878/nutribiotic-vitamin-sodium-ascorbate-227-g-100568577-2.jpg",
+                                    "ORIGINAL": "https://cdn-kaspi.kz/medias/sys_master/images/images/h19/hd9/49912432525342/nutribiotic-vitamin-sodium-ascorbate-227-g-100568577-2.jpg",
+                                    "galleryMedium": "https://cdn-kaspi.kz/medias/sys_master/images/images/hcd/h16/49912432721950/nutribiotic-vitamin-sodium-ascorbate-227-g-100568577-2.jpg"
+                                }
+                            }
+                        ]
+                    }
+                ],
+                "totalPrice": 7201.0,
+                "customer": {
+                    "firstname": "Зарина Х."
+                },
+                "orderStatus": "ACCEPTED_BY_MERCHANT",
+                "delivery": {
+                    "deliveryMode": "DELIVERY_LOCAL",
+                    "address": {
+                        "formattedAddress": "Алматы, улица Жайдарман, 9А"
+                    },
+                    "plannedDeliveryDate": 1677261600000,
+                    "actualDeliveryDate": 1677261600000,
+                    "deliveredToCity": true,
+                    "kaspiDelivery": false
+                },
+                "payment": {
+                    "paymentMode": "GOLD",
+                    "needToSignPapers": false,
+                    "approvedByBankDate": 1677244526745
+                },
+                "pickupPoint": "г. Алматы,  улица Жандосова,  98",
+                "orderStates": [],
+                "createDate": 1677244526745,
+                "modifiedDate": 1677249778105,
+                "isCargoAssembly": false,
+                "preOrder": false
+            },
+            {
+                "orderCode": "244865879",
+                "entries": [
+                    {
+                        "name": "Life Extension мультивитамины Two-Per-Day 120 таблеток",
+                        "quantity": 1,
+                        "basePrice": 14807.0,
+                        "totalPrice": 14807.0,
+                        "images": [
+                            {
+                                "qualifier": "life-extension-mul'tivitaminy-two-per-day-120-tabletok-103186868-1",
+                                "formatToUrlMap": {
+                                    "previewLarge": "https://cdn-kaspi.kz/medias/sys_master/images/images/h8f/h65/47785835888670/life-extension-multivitaminy-two-per-day-120-tabletok-103186868-1.jpg",
+                                    "gallerySmall": "https://cdn-kaspi.kz/medias/sys_master/images/images/h0c/hf4/47785835954206/life-extension-multivitaminy-two-per-day-120-tabletok-103186868-1.jpg",
+                                    "previewSmall": "https://cdn-kaspi.kz/medias/sys_master/images/images/h6f/h93/47785836019742/life-extension-multivitaminy-two-per-day-120-tabletok-103186868-1.jpg",
+                                    "galleryLarge": "https://cdn-kaspi.kz/medias/sys_master/images/images/h4d/h51/47785836216350/life-extension-multivitaminy-two-per-day-120-tabletok-103186868-1.jpg",
+                                    "previewMedium": "https://cdn-kaspi.kz/medias/sys_master/images/images/h18/h30/47785836150814/life-extension-multivitaminy-two-per-day-120-tabletok-103186868-1.jpg",
+                                    "ORIGINAL": "https://cdn-kaspi.kz/medias/sys_master/images/images/hf4/h95/47785836085278/life-extension-multivitaminy-two-per-day-120-tabletok-103186868-1.jpg",
+                                    "galleryMedium": "https://cdn-kaspi.kz/medias/sys_master/images/images/h24/h7a/47785836281886/life-extension-multivitaminy-two-per-day-120-tabletok-103186868-1.jpg"
+                                }
+                            },
+                            {
+                                "qualifier": "life-extension-mul'tivitaminy-two-per-day-120-tabletok-103186868-2",
+                                "formatToUrlMap": {
+                                    "previewLarge": "https://cdn-kaspi.kz/medias/sys_master/images/images/h05/he3/47785836347422/life-extension-multivitaminy-two-per-day-120-tabletok-103186868-2.jpg",
+                                    "gallerySmall": "https://cdn-kaspi.kz/medias/sys_master/images/images/he9/ha0/47785836412958/life-extension-multivitaminy-two-per-day-120-tabletok-103186868-2.jpg",
+                                    "previewSmall": "https://cdn-kaspi.kz/medias/sys_master/images/images/hee/hd2/47785836478494/life-extension-multivitaminy-two-per-day-120-tabletok-103186868-2.jpg",
+                                    "galleryLarge": "https://cdn-kaspi.kz/medias/sys_master/images/images/h65/hcd/47785836675102/life-extension-multivitaminy-two-per-day-120-tabletok-103186868-2.jpg",
+                                    "previewMedium": "https://cdn-kaspi.kz/medias/sys_master/images/images/h02/h12/47785836609566/life-extension-multivitaminy-two-per-day-120-tabletok-103186868-2.jpg",
+                                    "ORIGINAL": "https://cdn-kaspi.kz/medias/sys_master/images/images/he3/ha0/47785836544030/life-extension-multivitaminy-two-per-day-120-tabletok-103186868-2.jpg",
+                                    "galleryMedium": "https://cdn-kaspi.kz/medias/sys_master/images/images/h54/h51/47785836740638/life-extension-multivitaminy-two-per-day-120-tabletok-103186868-2.jpg"
+                                }
+                            }
+                        ]
+                    }
+                ],
+                "totalPrice": 14807.0,
+                "customer": {
+                    "firstname": "Айгуль И."
+                },
+                "orderStatus": "ACCEPTED_BY_MERCHANT",
+                "delivery": {
+                    "deliveryMode": "DELIVERY_LOCAL",
+                    "address": {
+                        "formattedAddress": "Алматы, Звёздная улица, 46"
+                    },
+                    "plannedDeliveryDate": 1677261600000,
+                    "actualDeliveryDate": 1677261600000,
+                    "deliveredToCity": true,
+                    "kaspiDelivery": false
+                },
+                "payment": {
+                    "paymentMode": "GOLD",
+                    "needToSignPapers": false,
+                    "approvedByBankDate": 1677244129211
+                },
+                "pickupPoint": "г. Алматы,  улица Жандосова,  98",
+                "orderStates": [],
+                "createDate": 1677244129211,
+                "modifiedDate": 1677249777402,
+                "isCargoAssembly": false,
+                "preOrder": false
+            },
+            {
+                "orderCode": "244863043",
+                "entries": [
+                    {
+                        "name": "NOW витамин Vitamin D-3 10 000 IU 120 капсул",
+                        "quantity": 1,
+                        "basePrice": 6492.0,
+                        "totalPrice": 6492.0,
+                        "images": [
+                            {
+                                "qualifier": "now-vitamin-vitamin-d-3-10-000-iu-120-kapsul-101581595-1",
+                                "formatToUrlMap": {
+                                    "previewLarge": "https://cdn-kaspi.kz/medias/sys_master/images/images/h80/hb9/50269424648222/now-vitamin-vitamin-d-3-10-000-iu-120-kapsul-101581595-1.jpg",
+                                    "gallerySmall": "https://cdn-kaspi.kz/medias/sys_master/images/images/h2c/h26/50269424680990/now-vitamin-vitamin-d-3-10-000-iu-120-kapsul-101581595-1.jpg",
+                                    "previewSmall": "https://cdn-kaspi.kz/medias/sys_master/images/images/h6e/hca/50269424713758/now-vitamin-vitamin-d-3-10-000-iu-120-kapsul-101581595-1.jpg",
+                                    "galleryLarge": "https://cdn-kaspi.kz/medias/sys_master/images/images/h73/hfc/50269424779294/now-vitamin-vitamin-d-3-10-000-iu-120-kapsul-101581595-1.jpg",
+                                    "previewMedium": "https://cdn-kaspi.kz/medias/sys_master/images/images/h64/h40/50269424746526/now-vitamin-vitamin-d-3-10-000-iu-120-kapsul-101581595-1.jpg",
+                                    "ORIGINAL": "https://cdn-kaspi.kz/medias/sys_master/images/images/haa/h50/43995853127710/now-vitamin-vitamin-d-3-10-000-iu-120-kapsul-101581595-1.jpg",
+                                    "galleryMedium": "https://cdn-kaspi.kz/medias/sys_master/images/images/h74/h93/50269424812062/now-vitamin-vitamin-d-3-10-000-iu-120-kapsul-101581595-1.jpg"
+                                }
+                            },
+                            {
+                                "qualifier": "now-vitamin-vitamin-d-3-10-000-iu-120-kapsul-101581595-2",
+                                "formatToUrlMap": {
+                                    "previewLarge": "https://cdn-kaspi.kz/medias/sys_master/images/images/h67/h36/50269424844830/now-vitamin-vitamin-d-3-10-000-iu-120-kapsul-101581595-2.jpg",
+                                    "gallerySmall": "https://cdn-kaspi.kz/medias/sys_master/images/images/h70/h8a/50269424877598/now-vitamin-vitamin-d-3-10-000-iu-120-kapsul-101581595-2.jpg",
+                                    "previewSmall": "https://cdn-kaspi.kz/medias/sys_master/images/images/h6f/hf3/50269424910366/now-vitamin-vitamin-d-3-10-000-iu-120-kapsul-101581595-2.jpg",
+                                    "galleryLarge": "https://cdn-kaspi.kz/medias/sys_master/images/images/h50/h5b/50269424975902/now-vitamin-vitamin-d-3-10-000-iu-120-kapsul-101581595-2.jpg",
+                                    "previewMedium": "https://cdn-kaspi.kz/medias/sys_master/images/images/hbd/h01/50269424943134/now-vitamin-vitamin-d-3-10-000-iu-120-kapsul-101581595-2.jpg",
+                                    "ORIGINAL": "https://cdn-kaspi.kz/medias/sys_master/images/images/ha2/h99/43995853651998/now-vitamin-vitamin-d-3-10-000-iu-120-kapsul-101581595-2.jpg",
+                                    "galleryMedium": "https://cdn-kaspi.kz/medias/sys_master/images/images/h40/h7a/50269425008670/now-vitamin-vitamin-d-3-10-000-iu-120-kapsul-101581595-2.jpg"
+                                }
+                            }
+                        ]
+                    }
+                ],
+                "totalPrice": 6492.0,
+                "customer": {
+                    "firstname": "Аясын А."
+                },
+                "orderStatus": "ACCEPTED_BY_MERCHANT",
+                "delivery": {
+                    "deliveryMode": "DELIVERY_LOCAL",
+                    "address": {
+                        "formattedAddress": "Алматы, проспект Абая, 109/6, 13 блок, 11 этаж, 42 квартира"
+                    },
+                    "plannedDeliveryDate": 1677261600000,
+                    "actualDeliveryDate": 1677261600000,
+                    "deliveredToCity": true,
+                    "kaspiDelivery": false
+                },
+                "payment": {
+                    "paymentMode": "GOLD",
+                    "needToSignPapers": false,
+                    "approvedByBankDate": 1677242715881
+                },
+                "pickupPoint": "г. Алматы,  улица Жандосова,  98",
+                "orderStates": [],
+                "createDate": 1677242715881,
+                "modifiedDate": 1677249754985,
+                "isCargoAssembly": false,
+                "preOrder": false
+            },
             {
                 "orderCode": "244847261",
                 "entries": [
