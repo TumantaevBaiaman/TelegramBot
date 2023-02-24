@@ -8,8 +8,8 @@ from service import make_request
 
 def time():
     now = datetime.now()
-    dt = datetime(now.year, now.month, now.day, now.hour, now.minute, now.second, now.microsecond)
-
+    # dt = datetime(now.year, now.month, now.day, now.hour, now.minute, now.second, now.microsecond)
+    dt = datetime(2022, 12, 1)
     return int(delorean.Delorean(dt, timezone='UTC').epoch * 1000)
 
 

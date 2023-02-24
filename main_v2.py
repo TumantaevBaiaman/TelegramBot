@@ -178,7 +178,7 @@ async def test(message: types.Message):
 @dp.message_handler(Text(equals='БД клиентов'), state=None)
 async def three_day(message: types.Message):
     await bot.send_message(message.from_user.id, text="Подождите немного")
-    # await try_api()
+    await try_api()
     await asyncio.wait_for(add_user_base(), timeout=50000)
     await export_data()
     await bot.send_document(chat_id=message.from_user.id, document=open('info_user.xlsx', 'rb'))

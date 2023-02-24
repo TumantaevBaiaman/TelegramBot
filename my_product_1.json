@@ -1,8 +1,260 @@
 [
     {
         "tab": "DELIVERY",
-        "total": 12,
+        "total": 16,
         "orders": [
+            {
+                "orderCode": "244879672",
+                "entries": [
+                    {
+                        "name": "Boiron БАД Camilia teething relief 30 доз",
+                        "quantity": 1,
+                        "basePrice": 8689.0,
+                        "totalPrice": 8689.0,
+                        "images": [
+                            {
+                                "qualifier": "boiron-bad-camilia-teething-relief-30-doz-101454196-1",
+                                "formatToUrlMap": {
+                                    "previewLarge": "https://cdn-kaspi.kz/medias/sys_master/images/images/h90/hd6/32279091871774/boiron-camilia-teething-relief-30-101454196-1-Container.jpg",
+                                    "gallerySmall": "https://cdn-kaspi.kz/medias/sys_master/images/images/h25/h1f/32279092330526/boiron-camilia-teething-relief-30-101454196-1-Container.jpg",
+                                    "previewSmall": "https://cdn-kaspi.kz/medias/sys_master/images/images/he6/hf1/32279090823198/boiron-camilia-teething-relief-30-101454196-1-Container.jpg",
+                                    "galleryLarge": "https://cdn-kaspi.kz/medias/sys_master/images/images/h9d/h7f/32279093346334/boiron-camilia-teething-relief-30-101454196-1-Container.jpg",
+                                    "previewMedium": "https://cdn-kaspi.kz/medias/sys_master/images/images/he9/hff/32279091445790/boiron-camilia-teething-relief-30-101454196-1-Container.jpg",
+                                    "ORIGINAL": "https://cdn-kaspi.kz/medias/sys_master/images/images/hff/h3f/30701890633758/boiron-camilia-teething-relief-30-101454196-1-Container.jpg",
+                                    "galleryMedium": "https://cdn-kaspi.kz/medias/sys_master/images/images/hd5/h1d/32279092723742/boiron-camilia-teething-relief-30-101454196-1-Container.jpg"
+                                }
+                            },
+                            {
+                                "qualifier": "boiron-bad-camilia-teething-relief-30-doz-101454196-2",
+                                "formatToUrlMap": {
+                                    "previewLarge": "https://cdn-kaspi.kz/medias/sys_master/images/images/hcb/h62/50166984048670/boiron-bad-camilia-teething-relief-30-doz-101454196-2.jpg",
+                                    "gallerySmall": "https://cdn-kaspi.kz/medias/sys_master/images/images/h49/hf1/50166984114206/boiron-bad-camilia-teething-relief-30-doz-101454196-2.jpg",
+                                    "previewSmall": "https://cdn-kaspi.kz/medias/sys_master/images/images/hec/h2e/50166984179742/boiron-bad-camilia-teething-relief-30-doz-101454196-2.jpg",
+                                    "galleryLarge": "https://cdn-kaspi.kz/medias/sys_master/images/images/h35/h13/50166984376350/boiron-bad-camilia-teething-relief-30-doz-101454196-2.jpg",
+                                    "previewMedium": "https://cdn-kaspi.kz/medias/sys_master/images/images/hcf/h1e/50166984310814/boiron-bad-camilia-teething-relief-30-doz-101454196-2.jpg",
+                                    "ORIGINAL": "https://cdn-kaspi.kz/medias/sys_master/images/images/h3c/ha7/50166984245278/boiron-bad-camilia-teething-relief-30-doz-101454196-2.png",
+                                    "galleryMedium": "https://cdn-kaspi.kz/medias/sys_master/images/images/hdb/h68/50166984441886/boiron-bad-camilia-teething-relief-30-doz-101454196-2.jpg"
+                                }
+                            }
+                        ]
+                    }
+                ],
+                "totalPrice": 8689.0,
+                "customer": {
+                    "firstname": "Даниил А."
+                },
+                "orderStatus": "ACCEPTED_BY_MERCHANT",
+                "delivery": {
+                    "deliveryMode": "DELIVERY_LOCAL",
+                    "address": {
+                        "formattedAddress": "Алматы, проспект Гагарина, 277/7, Подъезд 7, 4 этаж, кв. 346"
+                    },
+                    "plannedDeliveryDate": 1677261600000,
+                    "actualDeliveryDate": 1677261600000,
+                    "deliveredToCity": true,
+                    "kaspiDelivery": false
+                },
+                "payment": {
+                    "paymentMode": "GOLD",
+                    "needToSignPapers": false,
+                    "approvedByBankDate": 1677250615550
+                },
+                "pickupPoint": "г. Алматы,  улица Жандосова,  98",
+                "orderStates": [],
+                "createDate": 1677250615550,
+                "modifiedDate": 1677254194165,
+                "isCargoAssembly": false,
+                "preOrder": false
+            },
+            {
+                "orderCode": "244887226",
+                "entries": [
+                    {
+                        "name": "Boiron БАД Camilia teething relief 30 доз",
+                        "quantity": 1,
+                        "basePrice": 8689.0,
+                        "totalPrice": 8689.0,
+                        "images": [
+                            {
+                                "qualifier": "boiron-bad-camilia-teething-relief-30-doz-101454196-1",
+                                "formatToUrlMap": {
+                                    "previewLarge": "https://cdn-kaspi.kz/medias/sys_master/images/images/h90/hd6/32279091871774/boiron-camilia-teething-relief-30-101454196-1-Container.jpg",
+                                    "gallerySmall": "https://cdn-kaspi.kz/medias/sys_master/images/images/h25/h1f/32279092330526/boiron-camilia-teething-relief-30-101454196-1-Container.jpg",
+                                    "previewSmall": "https://cdn-kaspi.kz/medias/sys_master/images/images/he6/hf1/32279090823198/boiron-camilia-teething-relief-30-101454196-1-Container.jpg",
+                                    "galleryLarge": "https://cdn-kaspi.kz/medias/sys_master/images/images/h9d/h7f/32279093346334/boiron-camilia-teething-relief-30-101454196-1-Container.jpg",
+                                    "previewMedium": "https://cdn-kaspi.kz/medias/sys_master/images/images/he9/hff/32279091445790/boiron-camilia-teething-relief-30-101454196-1-Container.jpg",
+                                    "ORIGINAL": "https://cdn-kaspi.kz/medias/sys_master/images/images/hff/h3f/30701890633758/boiron-camilia-teething-relief-30-101454196-1-Container.jpg",
+                                    "galleryMedium": "https://cdn-kaspi.kz/medias/sys_master/images/images/hd5/h1d/32279092723742/boiron-camilia-teething-relief-30-101454196-1-Container.jpg"
+                                }
+                            },
+                            {
+                                "qualifier": "boiron-bad-camilia-teething-relief-30-doz-101454196-2",
+                                "formatToUrlMap": {
+                                    "previewLarge": "https://cdn-kaspi.kz/medias/sys_master/images/images/hcb/h62/50166984048670/boiron-bad-camilia-teething-relief-30-doz-101454196-2.jpg",
+                                    "gallerySmall": "https://cdn-kaspi.kz/medias/sys_master/images/images/h49/hf1/50166984114206/boiron-bad-camilia-teething-relief-30-doz-101454196-2.jpg",
+                                    "previewSmall": "https://cdn-kaspi.kz/medias/sys_master/images/images/hec/h2e/50166984179742/boiron-bad-camilia-teething-relief-30-doz-101454196-2.jpg",
+                                    "galleryLarge": "https://cdn-kaspi.kz/medias/sys_master/images/images/h35/h13/50166984376350/boiron-bad-camilia-teething-relief-30-doz-101454196-2.jpg",
+                                    "previewMedium": "https://cdn-kaspi.kz/medias/sys_master/images/images/hcf/h1e/50166984310814/boiron-bad-camilia-teething-relief-30-doz-101454196-2.jpg",
+                                    "ORIGINAL": "https://cdn-kaspi.kz/medias/sys_master/images/images/h3c/ha7/50166984245278/boiron-bad-camilia-teething-relief-30-doz-101454196-2.png",
+                                    "galleryMedium": "https://cdn-kaspi.kz/medias/sys_master/images/images/hdb/h68/50166984441886/boiron-bad-camilia-teething-relief-30-doz-101454196-2.jpg"
+                                }
+                            }
+                        ]
+                    }
+                ],
+                "totalPrice": 8689.0,
+                "customer": {
+                    "firstname": "Диана П."
+                },
+                "orderStatus": "ACCEPTED_BY_MERCHANT",
+                "delivery": {
+                    "deliveryMode": "DELIVERY_LOCAL",
+                    "address": {
+                        "formattedAddress": "Алматы, 9-й микрорайон, 19, 28"
+                    },
+                    "plannedDeliveryDate": 1677261600000,
+                    "actualDeliveryDate": 1677261600000,
+                    "deliveredToCity": true,
+                    "kaspiDelivery": false
+                },
+                "payment": {
+                    "paymentMode": "PAY_WITH_CREDIT",
+                    "needToSignPapers": false,
+                    "approvedByBankDate": 1677253282083
+                },
+                "pickupPoint": "г. Алматы,  улица Жандосова,  98",
+                "orderStates": [],
+                "createDate": 1677253282083,
+                "modifiedDate": 1677254195015,
+                "isCargoAssembly": false,
+                "preOrder": false
+            },
+            {
+                "orderCode": "244885278",
+                "entries": [
+                    {
+                        "name": "NOW D-3 5000 IU капсулы 120 шт",
+                        "quantity": 1,
+                        "basePrice": 4250.0,
+                        "totalPrice": 4250.0,
+                        "images": [
+                            {
+                                "qualifier": "now-bad-d-3-5000-iu-120-kapsul-100505269-1",
+                                "formatToUrlMap": {
+                                    "previewLarge": "https://cdn-kaspi.kz/medias/sys_master/images/images/h7e/hca/33167545434142/now-bad-d-3-5000-iu-120-kapsul-100505269-1.jpg",
+                                    "gallerySmall": "https://cdn-kaspi.kz/medias/sys_master/images/images/had/h19/33167546122270/now-bad-d-3-5000-iu-120-kapsul-100505269-1.jpg",
+                                    "previewSmall": "https://cdn-kaspi.kz/medias/sys_master/images/images/hc2/h67/33167543861278/now-bad-d-3-5000-iu-120-kapsul-100505269-1.jpg",
+                                    "galleryLarge": "https://cdn-kaspi.kz/medias/sys_master/images/images/h28/h6c/33167548284958/now-bad-d-3-5000-iu-120-kapsul-100505269-1.jpg",
+                                    "previewMedium": "https://cdn-kaspi.kz/medias/sys_master/images/images/h34/h0f/33167544549406/now-bad-d-3-5000-iu-120-kapsul-100505269-1.jpg",
+                                    "ORIGINAL": "https://cdn-kaspi.kz/medias/sys_master/images/images/h14/h02/30502925664286/now-bad-d-3-5000-iu-120-kapsul-100505269-1.jpg",
+                                    "galleryMedium": "https://cdn-kaspi.kz/medias/sys_master/images/images/h7b/h44/33167547138078/now-bad-d-3-5000-iu-120-kapsul-100505269-1.jpg"
+                                }
+                            },
+                            {
+                                "qualifier": "now-bad-d-3-5000-iu-120-kapsul-100505269-2",
+                                "formatToUrlMap": {
+                                    "previewLarge": "https://cdn-kaspi.kz/medias/sys_master/images/images/hdd/h97/33167549366302/now-bad-d-3-5000-iu-120-kapsul-100505269-2.jpg",
+                                    "gallerySmall": "https://cdn-kaspi.kz/medias/sys_master/images/images/hed/hc6/33167549595678/now-bad-d-3-5000-iu-120-kapsul-100505269-2.jpg",
+                                    "previewSmall": "https://cdn-kaspi.kz/medias/sys_master/images/images/h24/h40/33167548710942/now-bad-d-3-5000-iu-120-kapsul-100505269-2.jpg",
+                                    "galleryLarge": "https://cdn-kaspi.kz/medias/sys_master/images/images/h95/h99/33167550218270/now-bad-d-3-5000-iu-120-kapsul-100505269-2.jpg",
+                                    "previewMedium": "https://cdn-kaspi.kz/medias/sys_master/images/images/h63/h42/33167549104158/now-bad-d-3-5000-iu-120-kapsul-100505269-2.jpg",
+                                    "ORIGINAL": "https://cdn-kaspi.kz/medias/sys_master/images/images/h00/hea/30502926024734/now-bad-d-3-5000-iu-120-kapsul-100505269-2.jpg",
+                                    "galleryMedium": "https://cdn-kaspi.kz/medias/sys_master/images/images/hf0/hf6/33167549792286/now-bad-d-3-5000-iu-120-kapsul-100505269-2.jpg"
+                                }
+                            }
+                        ]
+                    }
+                ],
+                "totalPrice": 4250.0,
+                "customer": {
+                    "firstname": "Жазира К."
+                },
+                "orderStatus": "ACCEPTED_BY_MERCHANT",
+                "delivery": {
+                    "deliveryMode": "DELIVERY_LOCAL",
+                    "address": {
+                        "formattedAddress": "Алматы, микрорайон Улжан-1, улица Балкудык, 27, Балкудык 27"
+                    },
+                    "plannedDeliveryDate": 1677261600000,
+                    "actualDeliveryDate": 1677261600000,
+                    "deliveredToCity": true,
+                    "kaspiDelivery": false
+                },
+                "payment": {
+                    "paymentMode": "RED",
+                    "needToSignPapers": false,
+                    "approvedByBankDate": 1677251765827
+                },
+                "pickupPoint": "г. Алматы,  улица Жандосова,  98",
+                "orderStates": [],
+                "createDate": 1677251765827,
+                "modifiedDate": 1677254193610,
+                "isCargoAssembly": false,
+                "preOrder": false
+            },
+            {
+                "orderCode": "244880288",
+                "entries": [
+                    {
+                        "name": "California Gold Nutrition витамин Vitamin D-3 5000 IU 360 капсул",
+                        "quantity": 1,
+                        "basePrice": 7239.0,
+                        "totalPrice": 7239.0,
+                        "images": [
+                            {
+                                "qualifier": "california-gold-nutrition-vitamin-vitamin-d-3-5000-iu-360-kapsul-100455713-1",
+                                "formatToUrlMap": {
+                                    "previewLarge": "https://cdn-kaspi.kz/medias/sys_master/images/images/h8c/h44/32892715696158/california-gold-nutrition-vitamin-d-3-5000-iu-360-kapsul-100455713-1-Container.jpg",
+                                    "gallerySmall": "https://cdn-kaspi.kz/medias/sys_master/images/images/h5d/hcf/32892716056606/california-gold-nutrition-vitamin-d-3-5000-iu-360-kapsul-100455713-1-Container.jpg",
+                                    "previewSmall": "https://cdn-kaspi.kz/medias/sys_master/images/images/h99/h94/32892714450974/california-gold-nutrition-vitamin-d-3-5000-iu-360-kapsul-100455713-1-Container.jpg",
+                                    "galleryLarge": "https://cdn-kaspi.kz/medias/sys_master/images/images/ha5/hbe/32892717498398/california-gold-nutrition-vitamin-d-3-5000-iu-360-kapsul-100455713-1-Container.jpg",
+                                    "previewMedium": "https://cdn-kaspi.kz/medias/sys_master/images/images/hc9/hf6/32892715008030/california-gold-nutrition-vitamin-d-3-5000-iu-360-kapsul-100455713-1-Container.jpg",
+                                    "ORIGINAL": "https://cdn-kaspi.kz/medias/sys_master/images/images/h71/h3d/14089373777950/california-gold-nutrition-vitamin-d-3-5000-iu-360-kapsul-100455713-1-Container.png",
+                                    "galleryMedium": "https://cdn-kaspi.kz/medias/sys_master/images/images/h41/h50/32892716646430/california-gold-nutrition-vitamin-d-3-5000-iu-360-kapsul-100455713-1-Container.jpg"
+                                }
+                            },
+                            {
+                                "qualifier": "california-gold-nutrition-vitamin-vitamin-d-3-5000-iu-360-kapsul-100455713-2",
+                                "formatToUrlMap": {
+                                    "previewLarge": "https://cdn-kaspi.kz/medias/sys_master/images/images/h5e/ha9/49908103348254/california-gold-nutrition-vitamin-vitamin-d-3-5000-iu-360-kapsul-100455713-2.jpg",
+                                    "gallerySmall": "https://cdn-kaspi.kz/medias/sys_master/images/images/h40/hd8/49908103413790/california-gold-nutrition-vitamin-vitamin-d-3-5000-iu-360-kapsul-100455713-2.jpg",
+                                    "previewSmall": "https://cdn-kaspi.kz/medias/sys_master/images/images/he9/hc4/49908103479326/california-gold-nutrition-vitamin-vitamin-d-3-5000-iu-360-kapsul-100455713-2.jpg",
+                                    "galleryLarge": "https://cdn-kaspi.kz/medias/sys_master/images/images/h2e/h4b/49908103675934/california-gold-nutrition-vitamin-vitamin-d-3-5000-iu-360-kapsul-100455713-2.jpg",
+                                    "previewMedium": "https://cdn-kaspi.kz/medias/sys_master/images/images/h4d/he3/49908103610398/california-gold-nutrition-vitamin-vitamin-d-3-5000-iu-360-kapsul-100455713-2.jpg",
+                                    "ORIGINAL": "https://cdn-kaspi.kz/medias/sys_master/images/images/h89/h46/49908103544862/california-gold-nutrition-vitamin-vitamin-d-3-5000-iu-360-kapsul-100455713-2.jpg",
+                                    "galleryMedium": "https://cdn-kaspi.kz/medias/sys_master/images/images/haa/h88/49908103741470/california-gold-nutrition-vitamin-vitamin-d-3-5000-iu-360-kapsul-100455713-2.jpg"
+                                }
+                            }
+                        ]
+                    }
+                ],
+                "totalPrice": 7239.0,
+                "customer": {
+                    "firstname": "Минара Ш."
+                },
+                "orderStatus": "ACCEPTED_BY_MERCHANT",
+                "delivery": {
+                    "deliveryMode": "DELIVERY_LOCAL",
+                    "address": {
+                        "formattedAddress": "Алматы, микрорайон Карасу, 6-я улица, 94, 4"
+                    },
+                    "plannedDeliveryDate": 1677261600000,
+                    "actualDeliveryDate": 1677261600000,
+                    "deliveredToCity": true,
+                    "kaspiDelivery": false
+                },
+                "payment": {
+                    "paymentMode": "GOLD",
+                    "needToSignPapers": false,
+                    "approvedByBankDate": 1677250032831
+                },
+                "pickupPoint": "г. Алматы,  улица Жандосова,  98",
+                "orderStates": [],
+                "createDate": 1677250032831,
+                "modifiedDate": 1677254195318,
+                "isCargoAssembly": false,
+                "preOrder": false
+            },
             {
                 "orderCode": "244871543",
                 "entries": [

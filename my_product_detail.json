@@ -1,27 +1,27 @@
 {
-    "orderId": "244761666",
+    "orderId": "232021687",
     "orderStatus": "COMPLETED",
     "localizedStatus": "Выдан",
-    "creationDate": 1677206463036,
+    "creationDate": 1671135968503,
     "signatureDate": null,
-    "deliveryDate": 1677235630157,
-    "issueDate": 1677235630170,
+    "deliveryDate": 1671181999252,
+    "issueDate": 1671181999274,
     "cancellationDate": null,
-    "approvedByBankDate": 1677206464942,
+    "approvedByBankDate": 1671135969319,
     "reservedUntil": null,
     "pickupEndDate": null,
     "plannedDeliveryDate": null,
     "returnDate": null,
-    "localizedSum": "23 191 ₸",
+    "localizedSum": "12 562 ₸",
     "status": null,
     "documentType": null,
-    "purchaserFirstName": "Сауле",
-    "purchaserLastName": "Сандыбаева",
-    "purchaserPhoneNumber": "7753333806",
+    "purchaserFirstName": "Естай",
+    "purchaserLastName": "Кенжебек",
+    "purchaserPhoneNumber": "7073487431",
     "products": [
         {
-            "sku": "SAN2",
-            "name": "NOW Thyroid Energy 90 капсул",
+            "sku": "SAN939628",
+            "name": "Витамины NOW Vitamin D-3 & K-2 1000МЕ 45 мкг 120 капсул",
             "brand": null,
             "brandCode": null,
             "brandRestricted": null,
@@ -30,7 +30,7 @@
             "priceMin": null,
             "priceMax": null,
             "actualPrice": null,
-            "localizedActualPrice": "9 293 ₸",
+            "localizedActualPrice": "6 588 ₸",
             "quantity": 1,
             "weight": 100.0,
             "unitFixedType": "PIECES",
@@ -38,12 +38,12 @@
             "offerStatus": null,
             "masterProduct": {
                 "sku": null,
-                "name": "NOW Thyroid Energy 90 капсул",
+                "name": "NOW Vitamin D-3 & K-2 1000МЕ 45 мкг 120 капсул",
                 "brand": null,
                 "brandCode": null,
                 "brandRestricted": null,
                 "primaryImage": null,
-                "productUrl": "https://kaspi.kz/shop/p/now-thyroid-energy-90-kapsul-100626397/",
+                "productUrl": "https://kaspi.kz/shop/p/now-vitamin-d-3-k-2-1000me-45-mkg-120-kapsul-102207639/",
                 "priceMin": null,
                 "priceMax": null,
                 "actualPrice": null,
@@ -73,8 +73,8 @@
             "entryId": 0
         },
         {
-            "sku": "102785437_4725004",
-            "name": "NOW Vitamin D-3 10000 IU 240 капсул",
+            "sku": "SAN939654",
+            "name": "Витамины NOW Zinc Picolinate 50 мг 120 капсул",
             "brand": null,
             "brandCode": null,
             "brandRestricted": null,
@@ -83,20 +83,20 @@
             "priceMin": null,
             "priceMax": null,
             "actualPrice": null,
-            "localizedActualPrice": "13 898 ₸",
+            "localizedActualPrice": "5 974 ₸",
             "quantity": 1,
-            "weight": 100.0,
+            "weight": 200.0,
             "unitFixedType": "PIECES",
             "expireDate": null,
             "offerStatus": null,
             "masterProduct": {
                 "sku": null,
-                "name": "NOW Vitamin D-3 10000 IU 240 капсул",
+                "name": "NOW минерал Zinc Picolinate 120 капсул",
                 "brand": null,
                 "brandCode": null,
                 "brandRestricted": null,
                 "primaryImage": null,
-                "productUrl": "https://kaspi.kz/shop/p/now-vitamin-d-3-10000-iu-240-kapsul-102785437/",
+                "productUrl": "https://kaspi.kz/shop/p/now-mineral-zinc-picolinate-120-kapsul-29502930/",
                 "priceMin": null,
                 "priceMax": null,
                 "actualPrice": null,
@@ -134,16 +134,16 @@
     "cancelPossible": false,
     "cancellationReasonCode": null,
     "cancellationReasonName": null,
-    "paymentTypeCode": "GOLD",
+    "paymentTypeCode": "RED",
     "deliveryMode": "DELIVERY_LOCAL",
     "deliveryAddress": {
-        "streetName": "улица Муратбаева",
-        "streetNumber": "14/2",
+        "streetName": "проспект Аль-Фараби",
+        "streetNumber": "19к2Б",
         "town": "Алматы",
         "district": null,
         "building": null,
-        "apartment": "10 блок, 9 этаж,кв 72, домофон 0377",
-        "formattedAddress": "Алматы, улица Муратбаева, 14/2, 10 блок, 9 этаж,кв 72, домофон 0377",
+        "apartment": null,
+        "formattedAddress": "Алматы, проспект Аль-Фараби, 19к2Б",
         "city": {
             "id": "750000000",
             "name": "Алматы",
@@ -2158,13 +2158,13 @@
             "virtual": null
         },
         "location": {
-            "longitude": 76.917644,
-            "latitude": 43.265976
+            "longitude": 76.945735,
+            "latitude": 43.229327
         }
     },
     "histories": [
         {
-            "createDate": 1677206464960,
+            "createDate": 1671135969642,
             "action": "APPROVED_BY_BANK",
             "userType": "KASPI_USER",
             "userName": null,
@@ -2174,7 +2174,7 @@
             "description": null
         },
         {
-            "createDate": 1677207973021,
+            "createDate": 1671154197550,
             "action": "ACCEPTED_BY_MERCHANT",
             "userType": "MERCHANT_USER",
             "userName": "4725004 master",
@@ -2184,12 +2184,12 @@
             "description": null
         },
         {
-            "createDate": 1677235630157,
+            "createDate": 1671181999252,
             "action": "COMPLETED",
-            "userType": "MERCHANT_USER",
-            "userName": "Курьеры",
-            "userEmail": "dostavkaecoherb@gmail.com",
-            "userPhone": "7052737150",
+            "userType": "KASPI_USER",
+            "userName": null,
+            "userEmail": null,
+            "userPhone": null,
             "trackingMessage": null,
             "description": "Заказ выполнен"
         }
@@ -2228,9 +2228,9 @@
     "kdPickupType": null,
     "plannedPointDeliveryDate": null,
     "deliveryInfoDTO": null,
-    "archivedOrder": true,
     "expressDelivery": false,
-    "returnEglible": true,
+    "archivedOrder": true,
     "kaspiDelivery": false,
-    "preOrder": false
+    "preOrder": false,
+    "returnEglible": true
 }
