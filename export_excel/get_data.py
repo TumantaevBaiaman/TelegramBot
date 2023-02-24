@@ -15,7 +15,7 @@ def time():
 
 def start():
     now = datetime.now()
-    dt = datetime(2022, 12, 1)
+    dt = datetime(2022, 11, 17)
 
     return int(delorean.Delorean(dt, timezone='UTC').epoch * 1000)
 
