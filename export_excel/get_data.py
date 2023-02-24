@@ -9,13 +9,13 @@ from service import make_request
 def time():
     now = datetime.now()
     # dt = datetime(now.year, now.month, now.day, now.hour, now.minute, now.second, now.microsecond)
-    dt = datetime(2022, 12, 1)
+    dt = datetime(2022, 12, 17)
     return int(delorean.Delorean(dt, timezone='UTC').epoch * 1000)
 
 
 def start():
     now = datetime.now()
-    dt = datetime(2022, 11, 17)
+    dt = datetime(2022, 12, 1)
     # dt = datetime(now.year, now.month, 1)
 
     return int(delorean.Delorean(dt, timezone='UTC').epoch * 1000)
