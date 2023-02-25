@@ -33,6 +33,7 @@ run_scheduler = False
 text_start = """
  Инструкция бота:
 🕔 Если выбрать «каждый час» отчёт будет отправляться каждый час
+🕔 Если выбрать «каждый 3 час» отчёт будет отправляться каждый 3 час
 🕔 Если вырать «2 раза в день» отчет будет отправляться с временами 8:00 и 18:00
 🕔 Если вырать «3 раза в день» отчет будет отправляться временами 8:00 и 12:00 и 18:00
 🔵 stop отвечает за остановку задачи. Если выбрали какой-то интервал  и хотите выбрать другую, нужно сначала остановить нажав на кнопку «stop» и потом запускать нажав  на интервалом который хотите 
@@ -94,6 +95,14 @@ async def aioschedule_interval(interval: int, chat_id: int):
     elif interval==2:
         aioschedule.every().day.at(f"7:45").do(send_message, chat_id)
         aioschedule.every().day.at(f"17:45").do(send_message, chat_id)
+    elif interval==7:
+        aioschedule.every().day.at(f"5:45").do(send_message, chat_id)
+        aioschedule.every().day.at(f"8:45").do(send_message, chat_id)
+        aioschedule.every().day.at(f"11:45").do(send_message, chat_id)
+        aioschedule.every().day.at(f"14:45").do(send_message, chat_id)
+        aioschedule.every().day.at(f"17:45").do(send_message, chat_id)
+        aioschedule.every().day.at(f"20:45").do(send_message, chat_id)
+        aioschedule.every().day.at(f"23:45").do(send_message, chat_id)
     elif interval==3:
         aioschedule.every().day.at(f"7:45").do(send_message, chat_id)
         aioschedule.every().day.at(f"11:45").do(send_message, chat_id)
@@ -127,6 +136,18 @@ async def every_hour(message: types.Message):
         run_scheduler = True
         asyncio.ensure_future(aioschedule_interval(24, message.from_user.id))
         text = f"Scheduling interval set to {60} minutes."
+        await bot.send_message(message.from_user.id, text=text)
+
+
+@dp.message_handler(Text(equals='каждый 3 час'), state=None)
+async def every_hour(message: types.Message):
+    global run_scheduler
+    if run_scheduler==True:
+        await bot.send_message(message.from_user.id, text="Error started")
+    else:
+        run_scheduler = True
+        asyncio.ensure_future(aioschedule_interval(7, message.from_user.id))
+        text = f"Scheduling interval set to {3} hour."
         await bot.send_message(message.from_user.id, text=text)
 
 
