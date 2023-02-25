@@ -17,7 +17,7 @@ from export_excel.get_data import try_api
 from report import get_report_file
 from service import make_request
 
-API_TOKEN = '5925973975:AAEC4C1beejuIb7x1WW9_i8TrJ2s_KUyW1s'
+API_TOKEN = '6144023875:AAGC6nGMYiK3qVP0TVWphYfs0rsr27FAIoA'
 
 # Configure logging
 logging.basicConfig(level=logging.INFO)
