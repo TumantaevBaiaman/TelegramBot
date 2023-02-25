@@ -29,7 +29,9 @@ async def get_report_file(data):
     print("---------------------")
 
     output = io.BytesIO()
+    output2 = io.BytesIO()
     workbook = xlsxwriter.Workbook(output)
+    workbook2 = xlsxwriter.Workbook(output2)
 
     head_style = workbook.add_format(
         {
@@ -73,6 +75,7 @@ async def get_report_file(data):
             # 'text_wrap': True,
         }
     )
+
     diff_color_style = workbook.add_format(
         {
             'bold': False, 'border': 0, 'align': 'center',
@@ -85,7 +88,52 @@ async def get_report_file(data):
             'bg_color': 'green',
         }
     )
+    ######################## 2 ########################
+    head_style23 = workbook2.add_format(
+        {
+            'bold': True, 'border': 2, 'align': 'center',
+        }
+    )
+    head_style22 = workbook2.add_format(
+        {
+            'bold': True, 'bg_color': '#2155CD', 'align': 'left',
+            'font_color': 'white'
+        }
+    )
+    content_style23 = workbook2.add_format(
+        {
+            'bold': False, 'border': 2, 'align': 'center',
+        }
+    )
+    content_style22 = workbook2.add_format(
+        {
+            'bold': False, 'bg_color': '#C4DDFF', 'align': 'left',
+        }
+    )
+    content_style_price12 = workbook2.add_format(
+        {
+            'bold': False, 'bg_color': '#D3D3D3', 'align': 'left',
+        }
+    )
+    content_style_price22 = workbook2.add_format(
+        {
+            'bold': False, 'bg_color': '#00FF00', 'align': 'left',
+        }
+    )
+    content_style32 = workbook2.add_format(
+        {
+            'bold': False, 'align': 'left',
+        }
+    )
+    diff_style2 = workbook2.add_format(
+        {
+            'bold': False, 'border': 0, 'align': 'center',
+            # 'text_wrap': True,
+        }
+    )
+    ##########################################################################
     worksheet = workbook.add_worksheet()
+    worksheet22 = workbook2.add_worksheet()
 
     columns = [
         'SKU',
@@ -107,11 +155,14 @@ async def get_report_file(data):
         'market name',
         'market price',
         'start price',
-        '+ 25%'
+        '+ 16%'
     ]
 
     for index, value in enumerate(columns):
         worksheet.write(0, index, value, head_style)
+
+    for index, value in enumerate(columns):
+        worksheet22.write(0, index, value, head_style23)
 
     for index, value in enumerate(diff_columns):
         worksheet.write(0, index + 11, value, head_style)
@@ -123,6 +174,14 @@ async def get_report_file(data):
     worksheet.set_column('L:L', 15)
     worksheet.set_column('M:M', 20)
     worksheet.set_column('N:P', 17)
+
+    worksheet22.set_column('A:A', 15)
+    worksheet22.set_column('B:B', 65)
+    worksheet22.set_column('C:C', 25)
+    worksheet22.set_column('D:J', 17)
+    worksheet22.set_column('L:L', 15)
+    worksheet22.set_column('M:M', 20)
+    worksheet22.set_column('N:P', 17)
 
     for i, tr in enumerate(data, start=1):
 
@@ -137,8 +196,8 @@ async def get_report_file(data):
         sum = 0
         if tr['sku'] in new_2:
             print('Yes')
-            price10 = float(price / 100 * 25) + float(new[tr['sku']])
-            print(price, float(price / 100 * 25), float(new[tr['sku']]))
+            price10 = float(price / 100 * 16) + float(new[tr['sku']])
+            print(price, float(price / 100 * 16), float(new[tr['sku']]))
             sum = float(new[tr['sku']])
         else:
             print('No')
@@ -149,10 +208,22 @@ async def get_report_file(data):
         worksheet.write(i, 2, tr['brand'], content_style)
         worksheet.write(i, 3, price, content_style)
         worksheet.write(i, 4, 'yes', content_style)
-        worksheet.write(i, 5, 'no', content_style)
+        worksheet.write(i, 5, 'yes', content_style)
         worksheet.write(i, 6, 'no', content_style)
         worksheet.write(i, 7, 'no', content_style)
         worksheet.write(i, 8, 'no', content_style)
+
+        worksheet22.write(i, 0, tr['sku'], content_style23)
+        worksheet22.write(i, 1, tr['name'], content_style23)
+        worksheet22.write(i, 2, tr['brand'], content_style23)
+        worksheet22.write(i, 3, price, content_style23)
+        worksheet22.write(i, 4, 'yes', content_style23)
+        worksheet22.write(i, 5, 'yes', content_style23)
+        worksheet22.write(i, 6, 'no', content_style23)
+        worksheet22.write(i, 7, 'no', content_style23)
+        worksheet22.write(i, 8, 'no', content_style23)
+
+        worksheet22.write(i, 9, '', content_style23)
         worksheet.write(i, 9, '', content_style)
         worksheet.write_url(i, 11, tr["masterProduct"]["productUrl"], string='link')
         print(data_dict)
@@ -169,6 +240,8 @@ async def get_report_file(data):
                                     diff_color_style)
                     worksheet.write(i, 3, data_dict['price'] - 1,
                                     content_style)
+                    worksheet22.write(i, 3, data_dict['price'] - 1,
+                                    content_style23)
 
                 if -1 >= data_dict['difference'] >= -10:
                     worksheet.write(i, 12, price, diff_style)
@@ -176,12 +249,15 @@ async def get_report_file(data):
                                     diff_negative_style)
                     worksheet.write(i, 3, data_dict['price'] - 1,
                                     content_style)
+                    worksheet22.write(i, 3, data_dict['price'] - 1,
+                                    content_style23)
         except:
             pass
         worksheet.write(i, 16, sum, content_style_price1)
         worksheet.write(i, 17, price10, content_style_price2)
     ################################ worksheet2 ###############################
     worksheet2 = workbook.add_worksheet()
+    worksheet23 = workbook2.add_worksheet()
     columns2 = ['Data Item', 'Description']
     columns_data2 = {
         'SKU': 'Merchant specific product identifier. Unique across the merchant.',
@@ -196,8 +272,15 @@ async def get_report_file(data):
     }
     worksheet2.set_column('A:A', 15)
     worksheet2.set_column('B:B', 150)
+
+    worksheet23.set_column('A:A', 15)
+    worksheet23.set_column('B:B', 150)
     for index, value in enumerate(columns2):
         worksheet2.write(0, index, value, head_style2)
+
+
+    for index, value in enumerate(columns2):
+        worksheet23.write(0, index, value, head_style22)
 
     for i, tr in enumerate(columns_data2.items(), start=1):
         style = content_style3
@@ -206,5 +289,13 @@ async def get_report_file(data):
         worksheet2.write(i, 0, tr[0], style)
         worksheet2.write(i, 1, tr[1], style)
 
+    for i, tr in enumerate(columns_data2.items(), start=1):
+        style = content_style3
+        if i % 2 != 0:
+            style = content_style22
+        worksheet23.write(i, 0, tr[0], style)
+        worksheet23.write(i, 1, tr[1], style)
+
     workbook.close()
-    return output.getvalue()
+    workbook2.close()
+    return output.getvalue(), output2.getvalue()

@@ -17,7 +17,7 @@ from export_excel.get_data import try_api
 from report import get_report_file
 from service import make_request
 
-API_TOKEN = '6144023875:AAGC6nGMYiK3qVP0TVWphYfs0rsr27FAIoA'
+API_TOKEN = '5925973975:AAEC4C1beejuIb7x1WW9_i8TrJ2s_KUyW1s'
 
 # Configure logging
 logging.basicConfig(level=logging.INFO)
@@ -40,6 +40,20 @@ text_start = """
 🗂 «БД клиентов»  отправляет весь список клиентов
 ✔️ Так же следует заметить, что время работы и отдыха бота зависит от конкретных интервалов.
 """
+
+def upload_file():
+    s = make_request()
+    headers2 = {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36",
+        # 'Content-Type': 'multipart/form-data',
+        # "Accept": "application/json"
+    }
+    file_url = 'https://kaspi.kz/merchantcabinet/api/offer/upload'
+
+    with open('ExcelFormatTemplate.xlsx', 'rb') as f:
+        payload = {"fileData": ('ExcelFormatTemplate.xlsx', f, 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet')}
+        response = s.post(file_url, headers=headers2, files=payload)
+    print(response.status_code)
 
 def make_json_file():
     s = make_request()
@@ -67,7 +81,7 @@ async def send_message_testbot(chat_id):
     data = make_json_file()
     now = datetime.now().strftime("%m/%d/%Y %H:%M:%S")
     await bot.send_message(chat_id=chat_id, text=f"Current time: {now}\nПодождите 5 мин, проводится операция")
-    file = await get_report_file(data['offers'])
+    file, file2 = await get_report_file(data['offers'])
     with open('ExcelFormatTemplate.xlsx', 'wb') as f:
         f.write(file)
     await bot.send_document(chat_id=chat_id, document=open('ExcelFormatTemplate.xlsx', 'rb'))
@@ -77,10 +91,13 @@ async def send_message(chat_id):
     data = make_json_file()
     now = datetime.now().strftime("%m/%d/%Y %H:%M:%S")
     #await bot.send_message(chat_id=chat_id, text=f"Current time: {now}\nПодождите 5 мин, проводится операция")
-    file = await get_report_file(data['offers'])
+    file, file2 = await get_report_file(data['offers'])
     with open('ExcelFormatTemplate.xlsx', 'wb') as f:
+        f.write(file2)
+    with open('ExcelFormatTemplateDraft.xlsx', 'wb') as f:
         f.write(file)
-    await bot.send_document(chat_id=chat_id, document=open('ExcelFormatTemplate.xlsx', 'rb'))
+    upload_file()
+    await bot.send_document(chat_id=chat_id, document=open('ExcelFormatTemplateDraft.xlsx', 'rb'))
 
 
 async def aioschedule_interval(interval: int, chat_id: int):
@@ -96,13 +113,10 @@ async def aioschedule_interval(interval: int, chat_id: int):
         aioschedule.every().day.at(f"7:45").do(send_message, chat_id)
         aioschedule.every().day.at(f"17:45").do(send_message, chat_id)
     elif interval==7:
-        aioschedule.every().day.at(f"5:45").do(send_message, chat_id)
-        aioschedule.every().day.at(f"8:45").do(send_message, chat_id)
-        aioschedule.every().day.at(f"11:45").do(send_message, chat_id)
-        aioschedule.every().day.at(f"14:45").do(send_message, chat_id)
-        aioschedule.every().day.at(f"17:45").do(send_message, chat_id)
-        aioschedule.every().day.at(f"20:45").do(send_message, chat_id)
-        aioschedule.every().day.at(f"23:45").do(send_message, chat_id)
+        n = 5
+        for i in range(7):
+            aioschedule.every().day.at(f"{n}:45").do(send_message, chat_id)
+            n+=3
     elif interval==3:
         aioschedule.every().day.at(f"7:45").do(send_message, chat_id)
         aioschedule.every().day.at(f"11:45").do(send_message, chat_id)
