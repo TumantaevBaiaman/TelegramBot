@@ -18,6 +18,7 @@ from report import get_report_file
 from service import make_request
 
 API_TOKEN = '6144023875:AAGC6nGMYiK3qVP0TVWphYfs0rsr27FAIoA'
+AUTHORIZED_USER_ID = ['5004318545', '5314738288']
 
 # Configure logging
 logging.basicConfig(level=logging.INFO)
@@ -143,87 +144,109 @@ async def process_callback_schedule_time(callback_query: CallbackQuery):
 
 @dp.message_handler(Text(equals='каждый час'), state=None)
 async def every_hour(message: types.Message):
-    global run_scheduler
-    if run_scheduler==True:
-        await bot.send_message(message.from_user.id, text="Error started")
+    if str(message.from_user.id) in AUTHORIZED_USER_ID:
+        global run_scheduler
+        if run_scheduler==True:
+            await bot.send_message(message.from_user.id, text="Error started")
+        else:
+            run_scheduler = True
+            asyncio.ensure_future(aioschedule_interval(24, message.from_user.id))
+            text = f"Scheduling interval set to {60} minutes."
+            await bot.send_message(message.from_user.id, text=text)
     else:
-        run_scheduler = True
-        asyncio.ensure_future(aioschedule_interval(24, message.from_user.id))
-        text = f"Scheduling interval set to {60} minutes."
-        await bot.send_message(message.from_user.id, text=text)
-
+        await bot.send_message(chat_id=message.from_user.id, text="Sorry, you are not authorized to use this bot.")
 
 @dp.message_handler(Text(equals='каждый 3 час'), state=None)
 async def every_hour(message: types.Message):
-    global run_scheduler
-    if run_scheduler==True:
-        await bot.send_message(message.from_user.id, text="Error started")
+    if str(message.from_user.id) in AUTHORIZED_USER_ID:
+        global run_scheduler
+        if run_scheduler==True:
+            await bot.send_message(message.from_user.id, text="Error started")
+        else:
+            run_scheduler = True
+            asyncio.ensure_future(aioschedule_interval(7, message.from_user.id))
+            text = f"Scheduling interval set to {3} hour."
+            await bot.send_message(message.from_user.id, text=text)
     else:
-        run_scheduler = True
-        asyncio.ensure_future(aioschedule_interval(7, message.from_user.id))
-        text = f"Scheduling interval set to {3} hour."
-        await bot.send_message(message.from_user.id, text=text)
-
+        await bot.send_message(chat_id=message.from_user.id, text="Sorry, you are not authorized to use this bot.")
 
 @dp.message_handler(Text(equals='2 раза в день (8:00, 18:00)'), state=None)
 async def two_day(message: types.Message):
-    global run_scheduler
-    if run_scheduler==True:
-        await bot.send_message(message.from_user.id, text="Error started")
+    if str(message.from_user.id) in AUTHORIZED_USER_ID:
+        global run_scheduler
+        if run_scheduler==True:
+            await bot.send_message(message.from_user.id, text="Error started")
+        else:
+            run_scheduler = True
+            asyncio.ensure_future(aioschedule_interval(2, message.from_user.id))
+            text = f"Send {2} message every day"
+            await bot.send_message(message.from_user.id, text=text+"( 8:00, 18:00 )")
     else:
-        run_scheduler = True
-        asyncio.ensure_future(aioschedule_interval(2, message.from_user.id))
-        text = f"Send {2} message every day"
-        await bot.send_message(message.from_user.id, text=text+"( 8:00, 18:00 )")
-
+        await bot.send_message(chat_id=message.from_user.id, text="Sorry, you are not authorized to use this bot.")
 
 @dp.message_handler(Text(equals='3 раза в день (8:00, 12:00, 18:00)'), state=None)
 async def three_day(message: types.Message):
-    global run_scheduler
-    if run_scheduler==True:
-        await bot.send_message(message.from_user.id, text="Error started")
+    if str(message.from_user.id) in AUTHORIZED_USER_ID:
+        global run_scheduler
+        if run_scheduler==True:
+            await bot.send_message(message.from_user.id, text="Error started")
+        else:
+            run_scheduler = True
+            asyncio.ensure_future(aioschedule_interval(3, message.from_user.id))
+            text = f"Send {3} message every day"
+            await bot.send_message(message.from_user.id, text=text+" (8:00, 12:00, 18:00) ")
     else:
-        run_scheduler = True
-        asyncio.ensure_future(aioschedule_interval(3, message.from_user.id))
-        text = f"Send {3} message every day"
-        await bot.send_message(message.from_user.id, text=text+" (8:00, 12:00, 18:00) ")
-
+        await bot.send_message(chat_id=message.from_user.id, text="Sorry, you are not authorized to use this bot.")
 
 @dp.message_handler(Text(equals='stop'), state=None)
 async def three_day(message: types.Message):
-    aioschedule.clear()
-    global run_scheduler
-    run_scheduler = False
-    text = f"Send message stop"
-    await bot.send_message(message.from_user.id, text=text)
-
+    if str(message.from_user.id) in AUTHORIZED_USER_ID:
+        aioschedule.clear()
+        global run_scheduler
+        run_scheduler = False
+        text = f"Send message stop"
+        await bot.send_message(message.from_user.id, text=text)
+    else:
+        await bot.send_message(chat_id=message.from_user.id, text="Sorry, you are not authorized to use this bot.")
 
 @dp.message_handler(commands='tasks')
 async def test(message: types.Message):
-    tasks = aioschedule.next_run()
-    text = "следующий запланированный задача: "+str(tasks)
-    await bot.send_message(message.from_user.id, text=text)
+    if str(message.from_user.id) in AUTHORIZED_USER_ID:
+        tasks = aioschedule.next_run()
+        text = "следующий запланированный задача: "+str(tasks)
+        await bot.send_message(message.from_user.id, text=text)
+    else:
+        await bot.send_message(chat_id=message.from_user.id, text="Sorry, you are not authorized to use this bot.")
 
 @dp.message_handler(commands='moment')
 async def test(message: types.Message):
-    await send_message_testbot(message.from_user.id)
+    if str(message.from_user.id) in AUTHORIZED_USER_ID:
+        await send_message_testbot(message.from_user.id)
+    else:
+        await bot.send_message(chat_id=message.from_user.id, text="Sorry, you are not authorized to use this bot.")
 
 
 @dp.message_handler(Text(equals='БД клиентов'), state=None)
 async def three_day(message: types.Message):
-    await bot.send_message(message.from_user.id, text="Подождите немного")
-    await try_api()
-    await asyncio.wait_for(add_user_base(), timeout=50000)
-    await export_data()
-    await bot.send_document(chat_id=message.from_user.id, document=open('info_user.xlsx', 'rb'))
+    if str(message.from_user.id) in AUTHORIZED_USER_ID:
+        await bot.send_message(message.from_user.id, text="Подождите немного")
+        await try_api()
+        await asyncio.wait_for(add_user_base(), timeout=50000)
+        await export_data()
+        await bot.send_document(chat_id=message.from_user.id, document=open('info_user.xlsx', 'rb'))
+    else:
+        await bot.send_message(chat_id=message.from_user.id, text="Sorry, you are not authorized to use this bot.")
 
 
 @dp.message_handler(commands='start')
 async def cmd_schedule(message: Message):
-    await bot.send_message(
-        chat_id=message.chat.id,
-        text=text_start,
-        reply_markup=buttons_key)
+    if str(message.from_user.id) in AUTHORIZED_USER_ID:
+        await bot.send_message(
+            chat_id=message.chat.id,
+            text=text_start,
+            reply_markup=buttons_key)
+    else:
+        await bot.send_message(chat_id=message.from_user.id, text="Sorry, you are not authorized to use this bot.")
 
 
 if __name__ == '__main__':
