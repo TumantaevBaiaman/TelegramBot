@@ -94,7 +94,7 @@ def get_min_value(url, price):
     name, _price = get_difference(url)
     data_dict = {}
     diff = _price - price
-    if 'eco iherbkz' in name or diff in [0, 1]:
+    if 'ECO iHERBKZ' in name or diff in [0, 1]:
         return data_dict
     data_dict['name'] = name
     data_dict['price'] = _price
