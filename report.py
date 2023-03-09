@@ -235,7 +235,6 @@ async def get_report_file(data):
                 worksheet.write(i, 15, data_dict['price'], diff_style)
 
                 if data_dict['difference'] > 1:
-                    print("test", data_dict['difference'], data_dict['price'] + data_dict['difference'] - 1)
                     worksheet.write(i, 12, price, diff_style)
                     worksheet.write(i, 13, data_dict['difference'],
                                     diff_color_style)
