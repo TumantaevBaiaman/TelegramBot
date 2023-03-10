@@ -65,7 +65,7 @@ def get_difference(url):
         print(rows)
 
         if len(rows) >= 2:
-            if 'eco iherbkz' in a1.text:
+            if 'ECO iHERBKZ' in a1.text:
                 a3 = driver.find_element("xpath",
                     ".//tr[2]//td[@class='sellers-table__cell']//a")
                 a4 = driver.find_element("xpath",

@@ -238,7 +238,7 @@ async def get_report_file(data):
                     worksheet.write(i, 12, price, diff_style)
                     worksheet.write(i, 13, data_dict['difference'],
                                     diff_color_style)
-                    worksheet.write(i, 3, data_dict['price'] + data_dict['difference'] - 1,
+                    worksheet.write(i, 3, data_dict['price'] - 1,
                                     content_style)
                     worksheet22.write(i, 3, data_dict['price'] - 1,
                                     content_style23)
